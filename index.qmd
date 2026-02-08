@@ -1,11 +1,27 @@
 ---
-title: "website"
+# title: 'Welcome to the Faraone Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
+# subtitle: "Ticks and tick-borne diseases"
+page-layout: full
 ---
 
-This is a Quarto website.
+::::: gradient-text
+::: welcome-headline
+Welcome to the Faraone Research Group<br>
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: welcome-subheadline
+Ticks and Tick-borne diseases
+:::
+:::::
 
-```{r}
-1 + 1
-```
+::::::: cmm-background
+:::::: content-container
+::::: welcome
+:::: grid
+::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 15px;"}
+We are an interdisciplinary research group focused on **chemical ecology, natural product chemistry, and vector biology**. Our research investigates how ticks detect hosts and respond to repellents, translating fundamental discoveries into innovative, environmentally responsible solutions for tick management and disease prevention. Close collaboration with students, industry, and community partners ensures that our work delivers both scientific insight and real-world impact.
+:::
+::::
+:::::
+::::::
+:::::::

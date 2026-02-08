@@ -1,0 +1,110 @@
+---
+title: "Meet the Group"
+page-layout: full
+
+listing:
+  - id: pi
+    contents: "**/*.qmd"
+    include:
+      people_group: "pi"
+    template: "../_ejs/people-box.ejs"
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: researcher
+    contents: "**/*.qmd"
+    include:
+      people_group: "researcher"
+    template: "../_ejs/people-box.ejs"
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: postdoc
+    contents: "**/*.qmd"
+    include:
+      people_group: "postdoc"
+    template: "../_ejs/people-box.ejs"
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: gradstudent
+    contents: "**/*.qmd"
+    include:
+      people_group: "gradstudent"
+    template: "../_ejs/people-box.ejs"
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: honoursstudent
+    contents: "**/*.qmd"
+    include:
+      people_group: "honoursstudent"
+    template: "../_ejs/people-box.ejs"
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: assistant
+    contents: "**/*.qmd"
+    include:
+      people_group: "assistant"
+    template: "../_ejs/people-box.ejs"
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+
+  - id: alumni
+    contents: "**/*.qmd"
+    include:
+      people_group: "alumni"
+    template: "../_ejs/alumni-box.ejs"
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education, altsubtitle, alteducation]
+---
+
+## Principal Investigator
+
+::: {#pi}
+:::
+
+:::: sand-background
+## Research Scientists
+
+::: {#researcher}
+:::
+::::
+
+## Postdoctoral Fellows
+
+::: {#postdoc}
+:::
+
+:::: sand-background
+## Graduate Students
+
+::: {#gradstudent}
+:::
+::::
+
+## Honours Students
+
+::: {#honoursstudent}
+:::
+
+:::: sand-background
+## Research Assistants
+
+::: {#assistant}
+:::
+::::
+
+:::: sand-background
+## Alumni
+
+::: {#alumni}
+:::
+::::

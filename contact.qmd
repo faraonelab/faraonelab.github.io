@@ -1,0 +1,28 @@
+---
+title: "Nicoletta Faraone"
+about: 
+  id: contact
+  template: solana
+  image-shape: round
+  image: images/Nicoletta-Faraone.jpg
+# page-layout: full
+---
+
+::: {#contact}
+#### {{< fa envelope >}}   nicoletta.faraone\@acadiau.ca
+
+#### {{< fa phone >}}   902-585-1320
+
+#### {{< fa map-location-dot >}}   Department of Chemistry (117 Elliott Hall), 15 University Ave, Wolfville, NS B4P 2R6
+:::
+
+```{r}
+#| echo: false
+#| label: make map
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng = -64.3680, lat = 45.0892)
+```
+
+<br>

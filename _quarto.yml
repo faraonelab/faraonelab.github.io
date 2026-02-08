@@ -1,22 +1,79 @@
 project:
   type: website
-  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!publications/_template/"
+    - "!people/_template/"
+
 
 website:
-  title: "website"
+  title: "Faraone Lab"
+  site-url: "https://faraonelab.github.io"
+  repo-url: "https://github.com/faraonelab/faraonelab.github.io.git"
+  #favicon: images/favicon.drawio.png -  CHANGE
+  #google-analytics: "UA-177339812-1" - CHANGE
+  twitter-card: true
+  #back-to-top-navigation: true
+  page-navigation: false
+  search: true
+  page-footer: 
+    background: "#F6F5F3"
+    center: © 2026  &middot; Made with {{< fa brands r-project >}} and 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) by Luis Anholeto
+    right:
+      - icon: github
+        href: https://github.com/faraonelab/faraonelab.github.io.git
+  
   navbar:
+    search: true
+    title: false
+    logo: images/faraone-logo.jpg
+    background: "#FFF"
+    logo-alt: "Faraone Research Group"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: people/index.qmd
+        text: people
+      - href: research/index.qmd
+      - href: publications/index.qmd
+      - href: news/index.qmd
+      - href: courses.qmd
+        text: Courses
+      - href: contact.qmd
+        text: Contact
+
+  sidebar:
+# #  link each group of sidebar entries with a navbar entry by matching their titles and listing the page linked from the navbar as the first content in the sidebar
+#     - id: dmref
+#       title: "NSF DMREF"
+#       # logo: "images/dmref-logo.png"
+#       logo-href: dmref/index.qmd #avail quarto v 1.5
+#       contents: 
+#         - href: dmref/index.qmd
+#           text: Welcome to DMREF
+#         - href: dmref/people/index.qmd
+#           text: The DMREF Team
+#         - href: dmref/publications/index.qmd
+#           text: DMREF-Related Publications
+#         - href: dmref/codes/index.qmd
+#           text: Computer Codes
+#         - href: dmref/data/index.qmd
+#           text: Team Data
+
+    - id: empty-to-suppress-sidebars-on-other-pages
+
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: 
+      - styles/custom.scss
+      - yeti
+    mainfont: Nunito Sans
     toc: true
+    link-external-newwindow: true
+    date-format: "MMM YYYY"
+    smooth-scroll: true
+    resources:
+      - images
 
-editor: visual
+
 
