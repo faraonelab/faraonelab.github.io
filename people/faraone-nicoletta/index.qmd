@@ -1,0 +1,53 @@
+---
+title: &TITLE "Nicoletta Faraone"
+last: "Faraone"
+first: "Nicoletta"
+people_group: "pi"
+email: "nicoletta.faraone@acadiau.ca"
+education:
+  - BSc (Basilicata, Italy), MSc,PhD (Palermo, Italy)
+subtitle: "Associate Professor at Acadia University"
+affiliation: Acadia University, Wolfville, NS, Canada
+image: avatar.jpg
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:nicoletta.faraone@acadiau.ca
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=hufz-80AAAAJ&hl=en
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

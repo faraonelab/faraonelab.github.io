@@ -16,10 +16,8 @@
     "items": []
   },
   {
-    "listing": "/people/index.html",
-    "items": [
-      "/people/masiello-david/index.html"
-    ]
+    "listing": "/people/faraone-nicoletta/index.html",
+    "items": []
   },
   {
     "listing": "/news/index.html",
@@ -28,8 +26,10 @@
     ]
   },
   {
-    "listing": "/people/masiello-david/index.html",
-    "items": []
+    "listing": "/people/index.html",
+    "items": [
+      "/people/faraone-nicoletta/index.html"
+    ]
   },
   {
     "listing": "/research/fast_electron_nano-spectroscopy/index.html",
