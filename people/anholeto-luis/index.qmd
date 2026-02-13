@@ -1,0 +1,55 @@
+---
+title: &TITLE "Luis Adriano Anholeto"
+last: "Anholeto"
+first: "Luis"
+people_group: "postdoc"
+email: "luis.anholeto@acadiau.ca"
+education:
+  - PhD in Cellular and Molecular Biology | Sao Paulo State University (Brazil) | 2019 <br> MSc in Cellular and Molecular Biology | Sao Paulo State University (Brazil) | 2015 <br> BSc in Biology | Sao Paulo State University (Brazil) | 2012
+subtitle: "Postdoctoral Fellow"
+image: &IMAGE "avatar.jpeg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:luis.anholeto@acadiau.ca
+    - text: "{{< ai orcid >}} ORCiD" 
+      href: https://orcid.org/0000-0001-8712-2630
+---
+
+<hr>
+
+::: {#about}
+Dr Luis Adriano Anholeto is a biologist with a master’s and Ph.D. in cellular and molecular biology from São Paulo State University, Brazil, with a collaborative period at the Tick Cell Biobank laboratory at the University of Liverpool, UK. Dr. Anholeto was a postdoctoral fellow at the Veterinary Parasitology Lab at the Brazilian Agricultural Research Corporation – Embrapa Southeast Livestock, a state-owned research corporation affiliated with the Ministry of Agriculture and Livestock, where he developed a patented nanoformulation with plant-based compounds against cattle ticks. 
+He is currently a postdoctoral fellow in Dr. Nicoletta Faraone's lab at Acadia University, studying the tick chemosensory system, how ticks detect odors from hosts, their responses to repellents, and developing innovative solutions for tick management. 
+His academic training and industry experience integrate different fields, including chemistry and biology, parasitology, nanotechnology, chemical ecology, and biotechnology. He also has a strong background in histology, histochemistry, and microscopic analysis (SEM, TEM, and confocal). His research interests focus on vector biology, integrated pest management, and developing novel, more effective strategies for vector and disease control, particularly in the context of climate warming and other environmental changes.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+::: {#pubs}
+:::

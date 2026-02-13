@@ -1,0 +1,14 @@
+---
+title: "Repellent efficacy of a novel essential oil-based fabric spray formulation against Ixodes scapularis and Dermacentor variabilis ticks in laboratory conditions and human trials"
+author: ["Luis Adriano Anholeto","Creighton M Jarvis","Jaclyn Delahunt","Nicoletta Faraone"]
+categories: 
+    - ""
+url_source: "https://doi.org/10.1093/jme/tjag011"
+url_preprint: ""
+journ: "Journal of Medical Entomology"
+issue: 1
+page: tjag011
+year: 2026
+pub_number: 1
+image: pub.jpeg
+---

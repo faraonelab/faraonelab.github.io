@@ -13,11 +13,17 @@
   },
   {
     "listing": "/publications/index.html",
-    "items": []
+    "items": [
+      "/publications/2026_000_Repellent efficacy of a novel/index.html",
+      "/publications/2026_001_in_vitro_assessment_of/index.html"
+    ]
   },
   {
     "listing": "/people/faraone-nicoletta/index.html",
-    "items": []
+    "items": [
+      "/publications/2026_000_Repellent efficacy of a novel/index.html",
+      "/publications/2026_001_in_vitro_assessment_of/index.html"
+    ]
   },
   {
     "listing": "/news/index.html",
@@ -26,9 +32,17 @@
     ]
   },
   {
+    "listing": "/people/anholeto-luis/index.html",
+    "items": [
+      "/publications/2026_000_Repellent efficacy of a novel/index.html",
+      "/publications/2026_001_in_vitro_assessment_of/index.html"
+    ]
+  },
+  {
     "listing": "/people/index.html",
     "items": [
-      "/people/faraone-nicoletta/index.html"
+      "/people/faraone-nicoletta/index.html",
+      "/people/anholeto-luis/index.html"
     ]
   },
   {

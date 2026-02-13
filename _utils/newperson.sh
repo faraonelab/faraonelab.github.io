@@ -2,25 +2,28 @@
 set -euo pipefail
 
 # Create a new people entry in /people/<lastname>-<firstname>/index.qmd
-# Prompts for: name, lastname, firstname, position/group, email, degrees, optional image
-# Copies image into the person's folder as headshot.<ext>
-# Opens the new file in Positron
+# Prompts for: publishing name, lastname, firstname, position option -> subtitle + people_group, email, degrees, optional headshot
+# Copies headshot into the person's folder as headshot.<ext>
+# Opens the new file in Positron if available (otherwise prints the path)
 
 # get inputs
-read -p "Enter publishing name: " pub_name
-read -p "Enter lastname: " lastname
-read -p "Enter firstname: " firstname
+read -p "Enter publishing name (e.g., Jane Smith): " pub_name
+read -p "Enter lastname (e.g., Smith): " lastname
+read -p "Enter firstname (e.g., Jane): " firstname
 
-# get position from predefined list (aka subtitle)
-echo "Choose a position for the person:"
-echo "1. Postdoctoral Fellow"
-echo "2. Graduate Student, Chemistry"
-echo "3. Graduate Student, Biology"
-echo "4. Honours Student"
-echo "5. Research Assistant"
-echo "6. Research Scientist"
-echo "7. other"
-echo "0. skip"
+# position -> subtitle, and group -> people_group
+echo ""
+echo "Choose a position for the person (this sets BOTH subtitle and people_group):"
+echo "1. Principal Investigator (PI)"
+echo "2. Postdoctoral Fellow"
+echo "3. Graduate Student, Chemistry"
+echo "4. Graduate Student, Biology"
+echo "5. Honours Student"
+echo "6. Research Assistant"
+echo "7. Research Scientist"
+echo "8. Alumni"
+echo "9. Other (you will type subtitle + people_group)"
+echo "0. Skip position (you will type people_group; subtitle left blank)"
 read -p "Enter your choice: " position_option
 
 position=""
@@ -28,36 +31,44 @@ group=""
 
 case $position_option in
   1)
+    position="Principal Investigator"
+    group="pi"
+    ;;
+  2)
     position="Postdoctoral Fellow"
     group="postdoc"
     ;;
-  2)
+  3)
     position="Graduate Student, Chemistry"
     group="gradstudent"
     ;;
-  3)
+  4)
     position="Graduate Student, Biology"
     group="gradstudent"
     ;;
-  4)
+  5)
     position="Honours Student"
     group="honoursstudent"
     ;;
-  5)
+  6)
     position="Research Assistant"
     group="assistant"
     ;;
-  6)
+  7)
     position="Research Scientist"
     group="researcher"
     ;;
-  7)
-    read -p "Enter position: " position
-    read -p "Enter people group (e.g., pi | researcher | postdoc | gradstudent | honoursstudent | assistant | alumni): " group
+  8)
+    position="Alumni"
+    group="alumni"
+    ;;
+  9)
+    read -p "Enter subtitle/position (e.g., Visiting Scholar): " position
+    read -p "Enter people_group (pi | researcher | postdoc | gradstudent | honoursstudent | assistant | alumni): " group
     ;;
   0)
     position=""
-    read -p "Enter people group (e.g., pi | researcher | postdoc | gradstudent | honoursstudent | assistant | alumni): " group
+    read -p "Enter people_group (pi | researcher | postdoc | gradstudent | honoursstudent | assistant | alumni): " group
     ;;
   *)
     echo "Invalid choice. Exiting..." >&2
@@ -66,44 +77,50 @@ case $position_option in
 esac
 
 # email
-read -p "Enter email: " email
+read -p "Enter email (or leave blank): " email
 
 # degrees
-read -p "Enter the number of degrees: " num_degrees
+read -p "Enter the number of degrees (0 if none): " num_degrees
 
-degrees=()
-institutions=()
 degrees_string=""
+if [[ "$num_degrees" -gt 0 ]]; then
+  degrees=()
+  institutions=()
 
-for ((i=0; i<num_degrees; i++)); do
-  read -p "Enter the degree $((i+1)): " degree
-  read -p "Enter the institution $((i+1)): " institution
-  degrees+=("$degree")
-  institutions+=("$institution")
-done
+  for ((i=0; i<num_degrees; i++)); do
+    read -p "Enter degree $((i+1)) (e.g., PhD): " degree
+    read -p "Enter institution $((i+1)) (e.g., Acadia University): " institution
+    degrees+=("$degree")
+    institutions+=("$institution")
+  done
 
-for ((i=0; i<num_degrees; i++)); do
-  degrees_string+="${degrees[$i]} | ${institutions[$i]}"
-  if (( i < num_degrees - 1 )); then
-    degrees_string+=" <br> "
-  fi
-done
+  for ((i=0; i<num_degrees; i++)); do
+    degrees_string+="${degrees[$i]} | ${institutions[$i]}"
+    if (( i < num_degrees - 1 )); then
+      degrees_string+=" <br> "
+    fi
+  done
+else
+  degrees_string=""
+fi
 
 # folder name: lastname-firstname in lowercase, spaces -> hyphens
 foldername=$(echo "$lastname-$firstname" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' )
 person_dir="people/${foldername}"
 mkdir -p "$person_dir"
 
-# OPTIONAL IMAGE
+# OPTIONAL HEADSHOT
 read -p "Enter path to headshot image (optional, press Enter to skip): " image_path
 
 image_filename=""
-image_yaml="\"\""   # default empty string
+# You said you want avatar in each folder:
+# Default stays as avatar.jpg (you can add it to the folder whenever you want).
+image_yaml="\"avatar.jpg\""
 
 if [[ -n "${image_path}" ]]; then
   if [[ ! -f "${image_path}" ]]; then
     echo "Image file not found: ${image_path}" >&2
-    echo "Continuing without image..."
+    echo "Continuing with avatar.jpg..."
   else
     ext="${image_path##*.}"
     ext="$(echo "$ext" | tr '[:upper:]' '[:lower:]')"
@@ -167,10 +184,15 @@ about:
 :::
 EOF
 
-# open the new index.qmd file in Positron
-positron "${person_dir}/index.qmd"
+# open the new index.qmd file in Positron if available
+if command -v positron >/dev/null 2>&1; then
+  positron "${person_dir}/index.qmd"
+else
+  echo "Positron not found. Open this file manually:"
+  echo "${person_dir}/index.qmd"
+fi
 
 echo "New people entry created at: ${person_dir}/index.qmd"
 if [[ -z "${image_filename}" ]]; then
-  echo "No image copied. Your site will show the placeholder image until you add one."
+  echo "No headshot copied. Using avatar.jpg (make sure it exists in: ${person_dir}/avatar.jpg)."
 fi

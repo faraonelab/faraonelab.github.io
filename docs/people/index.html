@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cf5d43f8e0d1503d281f843ea7208714.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d3f94b038f8fae63a2efb14c91a741b0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,20 +103,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-researcher .list');
+    const listingTargetEl = window.document.querySelector('#listing-postdoc .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-researcher'] = new List('listing-researcher', options);
+    window['quarto-listings']['listing-postdoc'] = new List('listing-postdoc', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-postdoc .list');
+    const listingTargetEl = window.document.querySelector('#listing-researcher .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-postdoc'] = new List('listing-postdoc', options);
+    window['quarto-listings']['listing-researcher'] = new List('listing-researcher', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -366,8 +366,8 @@ window.Quarto = {
    
   <ul>
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
-  <li><a href="#research-scientists" id="toc-research-scientists" class="nav-link" data-scroll-target="#research-scientists">Research Scientists</a></li>
   <li><a href="#postdoctoral-fellows" id="toc-postdoctoral-fellows" class="nav-link" data-scroll-target="#postdoctoral-fellows">Postdoctoral Fellows</a></li>
+  <li><a href="#research-scientists" id="toc-research-scientists" class="nav-link" data-scroll-target="#research-scientists">Research Scientists</a></li>
   <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
   <li><a href="#honours-students" id="toc-honours-students" class="nav-link" data-scroll-target="#honours-students">Honours Students</a></li>
   <li><a href="#research-assistants" id="toc-research-assistants" class="nav-link" data-scroll-target="#research-assistants">Research Assistants</a></li>
@@ -402,87 +402,112 @@ window.Quarto = {
 <div id="listing-pi" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
 
-     
+  <div class="list grid quarto-listing-cols-3">
+
     
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/faraone-nicoletta/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Nicoletta Faraone" src="../people/faraone-nicoletta/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Nicoletta Faraone<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              Associate Professor at Acadia University<br>
-            </div>
-                
-            
-              
+
+    
+
+      <div class="g-col-1 listing-box">
+        <a href="../people/faraone-nicoletta/index.html" role="button" class="quarto-grid-link">
+          <div class="quarto-grid-item card h-100 card-left">
+
+            <p class="card-img-top">
+              <img alt="Nicoletta Faraone" src="../people/faraone-nicoletta/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+            </p>
+
+            <div class="card-body post-contents">
+
+              <div class="listing-box-title">
+                Nicoletta Faraone<br>
+              </div>
+
+              <div class="listing-box-subtitle">
+                Associate Professor at Acadia University<br>
+              </div>
+
               <div class="listing-box-education">
                 
+                  Ph.D in Chemical Ecology | University of Palermo (Italy) | 2012 <br> Msc in Chemical Science and Technology (summa cum laude) | University of Palermo (Italy) | 2008 <br> B.Sc. Chemistry (Honors) | University of Basilicata (Italy) | 2006<br>
                 
-                  BSc (Basilicata, Italy), MSc,PhD (Palermo, Italy)<br>
-                  
-                    
-              </div>  
-                  
+              </div>
 
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
+            </div>
+          </div>
+        </a>
+      </div>
+
     
-  
-</div>
+
+  </div>
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="research-scientists" class="level2 sand-background">
-<h2 class="anchored" data-anchor-id="research-scientists">Research Scientists</h2>
-<div id="listing-researcher" class="quarto-listing quarto-listing-container-custom">
-
-<div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
-
-    
-  
-</div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="postdoctoral-fellows" class="level2">
+<section id="postdoctoral-fellows" class="level2 sand-background">
 <h2 class="anchored" data-anchor-id="postdoctoral-fellows">Postdoctoral Fellows</h2>
 <div id="listing-postdoc" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
+
+  <div class="list grid quarto-listing-cols-3">
 
     
-  
+
+    
+
+      <div class="g-col-1 listing-box">
+        <a href="../people/anholeto-luis/index.html" role="button" class="quarto-grid-link">
+          <div class="quarto-grid-item card h-100 card-left">
+
+            <p class="card-img-top">
+              <img alt="Luis Adriano Anholeto" src="../people/anholeto-luis/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+            </p>
+
+            <div class="card-body post-contents">
+
+              <div class="listing-box-title">
+                Luis Adriano Anholeto<br>
+              </div>
+
+              <div class="listing-box-subtitle">
+                Postdoctoral Fellow<br>
+              </div>
+
+              <div class="listing-box-education">
+                
+                  PhD in Cellular and Molecular Biology | Sao Paulo State University (Brazil) | 2019 <br> MSc in Cellular and Molecular Biology | Sao Paulo State University (Brazil) | 2015 <br> BSc in Biology | Sao Paulo State University (Brazil) | 2012<br>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+    
+
+  </div>
 </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="research-scientists" class="level2">
+<h2 class="anchored" data-anchor-id="research-scientists">Research Scientists</h2>
+<div id="listing-researcher" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    
+
+  </div>
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
@@ -493,12 +518,14 @@ window.Quarto = {
 <div id="listing-gradstudent" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
+
+  <div class="list grid quarto-listing-cols-3">
 
     
-  
-</div>
+
+    
+
+  </div>
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
@@ -509,12 +536,14 @@ window.Quarto = {
 <div id="listing-honoursstudent" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
+
+  <div class="list grid quarto-listing-cols-3">
 
     
-  
-</div>
+
+    
+
+  </div>
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
@@ -525,18 +554,20 @@ window.Quarto = {
 <div id="listing-assistant" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
+
+  <div class="list grid quarto-listing-cols-3">
 
     
-  
-</div>
+
+    
+
+  </div>
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="alumni" class="level2 sand-background">
+<section id="alumni" class="level2">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
 <div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
 
@@ -551,10 +582,10 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
+
+
+
 </section>
-
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

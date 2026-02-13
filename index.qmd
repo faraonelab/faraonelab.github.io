@@ -1,8 +1,7 @@
 ---
-# title: 'Welcome to the Faraone Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
-# subtitle: "Ticks and tick-borne diseases"
 page-layout: full
 ---
+<div class="cmm-preload"></div>
 
 ::::: gradient-text
 ::: welcome-headline
