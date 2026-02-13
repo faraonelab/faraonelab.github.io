@@ -1,0 +1,12 @@
+---
+title: "Acadia Researcher Wins Prestigious Mitacs Award for Tick Repellent Discovery"
+date: '2025-11-18'
+image: featured.jpeg
+description: "See [https://www2.acadiau.ca/about-acadia/newsroom/news-reader-page/acadia-researcher-wins-prestigious-mitacs-award-for-tick-repellent-discovery.html](https://www2.acadiau.ca/about-acadia/newsroom/news-reader-page/acadia-researcher-wins-prestigious-mitacs-award-for-tick-repellent-discovery.html)"
+---
+
+![](featured.jpeg){fig-align="center"}
+
+Acadia University researcher Dr. Nicoletta Faraone (Chemistry) has received a national Mitacs Award for Outstanding Innovation in recognition of her groundbreaking work developing Canada’s first all-natural, long-lasting fabric spray tick repellent.
+
+Based in Acadia’s Chemistry department, Dr. Faraone’s lab leads a research program focused on understanding how ticks interact with their environment—and how we can protect ourselves from them safely and effectively. The award, presented last night at a ceremony at the National Arts Centre in Ottawa, honours Canadian researchers whose discoveries are driving innovation and improving lives across the country.
