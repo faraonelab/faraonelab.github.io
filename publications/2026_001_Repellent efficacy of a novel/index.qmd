@@ -9,6 +9,6 @@ journ: "Journal of Medical Entomology"
 issue: 1
 page: tjag011
 year: 2026
-pub_number: 1
+pub_number: "001"
 image: pub.jpeg
 ---

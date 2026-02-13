@@ -9,6 +9,6 @@ journ: "Ticks and Tick-borne Diseases"
 issue: "1"
 page: "102599"
 year: 2026
-pub_number: "001"
+pub_number: "002"
 image: ticks.jpg
 ---

@@ -9,7 +9,7 @@ Welcome to the Faraone Research Group<br>
 :::
 
 ::: welcome-subheadline
-Ticks and Tick-borne diseases
+
 :::
 :::::
 
