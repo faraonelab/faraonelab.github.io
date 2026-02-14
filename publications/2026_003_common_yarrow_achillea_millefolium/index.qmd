@@ -1,0 +1,13 @@
+---
+title: "Common yarrow (Achillea millefolium) essential oil and main components as potential repellents and acaricides against Ixodes scapularis and Dermacentor variabilis (Acari: Ixodidae) ticks"
+author: ["Laura J. Pickett","Miranda Amiro","Claire Hawboldt","Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1007/s10493-023-00782-7"
+url_preprint: ""
+journ: "Experimental and Applied Acarology"
+issue: "89"
+page: "287–303"
+year: 2023
+pub_number: "003"
+image: featured.png
+---

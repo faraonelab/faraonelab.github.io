@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://faraonelab.github.io/research/photothermal_spectroscopy_and_microscopy/index.html</loc>
-    <lastmod>2026-02-08T16:03:49.066Z</lastmod>
+    <loc>https://faraonelab.github.io/research/index.html</loc>
+    <lastmod>2026-02-14T05:26:47.122Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/research/index.html</loc>
-    <lastmod>2026-02-08T20:40:43.093Z</lastmod>
+    <loc>https://faraonelab.github.io/research/Tick-Chemical-Ecology/index.html</loc>
+    <lastmod>2026-02-14T05:24:14.256Z</lastmod>
   </url>
   <url>
     <loc>https://faraonelab.github.io/publications/index.html</loc>
     <lastmod>2026-02-13T17:46:55.558Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/publications/2026_001_Repellent efficacy of a novel/index.html</loc>
-    <lastmod>2026-02-13T19:12:16.357Z</lastmod>
+    <loc>https://faraonelab.github.io/publications/2026_002_in_vitro_assessment_of/index.html</loc>
+    <lastmod>2026-02-14T05:48:10.305Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faraonelab.github.io/people/pickett-laura/index.html</loc>
+    <lastmod>2026-02-14T04:10:42.867Z</lastmod>
   </url>
   <url>
     <loc>https://faraonelab.github.io/people/faraone-nicoletta/index.html</loc>
@@ -29,12 +33,16 @@
     <lastmod>2026-02-13T19:07:11.491Z</lastmod>
   </url>
   <url>
+    <loc>https://faraonelab.github.io/collaborators-funding/index.html</loc>
+    <lastmod>2026-02-14T05:57:57.235Z</lastmod>
+  </url>
+  <url>
     <loc>https://faraonelab.github.io/contact.html</loc>
     <lastmod>2026-02-08T20:59:08.735Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/news/2020-01-01-kevin-smith-s-work/index.html</loc>
-    <lastmod>2026-02-08T20:55:56.667Z</lastmod>
+    <loc>https://faraonelab.github.io/news/2026-02-13-nicoletta/index.html</loc>
+    <lastmod>2026-02-13T19:34:47.445Z</lastmod>
   </url>
   <url>
     <loc>https://faraonelab.github.io/people/anholeto-luis/index.html</loc>
@@ -45,19 +53,19 @@
     <lastmod>2026-02-11T16:30:45.747Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/publications/2026_002_in_vitro_assessment_of/index.html</loc>
-    <lastmod>2026-02-13T19:11:06.719Z</lastmod>
+    <loc>https://faraonelab.github.io/publications/2026_001_Repellent efficacy of a novel/index.html</loc>
+    <lastmod>2026-02-14T05:41:39.566Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/research/fast_electron_nano-spectroscopy/index.html</loc>
-    <lastmod>2026-02-08T20:40:43.159Z</lastmod>
+    <loc>https://faraonelab.github.io/publications/2026_003_common_yarrow_achillea_millefolium/index.html</loc>
+    <lastmod>2026-02-14T05:48:36.310Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/research/nanophotonics-quantum_optics/index.html</loc>
-    <lastmod>2026-02-08T16:03:49.065Z</lastmod>
+    <loc>https://faraonelab.github.io/research/Psilocybin/index.html</loc>
+    <lastmod>2026-02-14T05:24:52.092Z</lastmod>
   </url>
   <url>
-    <loc>https://faraonelab.github.io/news/2026-02-13-nicoletta/index.html</loc>
-    <lastmod>2026-02-13T19:34:47.445Z</lastmod>
+    <loc>https://faraonelab.github.io/research/Tick-Management/index.html</loc>
+    <lastmod>2026-02-14T05:43:57.669Z</lastmod>
   </url>
 </urlset>

@@ -2,13 +2,18 @@
 
 # Configuration
 MAX_WORDS=4
-year=$(date +%Y)
 
-# Get the next publication number
-last_pub=$(ls -d publications/* 2>/dev/null | grep -Eo '_[0-9]{3}_' | sed 's/_//g' | sort -n | tail -1)
+# 1. Manually input the year
+read -p "Enter the Publication Year (e.g., 2026): " year
+
+# 2. Get the next publication number based on the entered year
+# We look specifically in the folder for THAT year
+last_pub=$(ls -d publications/${year}_* 2>/dev/null | grep -Eo '_[0-9]{3}_' | sed 's/_//g' | sort -n | tail -1)
+
 if [ -z "$last_pub" ]; then
     pub_number="001"
 else
+    # Increments the last found number by 1
     pub_number=$(printf "%03d" $((10#$last_pub + 1)))
 fi
 
@@ -16,7 +21,7 @@ fi
 read -p "Enter the FULL title of the publication: " title
 read -p "Enter the authors (comma-separated): " authors
 
-# Auto-generate short title for folder (lowercase, no special chars, max words)
+# Auto-generate short title for folder
 short_title=$(echo "$title" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-zA-Z0-9 ]//g' | cut -d' ' -f1-$MAX_WORDS | tr ' ' '_')
 
 dir_name="publications/${year}_${pub_number}_${short_title}"
@@ -28,21 +33,22 @@ read -p "Enter Pages: " page
 read -p "Enter Source URL: " url_source
 read -p "Enter Preprint URL: " url_preprint
 
-# Format authors: removes 'and', trims space, wraps each in quotes
+# Format authors
 authors_formatted=$(echo "$authors" | sed 's/ and / /g' | sed 's/,[ ]*/","/g' | sed 's/^/"/;s/$/"/')
 
 # Category selection
+# Category selection
 echo -e "\nChoose a category:"
-echo "1. Fast electron nano-spectroscopy"
-echo "2. Nanophotonics-quantum optics"
-echo "3. Photothermal spectroscopy and microscopy"
-echo "0. skip"
+echo "1. Tick Chemical Ecology & Sensory Neurobiology"
+echo "2. Tick Management"
+echo "3. Psilocybin Research"
+echo "0. Skip"
 read -p "Choice: " cat_num
 
 case $cat_num in
-    1) category="fast_electron_nano-spectroscopy" ;;
-    2) category="nanophotonics-quantum_optics" ;;
-    3) category="photothermal_spectroscopy_and_microscopy" ;;
+    1) category="chemical-ecology" ;;
+    2) category="tick-management" ;;
+    3) category="psilocybin" ;;
     *) category="" ;;
 esac
 
@@ -51,8 +57,7 @@ cat <<EOF > "$dir_name/index.qmd"
 ---
 title: "$title"
 author: [$authors_formatted]
-categories: 
-  - "$category"
+$( [[ -n "$category" ]] && echo "categories: [\"$category\"]" )
 url_source: "$url_source"
 url_preprint: "$url_preprint"
 journ: "$journal"
@@ -64,7 +69,15 @@ image: ""
 ---
 EOF
 
-# Open in Positron
-positron "$dir_name/index.qmd"
+# 3. Fixed Positron Call
+# This uses 'open -a' for macOS or falls back to 'code' or 'open'
+if command -v positron &> /dev/null; then
+    positron "$dir_name/index.qmd"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    # If on Mac and 'positron' isn't in PATH, try the App name
+    open -a "Positron" "$dir_name/index.qmd" || open "$dir_name/index.qmd"
+else
+    echo "Success: Created $dir_name (Positron not found in PATH)"
+fi
 
 echo "Success: Created $dir_name"

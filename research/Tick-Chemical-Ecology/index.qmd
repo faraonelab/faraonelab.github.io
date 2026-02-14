@@ -1,0 +1,43 @@
+---
+title: Tick Chemical Ecology and Sensory Neurobiology
+order: 1
+alias: &ALIAS chemical-ecology
+image: featured.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+![](featured.png){fig-align="center"}
+
+**Understanding how ticks detect hosts — and how we can disrupt that process**
+
+Ticks rely on highly specialized sensory systems to locate hosts. Our lab investigates the chemical and neural mechanisms underlying host detection, with a particular focus on:
+
+-   Olfactory processing in *Ixodes scapularis* and *Dermacentor variabilis*
+
+-   Structure and function of Haller’s organ
+
+-   Electrophysiological responses to host- and plant-derived volatiles
+
+-   GC-MS–guided identification of behaviourally active compounds
+
+-   Behavioural assays (olfactometers, arena tracking, host-seeking models)
+
+By linking **molecular signals to neural activation and behavioural output**, we identify sensory “choke points” that can be targeted for repellent development.
+
+This research positions the lab at the forefront of **tick sensory biology**, an emerging field with significant implications for vector control.
+
+## Related Publications
+
+::: {#pubs}
+:::

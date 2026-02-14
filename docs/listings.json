@@ -1,26 +1,34 @@
 [
   {
-    "listing": "/research/photothermal_spectroscopy_and_microscopy/index.html",
-    "items": []
-  },
-  {
     "listing": "/research/index.html",
     "items": [
-      "/research/fast_electron_nano-spectroscopy/index.html",
-      "/research/nanophotonics-quantum_optics/index.html",
-      "/research/photothermal_spectroscopy_and_microscopy/index.html"
+      "/research/Tick-Chemical-Ecology/index.html",
+      "/research/Tick-Management/index.html",
+      "/research/Psilocybin/index.html"
     ]
+  },
+  {
+    "listing": "/research/Tick-Chemical-Ecology/index.html",
+    "items": []
   },
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
       "/publications/2026_002_in_vitro_assessment_of/index.html",
       "/publications/2026_001_Repellent efficacy of a novel/index.html"
     ]
   },
   {
+    "listing": "/people/pickett-laura/index.html",
+    "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
+  },
+  {
     "listing": "/people/faraone-nicoletta/index.html",
     "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
       "/publications/2026_002_in_vitro_assessment_of/index.html",
       "/publications/2026_001_Repellent efficacy of a novel/index.html"
     ]
@@ -30,6 +38,10 @@
     "items": [
       "/news/2026-02-13-nicoletta/index.html"
     ]
+  },
+  {
+    "listing": "/collaborators-funding/index.html",
+    "items": []
   },
   {
     "listing": "/people/anholeto-luis/index.html",
@@ -42,15 +54,20 @@
     "listing": "/people/index.html",
     "items": [
       "/people/faraone-nicoletta/index.html",
-      "/people/anholeto-luis/index.html"
+      "/people/anholeto-luis/index.html",
+      "/people/pickett-laura/index.html"
     ]
   },
   {
-    "listing": "/research/fast_electron_nano-spectroscopy/index.html",
+    "listing": "/research/Psilocybin/index.html",
     "items": []
   },
   {
-    "listing": "/research/nanophotonics-quantum_optics/index.html",
-    "items": []
+    "listing": "/research/Tick-Management/index.html",
+    "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2026_002_in_vitro_assessment_of/index.html",
+      "/publications/2026_001_Repellent efficacy of a novel/index.html"
+    ]
   }
 ]

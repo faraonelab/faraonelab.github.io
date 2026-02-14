@@ -1,0 +1,47 @@
+---
+title: Psilocybin and Neurobehavioural Modulation in Drosophila
+order: 3
+alias: &ALIAS psilocybin
+image: featured.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+![](featured.jpg){fig-align="center"}
+
+**A behavioural and neuropharmacological investigation of a natural compound**
+
+Natural compounds derived from fungi have long influenced nervous systems across species. The Faraone Lab is investigating psilocybin as a neuroactive compound using *Drosophila melanogaster* as a model organism.
+
+While psilocybin has demonstrated clinical promise in the treatment of depression, anxiety, addiction, and PTSD, its mechanistic effects on neural circuitry remain poorly understood. Our research addresses this gap through controlled behavioural and neuropharmacological experimentation.
+
+Our current research includes:
+
+-   Behavioural assays examining dose-dependent responses to psilocybin exposure
+
+-   Analysis of serotonergic pathway modulation
+
+-   Quantification of locomotion, arousal, and sensory responsiveness
+
+-   Comparative receptor and signalling pathway analyses
+
+-   Integration of behavioural and neural data to identify circuit-level effects
+
+Using *Drosophila melanogaster* provides a genetically tractable and evolutionarily informative system in which serotonergic signalling pathways are conserved and experimentally accessible.
+
+By bridging natural product chemistry with behavioural neuroscience, this research expands the lab’s expertise into **neuroecological modulation**, generating mechanistic insight into how bioactive fungal compounds alter neural systems.
+
+## Related Publications
+
+::: {#pubs}
+:::

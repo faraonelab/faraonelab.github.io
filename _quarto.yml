@@ -37,6 +37,8 @@ website:
       - href: research/index.qmd
       - href: publications/index.qmd
       - href: news/index.qmd
+      - href: collaborator-funding/index.qmd
+        text: Collaborators and Funding
       - href: courses.qmd
         text: Courses
       - href: contact.qmd

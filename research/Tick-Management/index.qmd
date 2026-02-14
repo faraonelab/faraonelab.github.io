@@ -1,0 +1,51 @@
+---
+title: Sustainable Tick Management and Translational Innovation
+order: 2
+alias: &ALIAS tick-management
+image: featured.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../publications/**/*.qmd"
+    - "!../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    categories: *ALIAS
+  fields: [publication, title, categories, image, date, author]
+---
+
+![](featured.jpg){fig-align="center"}
+
+**From chemical discovery to real-world protection**
+
+Building on our chemical ecology findings, we develop and validate sustainable strategies for tick management.
+
+Our translational work includes:
+
+-   Plant-derived repellents and natural product chemistry
+
+-   Novel formulation strategies (e.g., nanoemulsions, fabric treatments)
+
+-   Laboratory-to-field validation under realistic exposure conditions
+
+-   Integration with climate-adaptive tick management models
+
+-   One Health approaches linking ecology, public health, and environmental sustainability
+
+We aim to design repellents and control strategies that are:
+
+-   Mechanistically informed
+
+-   Environmentally responsible
+
+-   Effective under real-world conditions
+
+By bridging **basic sensory biology with applied innovation**, we contribute to next-generation vector management solutions.
+
+## Related Publications
+
+::: {#pubs}
+:::

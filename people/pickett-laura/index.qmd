@@ -1,0 +1,49 @@
+---
+title: &TITLE "Laura J. Pickett"
+last: "Pickett"
+first: "Laura"
+people_group: "alumni"
+email: ""
+education:
+  - "Bsc in Chemistry (Honours) | Acadia University (Canada) | 2022"
+subtitle: "Honours Student"
+image: &IMAGE "avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:""
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

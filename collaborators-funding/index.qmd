@@ -1,0 +1,10 @@
+---
+title: "Collaborators and Funding"
+listing:
+  id: collaborators
+  type: grid
+  sort: "order asc"
+page-layout: full
+format: html
+---
+

@@ -1,8 +1,7 @@
 ---
 title: "In vitro assessment of entomopathogenic potential of Clonostachys rosea (Ascomycota: Hypocreales) against Ixodes scapularis (Acari: Ixodidae) and Dermacentor variabilis (Acari: Ixodidae) ticks"
 author: ["Luis Adriano Anholeto","Creighton Malkiah Jarvis","Laura Ferguson","Nicoletta Faraone"]
-categories: 
-  - ""
+categories: ["tick-management"]
 url_source: "https://doi.org/10.1016/j.ttbdis.2025.102599"
 url_preprint: ""
 journ: "Ticks and Tick-borne Diseases"
