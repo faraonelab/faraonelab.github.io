@@ -1,0 +1,49 @@
+---
+title: &TITLE "Haozhe Vincent Wang"
+last: "Wang"
+first: "Vincent"
+people_group: "alumni"
+email: "134932w@acadiau.ca"
+education:
+  - "Bsc. in Chemistry (Honours) | Acadia University (Canada) | 2021"
+subtitle: "Alumni"
+image: &IMAGE "avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:134932w@acadiau.ca
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

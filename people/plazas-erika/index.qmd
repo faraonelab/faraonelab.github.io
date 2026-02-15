@@ -1,0 +1,45 @@
+---
+title: &TITLE "Erika Plazas"
+last: "Plazas"
+first: "Erika"
+people_group: "alumni"
+email: ""
+education:
+  - "PhD in Chemistry | Universidad Nacional de Colombia (Colombia) | 2020"
+subtitle: "Alumni"
+image: &IMAGE "avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

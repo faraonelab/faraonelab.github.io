@@ -68,50 +68,59 @@ listing:
     exclude:
       external: true
     template: ../_ejs/alumni-box.ejs
-    sort: last
+    sort: title asc
     type: grid
     fields: [title, subtitle, image, education, altsubtitle, alteducation]
 ---
+
 ## Principal Investigator
 
 ::: {#pi}
 :::
 
-:::{.sand-background}
+:::::: sand-background
 ## Postdoctoral Fellows
 
 ::: {#postdoc}
 :::
+::::::
+<!-- ::: -->
 
-:::
+<!-- ## Research Scientists -->
 
-## Research Scientists
+<!-- ::: {#researcher} -->
 
-::: {#researcher}
-:::
+<!-- ::: -->
 
-:::{.sand-background}
-## Graduate Students
+<!-- :::{.sand-background} -->
 
-::: {#gradstudent}
-:::
+<!-- ## Graduate Students -->
 
-:::
+<!-- ::: {#gradstudent} -->
 
-## Honours Students
+<!-- ::: -->
 
-::: {#honoursstudent}
-:::
+<!-- ::: -->
 
-:::{.sand-background}
-## Research Assistants
+<!-- ## Honours Students -->
 
-::: {#assistant}
-:::
+<!-- ::: {#honoursstudent} -->
 
-:::
+<!-- ::: -->
 
+<!-- :::{.sand-background} -->
+
+<!-- ## Research Assistants -->
+
+<!-- ::: {#assistant} -->
+
+<!-- <!-- ::: -->
+
+<!-- ::: -->
+
+:::: sand-background2
 ## Alumni
 
 ::: {#alumni}
 :::
+::::

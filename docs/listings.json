@@ -20,9 +20,41 @@
     ]
   },
   {
+    "listing": "/people/zamlynny-lydia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/sabean-emily/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/pickett-laura/index.html",
     "items": [
       "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
+  },
+  {
+    "listing": "/people/naugler-bronwyn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/index.html",
+    "items": [
+      "/people/faraone-nicoletta/index.html",
+      "/people/anholeto-luis/index.html",
+      "/people/nette-adrien/index.html",
+      "/people/naugler-bronwyn/index.html",
+      "/people/hawboldt-claire/index.html",
+      "/people/jarvis-creighton/index.html",
+      "/people/adeyinka-dotun/index.html",
+      "/people/dolan-emily/index.html",
+      "/people/sabean-emily/index.html",
+      "/people/plazas-erika/index.html",
+      "/people/wang-vincent/index.html",
+      "/people/pickett-laura/index.html",
+      "/people/zamlynny-lydia/index.html",
+      "/people/amiro-miranda/index.html",
+      "/people/blanchard-sophia/index.html"
     ]
   },
   {
@@ -32,6 +64,14 @@
       "/publications/2026_002_in_vitro_assessment_of/index.html",
       "/publications/2026_001_Repellent efficacy of a novel/index.html"
     ]
+  },
+  {
+    "listing": "/people/blanchard-sophia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/amiro-miranda/index.html",
+    "items": []
   },
   {
     "listing": "/news/index.html",
@@ -44,6 +84,10 @@
     "items": []
   },
   {
+    "listing": "/people/adeyinka-dotun/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/anholeto-luis/index.html",
     "items": [
       "/publications/2026_002_in_vitro_assessment_of/index.html",
@@ -51,12 +95,30 @@
     ]
   },
   {
-    "listing": "/people/index.html",
+    "listing": "/people/dolan-emily/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/hawboldt-claire/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/jarvis-creighton/index.html",
     "items": [
-      "/people/faraone-nicoletta/index.html",
-      "/people/anholeto-luis/index.html",
-      "/people/pickett-laura/index.html"
+      "/publications/2026_002_in_vitro_assessment_of/index.html"
     ]
+  },
+  {
+    "listing": "/people/nette-adrien/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/plazas-erika/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/wang-vincent/index.html",
+    "items": []
   },
   {
     "listing": "/research/Psilocybin/index.html",

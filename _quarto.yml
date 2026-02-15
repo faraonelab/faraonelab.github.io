@@ -13,8 +13,8 @@ website:
   repo-url: "https://github.com/faraonelab/faraonelab.github.io.git"
   #favicon: images/favicon.drawio.png -  CHANGE
   #google-analytics: "UA-177339812-1" - CHANGE
-  twitter-card: true
-  #back-to-top-navigation: true
+  twitter-card: false
+  back-to-top-navigation: true
   page-navigation: false
   search: true
   page-footer: 
@@ -39,7 +39,9 @@ website:
       - href: news/index.qmd
       - href: collaborator-funding/index.qmd
         text: Collaborators and Funding
-      - href: courses.qmd
+      - href: galery/index.qmd
+        text: Gallery
+      - href: courses/index.qmd
         text: Courses
       - href: contact.qmd
         text: Contact
@@ -77,6 +79,8 @@ format:
     smooth-scroll: true
     resources:
       - images
+    fig-format: retina
+    fig-dpi: 300
 
 
 

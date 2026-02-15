@@ -1,0 +1,343 @@
+/*-- scss:defaults --*/
+
+// Colors
+$primary: #2B7A8B;        // teal (logo-aligned)
+$secondary: #A6DDB4;      // mint accent (flask)
+$ink: #111315;            // near-black for text
+$light: #E6E9ED;          // light border gray
+$sand_old: #f0eeeb;
+$sand: #eeeeee;
+$gold: #e8e3d3;
+
+// Quarto / Bootstrap-friendly defaults
+$body-bg: white;
+$body-color: $ink;
+$link-color: $primary;
+$link-hover-color: darken($primary, 10%);
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300&family=Montserrat:wght@300;400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,700;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,700&family=Nunito:wght@300&family=Source+Sans+3:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+
+/*-- scss:rules --*/
+
+/* -- fonts -- */
+h1, .h1 {
+  font-family: 'Economica', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* -- Experimental -- */
+
+div.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #2B7A8B,
+    #6FB6C1,
+    #A6DDB4,
+    #2B7A8B
+  );
+  background-size: 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 30s ease-in-out infinite;
+  -moz-animation: animated_text 30s ease-in-out infinite;
+  -webkit-animation: animated_text 30s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% { background-position: 0px 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0px 50%; }
+}
+
+div.gradient-text {
+  /* ... keep your existing animation code ... */
+  text-align: center;      /* Centers the text lines */
+  display: flex;           /* Uses flex to handle vertical/horizontal layout */
+  flex-direction: column;  /* Stacks headline and subheadline */
+  align-items: center;     /* Centers the flex items horizontally */
+  justify-content: center; /* Centers them vertically if the div has height */
+  width: 100%;
+  margin: 2rem 0;          /* Adds some spacing above and below */
+}
+
+.welcome-headline {
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 1;
+  width: 100%;             /* Ensures it takes full width to allow centering */
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-headline { font-size: 2.1rem; }
+}
+
+.welcome-subheadline {
+  font-size: 2.1rem;
+  letter-spacing: 0px;
+  line-height: 1;
+  font-family: Economica;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-subheadline { font-size: 1.3rem; }
+}
+
+/*-- navbar --*/
+
+.navbar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-size: 1em;
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-logo {
+  max-height: 100px;  // increase this
+  width: auto;
+}
+
+/*-- background styles --*/
+
+/* Preload carousel images so keyframes don't "skip" */
+.cmm-preload {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background:
+    url("/images/originals/cmm1.webp"),
+    url("/images/originals/cmm2.webp"),
+    url("/images/originals/cmm3.webp"),
+    url("/images/originals/cmm4.webp"),
+    url("/images/originals/cmm5.webp"),
+    url("/images/originals/cmm6.webp"),
+    url("/images/originals/cmm7.webp"),
+    url("/images/originals/cmm8.webp"),
+    url("/images/originals/cmm9.webp"),
+    url("/images/originals/cmm10.webp"),
+    url("/images/originals/cmm11.webp"),
+    url("/images/originals/cmm12.webp"),
+    url("/images/originals/cmm13.webp");
+}
+
+
+.black-background { background-color: black; }
+.primary-background { background-color: $primary; }
+.gold-background { background-color: $gold; }
+.sand-background { background-color: $sand; }
+
+/* Update your sand-background class */
+.sand-background { 
+  background-color: rgba(238, 238, 238, 0.7) !important; // Using your $sand color at 70% opacity
+  backdrop-filter: blur(10px);                           // The "frosted" effect
+  -webkit-backdrop-filter: blur(10px);                  // Support for Safari
+  border: 1px solid rgba(255, 255, 255, 0.3);           // Soft edge to define the box
+  border-radius: 8px;                                   // Optional: rounds the corners slightly
+  color: $ink;                                          // Ensures text stays sharp
+}
+
+/* HERO background rotator - High Quality Setup */
+.cmm-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  
+  /* This ensures the image looks sharp even when scaled */
+  image-rendering: -webkit-optimize-contrast; 
+  
+  animation: cmmCarousel 52s infinite;
+}
+
+@keyframes cmmCarousel {
+  0%, 7.691%         { background-image: url("/images/originals/cmm1.webp"); }
+  7.692%, 15.383%    { background-image: url("/images/originals/cmm2.webp"); }
+  15.384%, 23.075%   { background-image: url("/images/originals/cmm3.webp"); }
+  23.076%, 30.767%   { background-image: url("/images/originals/cmm4.webp"); }
+  30.768%, 38.459%   { background-image: url("/images/originals/cmm5.webp"); }
+  38.460%, 46.151%   { background-image: url("/images/originals/cmm6.webp"); }
+  46.152%, 53.843%   { background-image: url("/images/originals/cmm7.webp"); }
+  53.844%, 61.535%   { background-image: url("/images/originals/cmm8.webp"); }
+  61.536%, 69.227%   { background-image: url("/images/originals/cmm9.webp"); }
+  69.228%, 76.919%   { background-image: url("/images/originals/cmm10.webp"); }
+  76.920%, 84.611%   { background-image: url("/images/originals/cmm11.webp"); }
+  84.612%, 92.303%   { background-image: url("/images/originals/cmm12.webp"); }
+  92.304%, 100%      { background-image: url("/images/originals/cmm13.webp"); }
+}
+
+
+/* homepage */
+.content-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.welcome {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.welcome img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  font-size: larger;
+}
+
+.welcome-img p {
+  margin-bottom: 0;
+}
+
+/* -- people --*/
+
+.listing-box:hover {
+  border-color: $primary;
+  background-color: transparent;
+  box-shadow:
+    0px 1px 2px rgba(0,0,0,0.1),
+    0px 2px 4px rgba(0,0,0,0.1),
+    0px 4px 8px rgba(0,0,0,0.1),
+    0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.listing-box-title {
+  max-width: 80%;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #222;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.listing-box-subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #757883;
+  line-height: 1.5;
+}
+
+.listing-box-education {
+  margin-bottom: 0;
+  color: #757883;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.listing-box-image {
+  object-fit: cover; /* This fills the box better */
+  width: 100%;
+  height: 190px;
+  image-rendering: -webkit-optimize-contrast; /* Extra sharpness for some browsers */
+}
+
+
+.quarto-listing-cols-3,
+.quarto-listing-cols-4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.anchored {
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+/* -- publications --*/
+
+.listing-pub-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.listing-pub-author {
+  color: #757883;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.listing-pub-number {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.listing-pub-journal {
+  color: #757883;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.listing-pub-url {
+  font-size: 13px;
+  color: $primary;
+}
+
+.thumbnail img.thumbnail-image {
+  max-height: 300px !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin-left: auto !important;
+  display: block !important;
+}
+
+/* The 'Overlap' Container - MAIN PAGE*/
+.overlap-block {
+  background-color: rgba(230, 233, 237, 0.85); /* A light tint similar to $light */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 3rem;
+  z-index: 2;
+  position: relative;
+  
+  /* This creates the overlap effect */
+  margin-top: -100px; 
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  border-radius: 4px;
+}
+
+/* Ensure images take up proper space */
+.full-width-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 1;
+}
+
+.square-img-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;       /* Forces the box to be a square */
+  overflow: hidden;          /* Hides any image overflow */
+  border-radius: 4px;        /* Optional: matches the soft edges in your screenshot */
+}
+
+.square-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* Ensures the image fills the square without stretching */
+  object-position: center;   /* Keeps the subject of your photo in the middle */
+}

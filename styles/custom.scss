@@ -1,15 +1,14 @@
 /*-- scss:defaults --*/
 
 // Colors
-$primary: #2B7A8B;        // teal (logo-aligned)
-$secondary: #A6DDB4;      // mint accent (flask)
-$ink: #111315;            // near-black for text
-$light: #E6E9ED;          // light border gray
-$sand_old: #f0eeeb;
+$primary: #2B7A8B;         // teal
+$secondary: #A6DDB4;       // mint accent
+$ink: #111315;             // text color
+$light: #E6E9ED;           // light border gray
 $sand: #eeeeee;
 $gold: #e8e3d3;
 
-// Quarto / Bootstrap-friendly defaults
+// Quarto / Bootstrap overrides
 $body-bg: white;
 $body-color: $ink;
 $link-color: $primary;
@@ -17,29 +16,42 @@ $link-hover-color: darken($primary, 10%);
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300&family=Montserrat:wght@300;400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,700;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,700&family=Nunito:wght@300&family=Source+Sans+3:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
-
 
 /*-- scss:rules --*/
-
-/* -- fonts -- */
+/* -- fonts * --*/
 h1, .h1 {
-  font-family: 'Economica', sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
-}
+   font-family: 'Economica', sans-serif;
+   font-weight: normal;
+   text-transform: uppercase;
+ }
 
-/* -- Experimental -- */
+// h2, .h2 {
+//   font-family: 'Economica', sans-serif;
+//  }
+
+/* -- Experimental --*/
 
 div.gradient-text {
   background: linear-gradient(
-    90deg,
-    #2B7A8B,
-    #6FB6C1,
-    #A6DDB4,
-    #2B7A8B
+    45deg,
+    #e8e3d3,
+    #4b2e83,
+    #4b2e83,
+    #757883,
+    #202020,
+    #007bc2,
+    #4b2e83,
+    #007bc2,
+    #757883,
+    #757883,
+    #202020,
+    #e8e3d3
+
   );
   background-size: 800%;
+  //font-weight: 900;
+//  font-size: 4.1rem;
+//  letter-spacing: -3px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animated_text 30s ease-in-out infinite;
@@ -48,9 +60,17 @@ div.gradient-text {
 }
 
 @keyframes animated_text {
-  0% { background-position: 0px 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0px 50%; }
+  0% {
+    background-position: 0px 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0px 50%;
+  }
 }
 
 .welcome-headline {
@@ -61,139 +81,194 @@ div.gradient-text {
 }
 
 @media only screen and (max-width: 768px) {
-  .welcome-headline { font-size: 2.1rem; }
-}
+  .welcome-headline {
+    font-size: 2.1rem;
 
+  }
+}
 .welcome-subheadline {
-  font-size: 2.1rem;
-  letter-spacing: 0px;
-  line-height: 1;
-  font-family: Economica;
-  text-transform: uppercase;
+  font-size: 2.1rem; 
+  letter-spacing: 0px; 
+  line-height: 1; 
+  font-family:Economica; 
+  text-transform:uppercase;
 }
 
 @media only screen and (max-width: 768px) {
-  .welcome-subheadline { font-size: 1.3rem; }
+  .welcome-subheadline {
+    font-size: 1.3rem;
+
+  }
 }
 
 /*-- navbar --*/
 
 .navbar {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  font-size: 1em;
-  font-family: 'Economica', sans-serif;
-  text-transform: uppercase;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1.2em;
+  // font-family: 'Arsenal', sans-serif;
+  //font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Economica', sans-serif;
+   text-transform: uppercase;
+  }
+
+/*quarto-header {
+  /*border-bottom: 1px solid black; */
+/*}*/
+
+
+.navbar-brand.navbar-brand-logo {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand.navbar-brand-logo {
+    margin-left: 0;
+}
+}
+
+@media (max-width: 991px) {
+  .navbar-nav-scroll {
+    background: #EAE7E7;
+    width: 70%;
+  }
+  }
+
+.nav-item {
+    margin-top: 5rem; 
+  }
+
+@media (max-width: 991px) {
+  .nav-item {
+    margin-top: 0px;
+    margin-right: 0rem;
+}
 }
 
 .navbar-logo {
-  max-height: 100px;  // increase this
+  max-height: 150px;
   width: auto;
+  align-items: baseline;
 }
 
-/*-- background styles --*/
-
-/* Preload carousel images so keyframes don't "skip" */
-.cmm-preload {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  background:
-    url("/images/cmm1.jpg"),
-    url("/images/cmm2.jpg"),
-    url("/images/cmm3.jpg"),
-    url("/images/cmm4.jpg"),
-    url("/images/cmm5.jpg"),
-    url("/images/cmm6.jpg"),
-    url("/images/cmm7.jpg"),
-    url("/images/cmm8.jpg"),
-    url("/images/cmm9.jpg"),
-    url("/images/cmm10.jpg"),
-    url("/images/cmm11.jpg"),
-    url("/images/cmm12.jpg"),
-    url("/images/cmm13.jpg");
+@media (max-width: 991px) {
+.navbar-logo {
+  max-height: 100px;
+  width: auto;
+  align-items: baseline;
+}
 }
 
-
-.black-background { background-color: black; }
-.primary-background { background-color: $primary; }
-.gold-background { background-color: $gold; }
-.sand-background { background-color: $sand; }
-
-/* HERO background rotator */
-.cmm-background {
-  background-image: url("/images/cmm1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  animation: cmmCarousel 52s infinite;
-}
-
-/* 13-image carousel animation */
-@keyframes cmmCarousel {
-  0%, 7.691%         { background-image: url("/images/cmm1.jpg"); }
-  7.692%, 15.383%    { background-image: url("/images/cmm2.jpg"); }
-  15.384%, 23.075%   { background-image: url("/images/cmm3.jpg"); }
-  23.076%, 30.767%   { background-image: url("/images/cmm4.jpg"); }
-  30.768%, 38.459%   { background-image: url("/images/cmm5.jpg"); }
-  38.460%, 46.151%   { background-image: url("/images/cmm6.jpg"); }
-  46.152%, 53.843%   { background-image: url("/images/cmm7.jpg"); }
-  53.844%, 61.535%   { background-image: url("/images/cmm8.jpg"); }
-  61.536%, 69.227%   { background-image: url("/images/cmm9.jpg"); }
-  69.228%, 76.919%   { background-image: url("/images/cmm10.jpg"); }
-  76.920%, 84.611%   { background-image: url("/images/cmm11.jpg"); }
-  84.612%, 92.303%   { background-image: url("/images/cmm12.jpg"); }
-  92.304%, 100%      { background-image: url("/images/cmm13.jpg"); }
-}
-
-.flare-background {
-  background-image: url("/images/flare-dk.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  padding: 10px;
-}
-
-
-.flare-background {
-  background-image: url("images/flare-dk.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  padding: 10px;
-}
-
-/* homepage */
-.content-container {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-}
-
-.welcome {
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-bottom: 1em;
-  box-sizing: border-box;
-  height: auto;
+/* -- HOMEPAGE- ANIMATED GRADIENT HEADLINE -- */
+div.gradient-text {
+  text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+  
+  // Animation Logic
+  background: linear-gradient(90deg, $primary, #6FB6C1, $secondary, $primary);
+  background-size: 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 30s ease-in-out infinite;
 }
 
-.welcome img {
-  height: 100%;
-  object-fit: cover;
+@keyframes animated_text {
+  0%, 100% { background-position: 0px 50%; }
+  50% { background-position: 100% 50%; }
 }
 
-.welcome-text {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1.5rem;
-  font-size: larger;
+.welcome-headline {
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 1;
+  @media (max-width: 768px) { font-size: 2.1rem; }
 }
 
-.welcome-img p {
-  margin-bottom: 0;
+.welcome-subheadline {
+  font-size: 2.1rem;
+  font-family: 'Economica', sans-serif;
+  text-transform: uppercase;
+  @media (max-width: 768px) { font-size: 1.3rem; }
+}
+
+/* -- CAROUSEL BACKGROUND -- */
+.cmm-preload {
+  position: absolute; width: 0; height: 0; overflow: hidden;
+  background: url("/images/originals/cmm1.webp"), url("/images/originals/cmm2.webp"), 
+              url("/images/originals/cmm3.webp"), url("/images/originals/cmm4.webp"), 
+              url("/images/originals/cmm5.webp"), url("/images/originals/cmm6.webp"), 
+              url("/images/originals/cmm7.webp"), url("/images/originals/cmm8.webp"), 
+              url("/images/originals/cmm9.webp"), url("/images/originals/cmm10.webp"), 
+              url("/images/originals/cmm11.webp"), url("/images/originals/cmm12.webp"), 
+              url("/images/originals/cmm13.webp");
+}
+
+.cmm-background {
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+  animation: cmmCarousel 52s infinite;
+  margin-bottom: 25px;
+
+}
+
+@keyframes cmmCarousel {
+  0%, 7.69%    { background-image: url("/images/originals/cmm1.webp"); }
+  7.7%, 15.38%  { background-image: url("/images/originals/cmm2.webp"); }
+  15.39%, 23.07% { background-image: url("/images/originals/cmm3.webp"); }
+  23.08%, 30.76% { background-image: url("/images/originals/cmm4.webp"); }
+  30.77%, 38.45% { background-image: url("/images/originals/cmm5.webp"); }
+  38.46%, 46.15% { background-image: url("/images/originals/cmm6.webp"); }
+  46.16%, 53.84% { background-image: url("/images/originals/cmm7.webp"); }
+  53.85%, 61.53% { background-image: url("/images/originals/cmm8.webp"); }
+  61.54%, 69.22% { background-image: url("/images/originals/cmm9.webp"); }
+  69.23%, 76.91% { background-image: url("/images/originals/cmm10.webp"); }
+  76.92%, 84.61% { background-image: url("/images/originals/cmm11.webp"); }
+  84.62%, 92.30% { background-image: url("/images/originals/cmm12.webp"); }
+  92.31%, 100%   { background-image: url("/images/originals/cmm13.webp"); }
+}
+
+/* -- OVERLAP LAYOUT & GLASSMORPHISM -- */
+.overlap-block {
+  background-color: rgba(238, 238, 238, 0.85) !important; // $sand tint
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 3rem;
+  border-radius: 8px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  
+  h3 { margin-top: 0; font-family: 'Economica', sans-serif; font-weight: 700; }
+}
+
+.square-img-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 4px;
+  z-index: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    image-rendering: -webkit-optimize-contrast;
+  }
 }
 
 /* -- people --*/
@@ -201,11 +276,10 @@ div.gradient-text {
 .listing-box:hover {
   border-color: $primary;
   background-color: transparent;
-  box-shadow:
-    0px 1px 2px rgba(0,0,0,0.1),
-    0px 2px 4px rgba(0,0,0,0.1),
-    0px 4px 8px rgba(0,0,0,0.1),
-    0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+            0px 2px 4px rgba(0,0,0,0.1), 
+            0px 4px 8px rgba(0,0,0,0.1), 
+            0px 8px 16px rgba(0,0,0,0.1);
 }
 
 .listing-box-title {
@@ -219,6 +293,8 @@ div.gradient-text {
 }
 
 .listing-box-subtitle {
+  /*    margin-top: auto;*/
+  //font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
@@ -234,16 +310,41 @@ div.gradient-text {
   line-height: 1.5;
 }
 
+.listing-box-button a[role="button"] {
+  width: 140px;
+  min-height: 150px;
+  color: rgb(55, 58, 60);
+  text-align: center;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.listing-box-section {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+
 .listing-box-image {
   object-fit: contain;
   width: 100%;
   height: 190px;
 }
 
-.quarto-listing-cols-3,
+.quarto-listing-cols-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 .quarto-listing-cols-4 {
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 .anchored {
@@ -254,19 +355,27 @@ div.gradient-text {
 /* -- publications --*/
 
 .listing-pub-title {
+  /*font-family: 'Bebas Neue', sans-serif;
+  max-width: 80%;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #222;
+  line-height: 1.2;*/
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 700; 
 }
 
 .listing-pub-author {
   color: #757883;
   font-size: 13px;
   margin-bottom: 6px;
+  /*line-height: 1.5;*/
 }
 
 .listing-pub-number {
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 15px;
+
 }
 
 .listing-pub-journal {
@@ -277,7 +386,7 @@ div.gradient-text {
 
 .listing-pub-url {
   font-size: 13px;
-  color: $primary;
+
 }
 
 .thumbnail img.thumbnail-image {
@@ -289,3 +398,8 @@ div.gradient-text {
   margin-left: auto !important;
   display: block !important;
 }
+
+/* -- UTILITIES -- */
+.sand-background { background-color: $sand; }
+.primary-background { background-color: $primary; }
+.sand-background2 { background-color: white; }
