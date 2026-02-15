@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "Bsc. in Chemistry | Acadia University (Canada) | 2025"
-subtitle: "Alumni"
+subtitle: "Undergraduate Student"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

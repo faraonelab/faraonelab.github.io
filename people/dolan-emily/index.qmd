@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "B.Sc. in Nutrition (Honours) | Acadia University (Canada) | 2025"
-subtitle: "Alumni"
+subtitle: "Undergraduate Student (Honours)"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "MSc in Chemistry | Acadia University (Canada) | 2024"
-subtitle: "Alumni"
+subtitle: "Graduate Student"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

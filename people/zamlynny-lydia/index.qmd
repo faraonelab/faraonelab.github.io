@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "B.Sc. in Chemistry (Honours) | Acadia University (Canada) | 2022"
-subtitle: "Alumni"
+subtitle: "Undergraduate Student (Honours)"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

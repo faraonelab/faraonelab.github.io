@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "PhD in Neuro and Developmental Biology | University of Fribourg (Switzerland) | "
-subtitle: "Alumni"
+subtitle: "Postdoctoral fellow"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

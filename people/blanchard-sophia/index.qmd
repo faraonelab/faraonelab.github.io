@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "B.sc. in Biology (major) and Chemistry (minor) | Acadia University (Canada) | 2023"
-subtitle: "Alumni"
+subtitle: "Undergraduate Student"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

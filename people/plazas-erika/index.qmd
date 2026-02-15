@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "PhD in Chemistry | Universidad Nacional de Colombia (Colombia) | 2020"
-subtitle: "Alumni"
+subtitle: "Postdoctoral fellow"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

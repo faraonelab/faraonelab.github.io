@@ -6,7 +6,7 @@ people_group: "alumni"
 email: "134932w@acadiau.ca"
 education:
   - "Bsc. in Chemistry (Honours) | Acadia University (Canada) | 2021"
-subtitle: "Alumni"
+subtitle: "Undergraduate Student (Honours)"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 
