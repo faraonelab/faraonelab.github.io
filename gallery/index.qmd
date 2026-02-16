@@ -1,0 +1,22 @@
+---
+title: "Gallery"
+page-layout: full
+format:
+  html:
+    lightbox: 
+      match: auto
+      effect: fade
+      desc-position: right
+      loop: false
+---
+### 2024 Research
+::: {layout-ncol=2}
+![Lab Team 2024](2024/1.jpg){group="2024" .gallery-img}
+![Lab Team 2024](2024/2.jpg){group="2024" .gallery-img}
+:::
+
+### 2023 Research
+::: {layout-ncol=2}
+![Lab Team 2023](2023/1.jpg){group="2023" .gallery-img}
+![Lab Team 2023](2023/2.jpg){group="2023" .gallery-img}
+:::

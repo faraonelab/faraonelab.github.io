@@ -39,7 +39,7 @@ website:
       - href: news/index.qmd
       - href: collaborator-funding/index.qmd
         text: Collaborators and Funding
-      - href: galery/index.qmd
+      - href: gallery/index.qmd
         text: Gallery
       - href: courses/index.qmd
         text: Courses

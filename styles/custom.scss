@@ -399,6 +399,37 @@ div.gradient-text {
   display: block !important;
 }
 
+/* -- GALLERY STYLING -- */
+
+// Adds a professional shadow and hover effect to the images
+.gallery-img {
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid $primary; // Uses your teal color on hover
+  }
+}
+
+// Spacing for the gallery container
+.column-page {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+// Styling the captions under the photos
+.quarto-figure figcaption {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.9rem;
+  color: $ink;
+  text-align: center;
+  padding-top: 10px;
+}
+
 /* -- UTILITIES -- */
 .sand-background { background-color: $sand; }
 .primary-background { background-color: $primary; }

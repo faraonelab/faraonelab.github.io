@@ -24,17 +24,23 @@
     "items": []
   },
   {
-    "listing": "/people/sabean-emily/index.html",
+    "listing": "/people/veinot-cassidy/index.html",
     "items": []
   },
   {
-    "listing": "/people/pickett-laura/index.html",
-    "items": [
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
-    ]
+    "listing": "/people/plazas-erika/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/pickett-jake/index.html",
+    "items": []
   },
   {
     "listing": "/people/naugler-bronwyn/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/jefferson-kennedy/index.html",
     "items": []
   },
   {
@@ -43,7 +49,10 @@
       "/people/faraone-nicoletta/index.html",
       "/people/anholeto-luis/index.html",
       "/people/nette-adrien/index.html",
+      "/people/gunatillake-amanda/index.html",
       "/people/naugler-bronwyn/index.html",
+      "/people/veinot-cassidy/index.html",
+      "/people/maillet-chloe/index.html",
       "/people/hawboldt-claire/index.html",
       "/people/jarvis-creighton/index.html",
       "/people/adeyinka-dotun/index.html",
@@ -51,11 +60,18 @@
       "/people/sabean-emily/index.html",
       "/people/plazas-erika/index.html",
       "/people/wang-vincent/index.html",
+      "/people/pickett-jake/index.html",
+      "/people/jefferson-kennedy/index.html",
       "/people/pickett-laura/index.html",
+      "/people/fraser-leilia/index.html",
       "/people/zamlynny-lydia/index.html",
       "/people/amiro-miranda/index.html",
       "/people/blanchard-sophia/index.html"
     ]
+  },
+  {
+    "listing": "/people/gunatillake-amanda/index.html",
+    "items": []
   },
   {
     "listing": "/people/faraone-nicoletta/index.html",
@@ -99,6 +115,10 @@
     "items": []
   },
   {
+    "listing": "/people/fraser-leilia/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/hawboldt-claire/index.html",
     "items": []
   },
@@ -109,11 +129,21 @@
     ]
   },
   {
+    "listing": "/people/maillet-chloe/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/nette-adrien/index.html",
     "items": []
   },
   {
-    "listing": "/people/plazas-erika/index.html",
+    "listing": "/people/pickett-laura/index.html",
+    "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
+  },
+  {
+    "listing": "/people/sabean-emily/index.html",
     "items": []
   },
   {
