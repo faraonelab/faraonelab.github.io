@@ -1,0 +1,13 @@
+---
+title: "Chemical composition matters! The role of nepetalactone isomers in tick repellency"
+author: ["Miranda Amiro","Erika Plazas","Nicoletta Faraone"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1007/s10886-025-01680-5"
+url_preprint: ""
+journ: "Journal of Chemical Ecology"
+issue: "52"
+page: "6"
+year: 2026
+pub_number: "2026-01-13"
+image: "fig.png"
+---

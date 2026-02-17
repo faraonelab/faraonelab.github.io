@@ -1,0 +1,13 @@
+---
+title: "Novel β-cyclodextrin and catnip essential oil inclusion complex and its tick repellent properties"
+author: ["Jennifer Hogenbom", "Mouaz Istanbouli", "Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.3390/molecules26237391"
+url_preprint: ""
+journ: "Molecules"
+issue: "26 (23)"
+page: "7391"
+year: 2021
+image: "featured.png"
+pub_number: 2021-12-05
+---

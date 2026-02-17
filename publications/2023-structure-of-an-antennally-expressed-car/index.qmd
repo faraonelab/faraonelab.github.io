@@ -1,0 +1,13 @@
+---
+title: "Structure of an antennally-expressed carboxylesterase suggests lepidopteran odorant degrading enzymes are broadly tuned"
+author: ["Jacob A. Corcoran", "Cyril Hamiaux", "Nicoletta Faraone", "Christer Löfstedt","Colm Carraher"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1016/j.cris.2023.100062"
+url_preprint: ""
+journ: "Current Research in Insect Science"
+issue: "3"
+page: "100062"
+year: 2023
+image: "featured.png"
+pub_number: 2023-06-05
+---

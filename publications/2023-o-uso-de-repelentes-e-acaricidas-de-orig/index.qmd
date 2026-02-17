@@ -1,0 +1,13 @@
+---
+title: "O uso de repelentes e acaricidas de origem natural contra carrapatos: uma abordagem One Health"
+author: ["Luis Adriano Anholeto" , "Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1093/ae/tmad063"
+url_preprint: ""
+journ: "Revista A Flora"
+issue: "3 (2)"
+page: "5-8"
+year: 2023
+image: "featured.jpg"
+pub_number: 2023-12-01
+---

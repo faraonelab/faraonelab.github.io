@@ -1,0 +1,13 @@
+---
+title: "Volatile organic compounds mediate host selection of wheat midge, <i>Sitodiplosis mosellana</i> (Géhin) (Diptera: Cecidomyiidae) between preanthesis and postanthesis stages of wheat"
+author: ["Chaminda De Silva Weeraddana", "Ramya Wijesundara", "Wendy Hillier", "Taylor Swanburg", "Kirk Hillier", "Haozhe Vincent Wang", "Nicoletta Faraone", "Sheila Wolfe", "Curt McCartney", "Tyler Wist", "Alejandro C. Costamagna"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1007/s10886-024-01492-z"
+url_preprint: ""
+journ: "Journal of Chemical Ecology"
+issue: "50"
+page: "237-249"
+year: 2024
+image: "featured.png"
+pub_number: 2024-05-07
+---

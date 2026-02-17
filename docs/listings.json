@@ -9,14 +9,74 @@
   },
   {
     "listing": "/research/Tick-Chemical-Ecology/index.html",
-    "items": []
+    "items": [
+      "/publications/2026_004_efficacy_of_a_novel/index.html",
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
+      "/publications/2024-encapsulation-of-allyl-isothiocyanate-us/index.html",
+      "/publications/2025_001_sweet_deception_exploring_erythritol/index.html",
+      "/publications/2025-re-investigating-monitoring-tools-for-si/index.html",
+      "/publications/2025-characterization-of-brown-seaweed--ascop/index.html",
+      "/publications/2024-impact-of-allyl-isothiocyanate-addition/index.html",
+      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
+      "/publications/2024-volatile-organic-compounds-mediate-host/index.html",
+      "/publications/2023-locomotion-behavioural-responses-of-varr/index.html",
+      "/publications/2023-investigating-chemoreception-and-behavio/index.html",
+      "/publications/2023-structure-of-an-antennally-expressed-car/index.html",
+      "/publications/2022-host-detection-by-ticks/index.html",
+      "/publications/2021-varroa-destructor--mesostigmata--varroid/index.html",
+      "/publications/2021-a-preliminary-investigation-into-partici/index.html",
+      "/publications/2020-production-of-plant-associated-volatiles/index.html",
+      "/publications/2020-chemosensory-and-behavioural-responses-o/index.html",
+      "/publications/2019-behavioral-responses-of-ixodes-scapulari/index.html",
+      "/publications/2017-attraction-of-the-larval-parasitoid-spin/index.html",
+      "/publications/2016-collection-of-host-marking-pheromone-fro/index.html",
+      "/publications/2013-sensory-adaptation-of-antennae-and-sex-p/index.html",
+      "/publications/2013-electrophysiological-and-behavioral-resp/index.html",
+      "/publications/2013-monoterpene-derivatives-from-the-flowers/index.html"
+    ]
   },
   {
     "listing": "/publications/index.html",
     "items": [
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2026_001_Repellent efficacy of a novel/index.html",
+      "/publications/2026_004_efficacy_of_a_novel/index.html",
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
       "/publications/2026_002_in_vitro_assessment_of/index.html",
-      "/publications/2026_001_Repellent efficacy of a novel/index.html"
+      "/publications/2024-encapsulation-of-allyl-isothiocyanate-us/index.html",
+      "/publications/2025_001_sweet_deception_exploring_erythritol/index.html",
+      "/publications/2025-rock-dust-product-for-managing-two-spott/index.html",
+      "/publications/2025-neurobiology-of-psilocybin--a-comprehens/index.html",
+      "/publications/2025-re-investigating-monitoring-tools-for-si/index.html",
+      "/publications/2025-characterization-of-brown-seaweed--ascop/index.html",
+      "/publications/2024-impact-of-allyl-isothiocyanate-addition/index.html",
+      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
+      "/publications/2024-volatile-organic-compounds-mediate-host/index.html",
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html",
+      "/publications/2023-o-uso-de-repelentes-e-acaricidas-de-orig/index.html",
+      "/publications/2023-locomotion-behavioural-responses-of-varr/index.html",
+      "/publications/2023-investigating-chemoreception-and-behavio/index.html",
+      "/publications/2023-structure-of-an-antennally-expressed-car/index.html",
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2022-repellent-and-acaricidal-activities-of-b/index.html",
+      "/publications/2023-indole-alkaloids-from-psychoactive-mushr/index.html",
+      "/publications/2022-host-detection-by-ticks/index.html",
+      "/publications/2021-novel---cyclodextrin-and-catnip-essentia/index.html",
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html",
+      "/publications/2020-preliminary-evaluation-of-a-rock-dust-pr/index.html",
+      "/publications/2021-varroa-destructor--mesostigmata--varroid/index.html",
+      "/publications/2021-a-preliminary-investigation-into-partici/index.html",
+      "/publications/2020-production-of-plant-associated-volatiles/index.html",
+      "/publications/2020-chemosensory-and-behavioural-responses-o/index.html",
+      "/publications/2020-soil-and-foliar-application-of-rock-dust/index.html",
+      "/publications/2019-behavioral-responses-of-ixodes-scapulari/index.html",
+      "/publications/2018-evaluation-of-repellent-and-insecticidal/index.html",
+      "/publications/2017-insecticidal-and-synergistic-activity-of/index.html",
+      "/publications/2017-attraction-of-the-larval-parasitoid-spin/index.html",
+      "/publications/2016-collection-of-host-marking-pheromone-fro/index.html",
+      "/publications/2015-plant-essential-oils-synergize-and-antag/index.html",
+      "/publications/2013-sensory-adaptation-of-antennae-and-sex-p/index.html",
+      "/publications/2013-electrophysiological-and-behavioral-resp/index.html",
+      "/publications/2013-monoterpene-derivatives-from-the-flowers/index.html"
     ]
   },
   {
@@ -29,7 +89,10 @@
   },
   {
     "listing": "/people/plazas-erika/index.html",
-    "items": []
+    "items": [
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
+      "/publications/2023-indole-alkaloids-from-psychoactive-mushr/index.html"
+    ]
   },
   {
     "listing": "/people/pickett-jake/index.html",
@@ -76,18 +139,59 @@
   {
     "listing": "/people/faraone-nicoletta/index.html",
     "items": [
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2026_001_Repellent efficacy of a novel/index.html",
+      "/publications/2026_004_efficacy_of_a_novel/index.html",
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
       "/publications/2026_002_in_vitro_assessment_of/index.html",
-      "/publications/2026_001_Repellent efficacy of a novel/index.html"
+      "/publications/2024-encapsulation-of-allyl-isothiocyanate-us/index.html",
+      "/publications/2025_001_sweet_deception_exploring_erythritol/index.html",
+      "/publications/2025-rock-dust-product-for-managing-two-spott/index.html",
+      "/publications/2025-neurobiology-of-psilocybin--a-comprehens/index.html",
+      "/publications/2025-re-investigating-monitoring-tools-for-si/index.html",
+      "/publications/2025-characterization-of-brown-seaweed--ascop/index.html",
+      "/publications/2024-impact-of-allyl-isothiocyanate-addition/index.html",
+      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
+      "/publications/2024-volatile-organic-compounds-mediate-host/index.html",
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html",
+      "/publications/2023-o-uso-de-repelentes-e-acaricidas-de-orig/index.html",
+      "/publications/2023-locomotion-behavioural-responses-of-varr/index.html",
+      "/publications/2023-investigating-chemoreception-and-behavio/index.html",
+      "/publications/2023-structure-of-an-antennally-expressed-car/index.html",
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2022-repellent-and-acaricidal-activities-of-b/index.html",
+      "/publications/2023-indole-alkaloids-from-psychoactive-mushr/index.html",
+      "/publications/2022-host-detection-by-ticks/index.html",
+      "/publications/2021-novel---cyclodextrin-and-catnip-essentia/index.html",
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html",
+      "/publications/2020-preliminary-evaluation-of-a-rock-dust-pr/index.html",
+      "/publications/2021-varroa-destructor--mesostigmata--varroid/index.html",
+      "/publications/2021-a-preliminary-investigation-into-partici/index.html",
+      "/publications/2020-production-of-plant-associated-volatiles/index.html",
+      "/publications/2020-chemosensory-and-behavioural-responses-o/index.html",
+      "/publications/2020-soil-and-foliar-application-of-rock-dust/index.html",
+      "/publications/2019-behavioral-responses-of-ixodes-scapulari/index.html",
+      "/publications/2018-evaluation-of-repellent-and-insecticidal/index.html",
+      "/publications/2017-insecticidal-and-synergistic-activity-of/index.html",
+      "/publications/2017-attraction-of-the-larval-parasitoid-spin/index.html",
+      "/publications/2016-collection-of-host-marking-pheromone-fro/index.html",
+      "/publications/2015-plant-essential-oils-synergize-and-antag/index.html",
+      "/publications/2013-sensory-adaptation-of-antennae-and-sex-p/index.html",
+      "/publications/2013-electrophysiological-and-behavioral-resp/index.html",
+      "/publications/2013-monoterpene-derivatives-from-the-flowers/index.html"
     ]
   },
   {
     "listing": "/people/blanchard-sophia/index.html",
-    "items": []
+    "items": [
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html"
+    ]
   },
   {
     "listing": "/people/amiro-miranda/index.html",
-    "items": []
+    "items": [
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
   },
   {
     "listing": "/news/index.html",
@@ -106,13 +210,19 @@
   {
     "listing": "/people/anholeto-luis/index.html",
     "items": [
+      "/publications/2026_001_Repellent efficacy of a novel/index.html",
       "/publications/2026_002_in_vitro_assessment_of/index.html",
-      "/publications/2026_001_Repellent efficacy of a novel/index.html"
+      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html",
+      "/publications/2023-o-uso-de-repelentes-e-acaricidas-de-orig/index.html"
     ]
   },
   {
     "listing": "/people/dolan-emily/index.html",
-    "items": []
+    "items": [
+      "/publications/2024-encapsulation-of-allyl-isothiocyanate-us/index.html",
+      "/publications/2024-impact-of-allyl-isothiocyanate-addition/index.html"
+    ]
   },
   {
     "listing": "/people/fraser-leilia/index.html",
@@ -120,7 +230,9 @@
   },
   {
     "listing": "/people/hawboldt-claire/index.html",
-    "items": []
+    "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
   },
   {
     "listing": "/people/jarvis-creighton/index.html",
@@ -139,7 +251,9 @@
   {
     "listing": "/people/pickett-laura/index.html",
     "items": [
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2022-repellent-and-acaricidal-activities-of-b/index.html",
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html"
     ]
   },
   {
@@ -148,18 +262,37 @@
   },
   {
     "listing": "/people/wang-vincent/index.html",
-    "items": []
+    "items": [
+      "/publications/2024-volatile-organic-compounds-mediate-host/index.html",
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html",
+      "/publications/2022-repellent-and-acaricidal-activities-of-b/index.html",
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html"
+    ]
   },
   {
     "listing": "/research/Psilocybin/index.html",
-    "items": []
+    "items": [
+      "/publications/2025-neurobiology-of-psilocybin--a-comprehens/index.html",
+      "/publications/2023-indole-alkaloids-from-psychoactive-mushr/index.html"
+    ]
   },
   {
     "listing": "/research/Tick-Management/index.html",
     "items": [
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2026_001_Repellent efficacy of a novel/index.html",
       "/publications/2026_002_in_vitro_assessment_of/index.html",
-      "/publications/2026_001_Repellent efficacy of a novel/index.html"
+      "/publications/2025-rock-dust-product-for-managing-two-spott/index.html",
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html",
+      "/publications/2023-o-uso-de-repelentes-e-acaricidas-de-orig/index.html",
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html",
+      "/publications/2022-repellent-and-acaricidal-activities-of-b/index.html",
+      "/publications/2021-novel---cyclodextrin-and-catnip-essentia/index.html",
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html",
+      "/publications/2020-preliminary-evaluation-of-a-rock-dust-pr/index.html",
+      "/publications/2020-soil-and-foliar-application-of-rock-dust/index.html",
+      "/publications/2018-evaluation-of-repellent-and-insecticidal/index.html",
+      "/publications/2017-insecticidal-and-synergistic-activity-of/index.html",
+      "/publications/2015-plant-essential-oils-synergize-and-antag/index.html"
     ]
   }
 ]

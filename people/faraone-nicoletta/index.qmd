@@ -35,6 +35,8 @@ about:
     - text: Google Scholar
       icon: mortarboard 
       href: https://scholar.google.com/citations?user=hufz-80AAAAJ&hl=en
+    - text: "{{< ai orcid >}} ORCiD" 
+      href: https://orcid.org/0000-0002-9246-3672
 ---
 
 <hr>

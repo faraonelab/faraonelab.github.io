@@ -1,0 +1,13 @@
+---
+title: "Neurobiology of Psilocybin: a comprehensive overview and comparative analysis of experimental models"
+author: ["Dotun Adeyinka", "Dayna Forsyth", "Suzanne Currie", "Nicoletta Faraone"]
+categories: ["psilocybin"]
+url_source: "https://doi.org/10.3389/fnsys.2025.1585367"
+url_preprint: ""
+journ: "Front. Syst. Neurosci"
+issue: "19"
+page: "1585367"
+year: 2025
+image: "featured.png"
+pub_number: "2025-08-04"
+---

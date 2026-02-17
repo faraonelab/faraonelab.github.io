@@ -1,0 +1,13 @@
+---
+title: "Impact of allyl isothiocyanate addition on consumers’ sensory perception in a solid food matrix"
+author: ["Emily Dolan", "Nicoletta Faraone", "Matthew B. McSweeney"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1111/1750-3841.70336"
+url_preprint: ""
+journ: "Journal of Food Science"
+issue: "90 (6)"
+page: "e70336"
+year: 2024
+image: "featured.png"
+pub_number: "2025-06-16"
+---

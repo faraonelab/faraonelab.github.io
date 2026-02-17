@@ -1,0 +1,13 @@
+---
+title: "Synthesis and Characterization of β-Cyclodextrin-Essential Oil Inclusion Complexes for Tick Repellent Development"
+author: ["Jennifer Hogenbom", "Alysson Jones", "Haozhe Vincent Wang", "Laura J. Pickett", "Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.3390/polym13111892"
+url_preprint: ""
+journ: "Polymers"
+issue: "13 (11)"
+page: "1892"
+year: 2021
+image: "featured.png"
+pub_number: 2021-06-06
+---

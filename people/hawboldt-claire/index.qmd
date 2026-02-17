@@ -1,5 +1,5 @@
 ---
-title: &TITLE "Claire L. Hawboldt"
+title: &TITLE "Claire Hawboldt"
 last: "Hawboldt"
 first: "Claire"
 people_group: "alumni"

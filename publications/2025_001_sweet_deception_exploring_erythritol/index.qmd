@@ -1,0 +1,13 @@
+---
+title: "Sweet deception: exploring erythritol formulations for management of <i>Drosophila suzukii</i> (Diptera: Drosophilidae) in berry crops"
+author: ["Kevin Cloonan","Nicoletta Faraone","Sarah Koerte","Kayla Gaudet","Kirk Hillier"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1093/jee/toaf314"
+url_preprint: ""
+journ: "Journal of Economic Entomology"
+issue: "119"
+page: "1-12"
+year: 2025
+pub_number: "2025-11-26"
+image: "avatar.jpeg"
+---

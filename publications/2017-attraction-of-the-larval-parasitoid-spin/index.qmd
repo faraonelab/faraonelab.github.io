@@ -1,0 +1,13 @@
+---
+title: "Attraction of the Larval Parasitoid <i>Spintherus dubius</i> (Hymenoptera: Pteromalidae) to Feces Volatiles from the Adult Apion Weevil Host"
+author: ["Nicoletta Faraone", "G. P. Svensson", "O. Anderbrant"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1007/s10905-017-9605-5"
+url_preprint: ""
+journ: "Journal of Insect Behavior"
+issue: "30"
+page: "119–129"
+year: 2017
+image: "featured.webp"
+pub_number: 2017-02-08
+---

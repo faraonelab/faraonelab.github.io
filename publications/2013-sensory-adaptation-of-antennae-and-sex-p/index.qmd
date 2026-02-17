@@ -1,0 +1,13 @@
+---
+title: "Sensory adaptation of antennae and sex pheromone-mediated flight behavior in male Oriental fruit moths (Lepidoptera: Tortricidae) after prolonged exposure to single and tertiary blends of synthetic sex pheromone"
+author: ["G. D'Errico", "Nicoletta Faraone", "G. Rotundo", "A. De Cristofaro", "R. M. Trimble"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1603/EN12298"
+url_preprint: ""
+journ: "Environmental Entomology"
+issue: "42 (3)"
+page: "548–557"
+year: 2013
+image: "featured.jpeg"
+pub_number: 2013-06-01
+---

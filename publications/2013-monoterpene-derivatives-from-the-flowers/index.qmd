@@ -1,0 +1,13 @@
+---
+title: "Monoterpene derivatives from the flowers of <i>Ferulago campestris</i>, (Apiaceae)"
+author: ["Antonella Maggio", "Nicoletta Faraone", "Sergio Rosselli", "Francesco Maria Raimondo", "Vivienne Spadaro", "Maurizio Bruno"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1080/14786419.2012.761623"
+url_preprint: ""
+journ: "Natural Product Research"
+issue: "27 (20)"
+page: "1827–1831"
+year: 2013
+image: "featured.png"
+pub_number: 2013-01-21
+---

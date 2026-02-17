@@ -1,0 +1,13 @@
+---
+title: "A preliminary investigation into participants’ reactions to a sensory trial investigating a cannabis edible"
+author: ["Nicoletta Faraone", "Kirk Hillier", "Matthew B. McSweeney"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1111/joss.12624"
+url_preprint: ""
+journ: "Journal of Sensory Studies"
+issue: "36"
+page: "e12624"
+year: 2021
+image: "featured.png"
+pub_number: 2020-11-23
+---

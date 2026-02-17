@@ -1,0 +1,13 @@
+---
+title: "Repellent and acaricidal activities of basil (<i>Ocimum basilicum</i> L.) essential oils and rock dust against <i>Ixodes scapularis</i> and <i>Dermacentor variabilis</i> ticks"
+author: ["Haozhe Vincent Wang", "Laura J. Pickett", "Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1007/s10493-022-00705-y"
+url_preprint: ""
+journ: "Experimental and Applied Acarology"
+issue: "86"
+page: "583–598"
+year: 2022
+image: "featured.png"
+pub_number: 2023-03-01
+---

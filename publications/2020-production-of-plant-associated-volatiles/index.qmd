@@ -1,0 +1,13 @@
+---
+title: "Production of plant associated volatiles by select model and industrially important <i>Streptomyces</i> spp"
+author: ["Zhenlong Cheng", "Sean McCann", "Nicoletta Faraone", "Jody-Ann Clarke", "E. Abbie Hudson", "Kevin Cloonan", "Kirk Hillier", "Kapil Tahlan"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.3390/microorganisms8111767"
+url_preprint: ""
+journ: "Microorganisms"
+issue: "8 (11)"
+page: "1767"
+year: 2020
+image: "featured.png"
+pub_number: 2020-11-10
+---

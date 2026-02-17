@@ -1,0 +1,13 @@
+---
+title: "Efficacy of a novel tick attractant and repellent activity of essential oils from sweet fern, <i>Comptonia peregrina</i> (L.) Coult"
+author: ["Sarah Koerte","Nicoletta Faraone","Leillia Fraser","Neil Kirk Hillier"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1007/s10493-025-01104-9"
+url_preprint: ""
+journ: "Experimental and Applied Acarology"
+issue: "96"
+page: "15"
+year: 2026
+pub_number: "2026-01-31"
+image: "fern.jpeg"
+---

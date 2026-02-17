@@ -1,0 +1,13 @@
+---
+title: "Encapsulation of Allyl Isothiocyanate by Freeze- and Spray-Drying: Effects on Retention and Sensory Perception in Sodium-Reduced Soups"
+author: ["Emily Dolan", "Nicoletta Faraone", "Matthew B. McSweeney"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.3390/foods14223810"
+url_preprint: ""
+journ: "Foods"
+issue: "14 (22)"
+page: "3810"
+year: 2025
+image: "featured.png"
+pub_number: "2025-11-6"
+---

@@ -1,0 +1,13 @@
+---
+title: "Plant essential oils synergize and antagonize toxicity of different conventional insecticides against <i>Myzus persicae</i> (Hemiptera: Aphididae)"
+author: ["Nicoletta Faraone", "Kirk Hillier", "G. Christopher Cutler"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1371/journal.pone.0127774"
+url_preprint: ""
+journ: "PLoS ONE"
+issue: "10 (5)"
+page: "e0127774"
+year: 2015
+image: "featured.png"
+pub_number: 2015-05-26
+---

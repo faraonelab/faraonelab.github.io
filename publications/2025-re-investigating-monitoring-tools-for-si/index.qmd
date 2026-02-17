@@ -1,0 +1,13 @@
+---
+title: "Re-investigating monitoring tools for <i>Sitodiplosis mosellana</i> (Diptera: Cecidomyiidae) on the Canadian prairies"
+author: ["Kristen Guelly", "Maya Evenden", "Nicoletta Faraone", "Boyd A. Mori"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.4039/tce.2025.10028"
+url_preprint: ""
+journ: "The Canadian Entomologist"
+issue: "157"
+page: "e40"
+year: 2025
+image: "featured.png"
+pub_number: "2025-08-03"
+---

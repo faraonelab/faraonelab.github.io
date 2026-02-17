@@ -1,0 +1,13 @@
+---
+title: "Indole alkaloids from psychoactive mushrooms: Chemical traits and pharmacological potential as psychotherapeutic agents"
+author: ["Erika Plazas", "Nicoletta Faraone"]
+categories: ["psilocybin"]
+url_source: "https://doi.org/10.3390/biomedicines11020461"
+url_preprint: ""
+journ: "Biomedicines"
+issue: "11 (2)"
+page: "461"
+year: 2023
+image: "featured.png"
+pub_number: 2023-02-04
+---

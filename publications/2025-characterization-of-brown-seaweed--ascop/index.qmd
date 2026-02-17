@@ -1,0 +1,13 @@
+---
+title: "Characterization of brown seaweed (<i>Ascophyllum nodosum</i>) and sugar kelp (<i>Saccharina latissima</i>) extracts using temporal check-all-that-apply"
+author: ["Zach Adams", "Nicoletta Faraone", "Matthew B. McSweeney"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.3390/foods14152565"
+url_preprint: ""
+journ: "Foods"
+issue: "14 (15)"
+page: "2565"
+year: 2025
+image: "featured.png"
+pub_number: "2025-07-21"
+---

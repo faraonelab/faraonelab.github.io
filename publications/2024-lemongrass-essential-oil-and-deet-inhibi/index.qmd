@@ -1,0 +1,13 @@
+---
+title: "Lemongrass essential oil and DEET inhibit attractant detection in <i>Ixodes scapularis</i> ticks"
+author: ["Kayla Gaudet", "Luis Adriano Anholeto", "Kirk Hillier", "Nicoletta Faraone"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1016/j.cris.2024.100096"
+url_preprint: ""
+journ: "Current Research in Insect Science"
+issue: "6"
+page: "100096"
+year: 2024
+image: "featured.png"
+pub_number: "2024-09-18"
+---

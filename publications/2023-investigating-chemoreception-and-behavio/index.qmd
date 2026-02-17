@@ -1,0 +1,13 @@
+---
+title: "Investigating chemoreception and behavioural responses of <i>Tetranychus urticae</i> (Trombidiformes: Tetranychidae) to organic acids, aldehydes and essential oil components"
+author: ["Kayla Gaudet", "Nicoletta Faraone", "Kirk Hillier"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.3389/fagro.2023.1212705"
+url_preprint: ""
+journ: "Frontiers in Agronomy"
+issue: "5"
+page: "1212705"
+year: 2023
+image: "featured.png"
+pub_number: 2023-07-03
+---

@@ -1,0 +1,13 @@
+---
+title: "Electrophysiological and behavioral responses of Oriental fruit moth to the monoterpenoid citral alone and in combination with sex pheromone"
+author: ["Nicoletta Faraone", "G. D'Errico", "V. Caleca", "A. De Cristofaro", "R. M. Trimble"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1603/EN12205"
+url_preprint: ""
+journ: "Environmental Entomology"
+issue: "42 (2)"
+page: "314–322"
+year: 2013
+image: "featured.png"
+pub_number: 2013-04-01
+---

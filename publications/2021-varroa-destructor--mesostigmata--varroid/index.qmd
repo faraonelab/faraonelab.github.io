@@ -1,0 +1,13 @@
+---
+title: "<i>Varroa destructor</i> (Mesostigmata: Varroidae) electrophysiological activity towards common yarrow (Asteraceae) essential oil and its components"
+author: ["Michael Light", "Nicoletta Faraone", "Dave Shutler", "G. Christopher Cutler", "Kirk Hillier"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.4039/tce.2020.65"
+url_preprint: ""
+journ: "The Canadian Entomologist"
+issue: "153 (2)"
+page: "211-221"
+year: 2021
+image: "featured.png"
+pub_number: 2020-11-26
+---

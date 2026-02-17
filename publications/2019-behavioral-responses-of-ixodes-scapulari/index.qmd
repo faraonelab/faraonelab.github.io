@@ -1,0 +1,13 @@
+---
+title: "Behavioral responses of <i>Ixodes scapularis</i> to natural products: development of novel repellents"
+author: ["Nicoletta Faraone", "Samantha MacPherson", "Kirk Hillier"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1007/s10493-019-00421-0"
+url_preprint: ""
+journ: "Experimental and Applied Acarology"
+issue: "79"
+page: "195–207"
+year: 2019
+image: "featured.png"
+pub_number: 2019-09-28
+---

@@ -1,0 +1,13 @@
+---
+title: "In vitro acaricidal activity of essential oils and their binary mixtures against the blacklegged ticks <i>Ixodes scapularis</i> (Acari: Ixodidae)"
+author: ["Luis Adriano Anholeto", "Sophia Blanchard", "Haozhe Vincent Wang", "Ana Carolina de Souza Chagas", "Kirk Hillier", "Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1016/j.ttbdis.2024.102309"
+url_preprint: ""
+journ: "Ticks and Tick-borne Diseases"
+issue: "15 (2)"
+page: "102309"
+year: 2024
+image: "featured.png"
+pub_number: 2024-01-13
+---

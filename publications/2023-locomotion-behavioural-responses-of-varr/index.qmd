@@ -1,0 +1,13 @@
+---
+title: "Locomotion behavioural responses of <i>Varroa destructor</i> exposed to Western honey bee (<i>Apis mellifera</i>) semiochemicals"
+author: ["Michael Light", "Dave Shutler", "Nicoletta Faraone", "G. Christopher Cutler", "Kirk Hillier"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.1007/s10340-023-01668-8"
+url_preprint: ""
+journ: "Journal of Pest Science"
+issue: "97"
+page: "757-766"
+year: 2023
+image: "featured.png"
+pub_number: 2023-07-21
+---

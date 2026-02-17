@@ -33,6 +33,9 @@ about:
       href: mailto:luis.anholeto@acadiau.ca
     - text: "{{< ai orcid >}} ORCiD" 
       href: https://orcid.org/0000-0001-8712-2630
+    - text: Google Scholar
+      icon: mortarboard 
+      href: https://scholar.google.com/citations?user=dlkP2zUAAAAJ&hl=pt-BR
 ---
 
 <hr>

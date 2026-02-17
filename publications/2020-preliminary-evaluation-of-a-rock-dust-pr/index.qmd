@@ -1,0 +1,13 @@
+---
+title: "Preliminary evaluation of a rock dust product for pest herbivore management in field conditions"
+author: ["Nicoletta Faraone", "Kirk Hillier"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.3390/insects11120877"
+url_preprint: ""
+journ: "Insects"
+issue: "11 (12)"
+page: "877"
+year: 2020
+image: "featured.png"
+pub_number: 2020-12-10
+---

@@ -1,0 +1,13 @@
+---
+title: "Rock dust product for managing two-spotted spider mites (Acari: Tetranychidae) on grapevines (Vitaceae)"
+author: ["Nicoletta Faraone", "Robin Browne", "Kirk Hillier"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.4039/tce.2025.10031"
+url_preprint: ""
+journ: "The Canadian Entomologist"
+issue: "157"
+page: "e44"
+year: 2025
+image: "featured.png"
+pub_number: "2025-11-03"
+---

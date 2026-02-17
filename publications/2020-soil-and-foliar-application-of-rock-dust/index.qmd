@@ -1,0 +1,13 @@
+---
+title: "Soil and foliar application of rock dust as a natural control agent for two-spotted spider mites on tomato plants"
+author: ["Nicoletta Faraone", "Rodger Evans", "Julia LeBlanc", "Kirk Hillier"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1038/s41598-020-69060-5"
+url_preprint: ""
+journ: "Scientific Reports"
+issue: "10"
+page: "12108"
+year: 2020
+image: "featured.png"
+pub_number: 2020-07-21
+---

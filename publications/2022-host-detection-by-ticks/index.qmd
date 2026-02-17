@@ -1,0 +1,13 @@
+---
+title: "Chapter 24: Host detection by ticks"
+author: ["Nicoletta Faraone"]
+categories: ["chemical-ecology"]
+url_source: "https://doi.org/10.3920/978-90-8686-932-9_24"
+url_preprint: ""
+journ: "Sensory ecology of disease vectors"
+issue: ""
+page: "639–653"
+year: 2022
+image: "featured.webp"
+pub_number: 2022-12-18
+---
