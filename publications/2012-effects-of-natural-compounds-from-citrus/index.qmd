@@ -1,0 +1,13 @@
+---
+title: "Effects of Natural Compounds from <i>Citrus limon</i> (L.) Burm. f. on the behavior of <i>Ceratitis capitata</i> (Wiedemann) (Diptera: Tephritidae) and <i>Grapholita molesta</i> (Busck) (Lepidoptera: Tortricidae). (Doctoral dissertation)"
+author: ["Nicoletta Faraone"]
+categories: ["chemical-ecology"]
+url_source: "https://iris.unipa.it/retrieve/handle/10447/94595/119611/1-COPERTINA_merged.pdf"
+url_preprint: ""
+journ: "UNIVERSITÀ DEGLI STUDI DI PALERMO"
+issue: ""
+page: ""
+year: 2012
+image: "featured.png"
+pub_number: 2012-01-01
+---

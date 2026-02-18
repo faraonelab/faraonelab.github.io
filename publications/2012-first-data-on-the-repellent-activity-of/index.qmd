@@ -1,0 +1,13 @@
+---
+title: "First data on the repellent activity of essential oils of <i>Citrus limon</i> towards medfly (<i>Ceratitis capitata</i>)"
+author: ["Nicoletta Faraone", "A. De Cristofaro", "M. Maltese", "S. Vitagliano", "V. Caleca"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1177/1934578X0900401219"
+url_preprint: ""
+journ: "New Medit"
+issue: "11"
+page: "S31-S34"
+year: 2012
+image: "featured.png"
+pub_number: 2012-01-01
+---

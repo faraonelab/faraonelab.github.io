@@ -1,0 +1,13 @@
+---
+title: "Antimicrobial and Antioxidant Activities of Coumarins from the Roots of <i>Ferulago campestris</i> (Apiaceae)"
+author: ["Adriana Basile", "Sergio Sorbo", "Vivienne Spadaro", "Maurizio Bruno", "Antonella Maggio", "Nicoletta Faraone", "Sergio Rosselli"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.3390/molecules14030939"
+url_preprint: ""
+journ: "Molecules"
+issue: "14 (3)"
+page: "939-952"
+year: 2009
+image: "featured.png"
+pub_number: 2009-02-06
+---

@@ -1,5 +1,5 @@
 ---
-title: "Nicoletta Faraone"
+title: "Dr. Nicoletta Faraone"
 about: 
   id: contact
   template: solana

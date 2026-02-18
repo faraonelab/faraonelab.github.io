@@ -1,0 +1,13 @@
+---
+title: "The Cytotoxic Properties of Natural Coumarins Isolated from Roots of <i>Ferulago campestris</i> (Apiaceae) and of Synthetic Ester Derivatives of Aegelinol"
+author: ["Sergio Rosselli", "Antonella Maria Maggio", "Nicoletta Faraone", "Vivienne Spadaro", "Susan L.Morris-Natschke", "Kenneth F. Bastow", "Kuo-Hsiung Lee", "Maurizio Bruno"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.3390/molecules14030939"
+url_preprint: ""
+journ: "Natural Product Communications"
+issue: "4 (12)"
+page: "1701-1706"
+year: 2009
+image: "featured.png"
+pub_number: 2009-08-17
+---
