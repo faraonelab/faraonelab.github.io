@@ -1,0 +1,13 @@
+---
+title: "Flies on ’Shrooms: Studying the Psychotherapeutic Potential of Psilocybin using <i>Drosophila</i>"
+author: ["Nicoletta Faraone"]
+categories: ["psilocybin"]
+url_source: "https://doi.org/10.1093/ae/tmad063"
+url_preprint: ""
+journ: "American Entomologist"
+issue: "69 (4)"
+page: "32–35"
+year: 2023
+pub_number: "002"
+image: "featured.png"
+---

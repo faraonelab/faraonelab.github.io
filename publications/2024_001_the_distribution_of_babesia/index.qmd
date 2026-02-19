@@ -1,0 +1,13 @@
+---
+title: "The distribution of Babesia odocoilei in Ixodes species ticks in Canada: Implications for one health surveillance"
+author: ["Camille Guillot", "Jérôme Pelletier", "Cécile Aenishaenslin", "Heather Coatsworth", "Antonia Dibernardo", "Jules K. Koffi", "Manisha A. Kulkarni", "Jean-Philippe Rocheleau", "Christy Wilson", "Curtis Russell", "Mark P. Nelder", "Jacqueline Badcock", "Justin Carr", "Sylvia Checkley", "Katie M. Clow", "Stephanie Cooper", "Susan Cork", "Ariane Dumas", "Shaun Dergousoff", "Nicoletta Faraone", "Catherine Bouchard"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.3390/molecules14030939"
+url_preprint: ""
+journ: "Ticks and Tick-borne Diseases"
+issue: "15 (6)"
+page: "102413"
+year: 2024
+image: "featured.png"
+pub_number: 2024-11-20
+---

@@ -56,7 +56,7 @@ format:
     mainfont: Nunito Sans
     toc: true
     link-external-newwindow: true
-    date-format: "YYYY" 
+    date-format: "YYYY-MM-DD" 
     smooth-scroll: true
     resources:
       - images

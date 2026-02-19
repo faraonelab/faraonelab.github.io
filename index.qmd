@@ -6,6 +6,13 @@ format:
   html:
     toc: false
     include-after-body: effects.html
+listing:
+  - id: latest-news
+    contents: news/*/*.qmd
+    sort: "date desc"
+    type: default
+    fields: [date, title, description, image]
+    max-items: 3
 ---
 
 ::: cmm-preload
@@ -26,33 +33,14 @@ Welcome to the Faraone Research Group<br>
 
 We are an interdisciplinary research group focused on **chemical ecology**, **natural product chemistry**, and **vector biology**. Our research investigates how ticks detect hosts and respond to repellents, translating fundamental discoveries into innovative, environmentally responsible solutions for tick management and disease prevention.
 
-```{=html}
-<!-- hidden - old code for creating animations
+---
+# Latest news
 
-:::: {.columns .d-flex .align-items-center data-aos="fade-right" style="padding: 60px 0;"}
-::: {.g-col-12 .g-col-md-6}
-::: {.square-img-container}
-![](images/originals/cmm2.webp)
-:::
+:::{#latest-news}
 :::
 
-::: {.g-col-12 .g-col-md-7 .overlap-block style="margin-left: -10%; z-index: 2;"}
-### How do sensory systems support insects?
-Our research investigates the cognitive demands of vector biology, exploring how complex sensory inputs influence behavior and survival in changing environments.
-:::
-::::
-
-:::: {.columns .d-flex .align-items-center data-aos="fade-left" style="padding: 60px 0; margin-bottom: 40px;"}
-::: {.g-col-12 .g-col-md-7 .overlap-block style="margin-right: -10%; z-index: 2;"}
-### Another Research Topic
-We bridge the gap between lab research and field application, ensuring that our work delivers both scientific insight and real-world impact for community partners.
-:::
-
-::: {.g-col-12 .g-col-md-6}
-::: {.square-img-container}
-![](images/originals/cmm13.webp)
-:::
-:::
-::::
--->
-```
+<div style="text-align: center; margin-top: 20px;">
+  <a href="/news/index.qmd" class="btn btn-outline-primary btn-lg" role="button">
+    View All News
+  </a>
+</div>

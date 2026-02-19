@@ -1,0 +1,13 @@
+---
+title: "Balsam fir (<i>Abies balsamea</i>) needles and their essential oil kill overwintering ticks (<i>Ixodes scapularis</i>) at cold temperatures"
+author: ["Shelley A. Adamo", "Amal El Nabbout", "Laura Ferguson", "Jeffrey S. Zbarsky", "Nicoletta Faraone"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.1038/s41598-022-15164-z"
+url_preprint: ""
+journ: "Scientific Reports"
+issue: "12"
+page: "12999"
+year: 2022
+pub_number: 2022-07-29
+image: "featured.png"
+---

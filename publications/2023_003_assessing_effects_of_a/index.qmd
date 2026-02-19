@@ -1,0 +1,13 @@
+---
+title: "Assessing effects of a plant-derived pesticide on <i>Tetranychus urticae</i>, <i>Botrytis cinerea</i> and <i>Bombus impatiens</i>"
+author: ["Kayla Gaudet","Nicoletta Faraone", "Kirk Hillier"]
+categories: ["tick-management"]
+url_source: "https://doi.org/10.7202/1105561ar"
+url_preprint: ""
+journ: "Phytoprotection"
+issue: "103"
+page: "42-51"
+year: 2023
+pub_number: 2023-05-16
+image: "featured.png"
+---

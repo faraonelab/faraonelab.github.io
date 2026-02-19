@@ -1,0 +1,10 @@
+---
+title: "Acadia to be home to only dedicated tick-breeding facility in Canada"
+date: '2025-11-24'
+image: faraone.jpg
+description: "See [https://www.cbc.ca/news/canada/nova-scotia/acadia-university-canadian-tick-research-innovation-centre-9.6950462]"
+---
+
+![](nicoletta.jpeg){fig-align="center"}
+
+Nicoletta Faraone will lead the Canadian Tick Research and Innovation Centre at Acadia University. The centre will focus its studies on species common to Nova Scotia, which will give more accurate results for repellents that could work in the province.
