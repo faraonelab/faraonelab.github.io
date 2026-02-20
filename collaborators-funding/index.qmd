@@ -1,10 +1,64 @@
 ---
-title: "Collaborators and Funding"
-listing:
-  id: collaborators
-  type: grid
-  sort: "order asc"
+title: ""
 page-layout: full
-format: html
+format:
+  html:
+    toc: true
+    toc-location: right
 ---
+# Support & Funding
 
+::: {.support-logos}
+
+<div class="logo-grid">
+
+  <a href="https://nserc-crsng.canada.ca/en" class="logo-item" target="_blank">
+    <img src="nserc.png" alt="NSERC logo">
+    <span class="agency-name">Natural Sciences and Engineering Research Council of Canada
+</span>
+  </a>
+
+  <a href="https://www.innovation.ca/" class="logo-item" target="_blank">
+    <img src="cfi.png" alt="CFI logo">
+    <span class="agency-name">Canada Foundation for Innovation</span>
+  </a>
+
+  <a href="https://www.mitacs.ca/" class="logo-item" target="_blank">
+    <img src="mitacs.webp" alt="Mitacs logo">
+    <span class="agency-name">Mitacs</span>
+  </a>
+
+</div>
+:::
+
+***
+
+# Collaborators
+
+::: {.collaborator-list}
+
+<div class="collaborator-row">
+<img src="collaborators/kirk.jpg" alt="Dr. Kirk Hillier">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Kirk Hillier</div>
+<div class="collab-inst">Acadia University (Canada)</div>
+<!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
+<a href="https://www.acadiau.ca/~khillier/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Contact
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/laura.jpg" alt="Dr. Laura Ferguson">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Laura Ferguson</div>
+<div class="collab-inst">Acadia University (Canada)</div>
+<!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
+<a href="https://www.fergusonlab.ca/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Contact
+</a>
+</div>
+</div>
+
+:::

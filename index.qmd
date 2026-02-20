@@ -33,10 +33,13 @@ Welcome to the Faraone Research Group<br>
 
 We are an interdisciplinary research group focused on **chemical ecology**, **natural product chemistry**, and **vector biology**. Our research investigates how ticks detect hosts and respond to repellents, translating fundamental discoveries into innovative, environmentally responsible solutions for tick management and disease prevention.
 
----
+***
+
 # Latest news
 
+::: {data-aos="fade-up"}
 :::{#latest-news}
+:::
 :::
 
 <div style="text-align: center; margin-top: 20px;">
@@ -44,3 +47,11 @@ We are an interdisciplinary research group focused on **chemical ecology**, **na
     View All News
   </a>
 </div>
+
+<!-- **** -->
+
+<!-- # Social -->
+
+<!-- ::: {style="text-align: center;"} -->
+<!-- {{< share-post https://www.instagram.com/p/DU8-95hkUgfL0pJF6hj-jvC3Wq9L2ucVJVoxt40/ >}} -->
+<!-- ::: -->

@@ -291,7 +291,151 @@ div.gradient-text {
   &:hover { transform: translateY(-5px); border: 1px solid $primary; }
 }
 
+/* Center all share-post embeds */
+.share-post {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Collaborative Page Styles */
+
+.collaborator-list {
+  margin-top: 30px;
+
+  .collaborator-row {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+
+    img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 1px solid #eee;
+    }
+
+    /* Responsive: Stack on mobile */
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      text-align: center;
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .collab-name { font-size: 1.4em; font-weight: bold; margin-bottom: 2px; }
+  .collab-inst { font-style: italic; color: #666; margin-bottom: 5px; }
+  .collab-project { margin-bottom: 10px; line-height: 1.4; }
+  
+  .collab-site {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Logo Grid for Funding section */
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 100%; /* Changed from 1000px to ensure it fills its container */
+
+  .logo-item {
+    /* flex-grow: 1, flex-shrink: 1, flex-basis: 200px */
+    flex: 1 1 200px; 
+    max-width: 280px; /* Prevents logos from getting TOO huge on big screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    img {
+      max-width: 200px;     /* Set a comfortable max width for logos */
+      max-height: 80px;
+      height: auto;
+      width: auto;
+      transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+      filter: grayscale(100%);
+      opacity: 0.6;
+    }
+
+    .agency-name {
+      width: 100%;
+      word-wrap: break-word;
+      display: block;
+      margin-top: 15px;
+      font-size: 0.9em;
+      font-weight: 600;
+      color: #333;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      line-height: 1.2;
+    }
+
+    /* Hover State */
+    &:hover {
+      img {
+        transform: translateY(-5px); /* Lift up effect */
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+      .agency-name {
+        opacity: 1;
+      }
+    }
+  }
+
+  /* Responsive: Stack vertically on very small screens */
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
 /* -- Utilities -- */
 .sand-background { background-color: $sand; }
 .primary-background { background-color: $primary; }
 .sand-background2 { background-color: white; }
+
+/* This runs as soon as the page loads */
+body {
+  animation: pageEnter 0.4s ease-out;
+}
+
+@keyframes pageEnter {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); /* Start 30px to the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);    /* End at normal position */
+  }
+}
+
+/* This class will be added via JS when leaving the page */
+.page-exit {
+  opacity: 0 !important;
+  transform: translateX(30px) !important; /* Move further right on exit */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
