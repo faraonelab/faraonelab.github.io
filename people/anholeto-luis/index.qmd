@@ -52,7 +52,7 @@ His academic training and industry experience integrate different fields, includ
 
 <br>
 
-## {{< meta first >}}'s Group Publications
+## {{< meta first >}}'s Publications
 
 ::: {#pubs}
 :::

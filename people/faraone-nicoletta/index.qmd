@@ -53,7 +53,7 @@ The Faraone Lab is an internationally recognized research group that provides cr
 
 <br>
 
-## {{< meta first >}}'s Group Publications
+## {{< meta first >}}'s Publications
 
 ::: {#pubs}
 :::

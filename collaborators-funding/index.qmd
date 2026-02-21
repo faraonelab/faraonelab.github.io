@@ -6,6 +6,37 @@ format:
     toc: true
     toc-location: right
 ---
+# Collaborators
+
+::: {.collaborator-list}
+
+<div class="collaborator-row">
+<img src="collaborators/kirk.jpg" alt="Dr. Kirk Hillier">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Kirk Hillier</div>
+<div class="collab-inst">Acadia University (Canada)</div>
+<!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
+<a href="https://www.acadiau.ca/~khillier/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/laura.jpg" alt="Dr. Laura Ferguson">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Laura Ferguson</div>
+<div class="collab-inst">Acadia University (Canada)</div>
+<!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
+<a href="https://www.fergusonlab.ca/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+:::
+
+***
 # Support & Funding
 
 ::: {.support-logos}
@@ -39,36 +70,4 @@ format:
   </a>
   
 </div>
-:::
-
-***
-
-# Collaborators
-
-::: {.collaborator-list}
-
-<div class="collaborator-row">
-<img src="collaborators/kirk.jpg" alt="Dr. Kirk Hillier">
-<div class="collaborator-info">
-<div class="collab-name">Dr. Kirk Hillier</div>
-<div class="collab-inst">Acadia University (Canada)</div>
-<!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
-<a href="https://www.acadiau.ca/~khillier/" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Website
-</a>
-</div>
-</div>
-
-<div class="collaborator-row">
-<img src="collaborators/laura.jpg" alt="Dr. Laura Ferguson">
-<div class="collaborator-info">
-<div class="collab-name">Dr. Laura Ferguson</div>
-<div class="collab-inst">Acadia University (Canada)</div>
-<!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
-<a href="https://www.fergusonlab.ca/" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Website
-</a>
-</div>
-</div>
-
 :::
