@@ -9,31 +9,3 @@
     easing: 'ease-in-out', // Default easing for AOS animations
   });
 </script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Target navbar links, the logo/brand, and buttons
-  const navLinks = document.querySelectorAll('.navbar-nav a, .navbar-brand, .btn');
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      // Check if the link is internal (same domain) and not a hash link (#)
-      const isInternal = this.hostname === window.location.hostname;
-      const isHash = this.getAttribute('href').startsWith('#');
-
-      if (isInternal && !isHash) {
-        e.preventDefault(); // Stop the browser from leaving immediately
-        const destination = this.href;
-
-        // Add the exit class to the body
-        document.body.classList.add('page-exit');
-
-        // Wait for the animation (400ms) then go to the new page
-        setTimeout(() => {
-          window.location.href = destination;
-        }, 300);
-      }
-    });
-  });
-});
-</script>

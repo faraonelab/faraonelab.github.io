@@ -13,13 +13,13 @@ format:
 <div class="logo-grid">
 
   <a href="https://nserc-crsng.canada.ca/en" class="logo-item" target="_blank">
-    <img src="nserc.png" alt="NSERC logo">
+    <img src="nserc.webp" alt="NSERC logo">
     <span class="agency-name">Natural Sciences and Engineering Research Council of Canada
 </span>
   </a>
 
   <a href="https://www.innovation.ca/" class="logo-item" target="_blank">
-    <img src="cfi.png" alt="CFI logo">
+    <img src="cfi.webp" alt="CFI logo">
     <span class="agency-name">Canada Foundation for Innovation</span>
   </a>
 
@@ -27,7 +27,17 @@ format:
     <img src="mitacs.webp" alt="Mitacs logo">
     <span class="agency-name">Mitacs</span>
   </a>
+  
+  <a href="https://www.canada.ca/en/atlantic-canada-opportunities.html" class="logo-item" target="_blank">
+    <img src="acoa.webp" alt="ACOA logo">
+    <span class="agency-name">Atlantic Canada Opportunities Agency</span>
+  </a>
 
+  <a href="https://puregard.ca/" class="logo-item" target="_blank">
+    <img src="pure.webp" alt="PureGard logo">
+    <span class="agency-name">PureGard</span>
+  </a>
+  
 </div>
 :::
 
@@ -44,7 +54,7 @@ format:
 <div class="collab-inst">Acadia University (Canada)</div>
 <!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
 <a href="https://www.acadiau.ca/~khillier/" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Contact
+<i class="bi bi-globe"></i> Website
 </a>
 </div>
 </div>
@@ -56,7 +66,7 @@ format:
 <div class="collab-inst">Acadia University (Canada)</div>
 <!-- <div class="collab-project">**Project:** Chemical Ecology and Insect Neurobiology</div> -->
 <a href="https://www.fergusonlab.ca/" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Contact
+<i class="bi bi-globe"></i> Website
 </a>
 </div>
 </div>

@@ -19,6 +19,20 @@ $link-hover-color: darken($primary, 10%);
 
 /*-- scss:rules --*/
 
+/* -- Quarto Layout Fixes (Glue to Footer) -- */
+#quarto-content.quarto-container {
+  padding-bottom: 0 !important;
+}
+
+main.content {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.nav-footer {
+  margin-top: 0 !important;
+}
+
 /* -- Fonts -- */
 h1, .h1 {
    font-family: 'Economica', sans-serif;
@@ -26,7 +40,7 @@ h1, .h1 {
    text-transform: uppercase;
 }
 
-/* -- Animated Gradient Headline -- */
+/* -- Animated Gradient Headline MAIN PAGE-- */
 div.gradient-text {
   text-align: center;
   display: flex;
@@ -35,13 +49,10 @@ div.gradient-text {
   justify-content: center;
   width: 100%;
   margin: 2rem 0;
-  
-  /* Using your brand-aligned teal/mint gradient */
   background: linear-gradient(90deg, $primary, #6FB6C1, $secondary, $primary);
   background-size: 800%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
   animation: animated_text 30s ease-in-out infinite;
 }
 
@@ -65,7 +76,7 @@ div.gradient-text {
   @media (max-width: 768px) { font-size: 1.3rem; }
 }
 
-/* -- Navbar & Logo -- */
+/* -- Navbar & Logo - MAIN PAGE  -- */
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
@@ -93,18 +104,7 @@ div.gradient-text {
   .navbar-nav-scroll { background: #EAE7E7; width: 70%; }
 }
 
-/* -- Carousel Background -- */
-.cmm-preload {
-  position: absolute; width: 0; height: 0; overflow: hidden;
-  background: url("/images/originals/cmm1.webp"), url("/images/originals/cmm2.webp"), 
-              url("/images/originals/cmm3.webp"), url("/images/originals/cmm4.webp"), 
-              url("/images/originals/cmm5.webp"), url("/images/originals/cmm6.webp"), 
-              url("/images/originals/cmm7.webp"), url("/images/originals/cmm8.webp"), 
-              url("/images/originals/cmm9.webp"), url("/images/originals/cmm10.webp"), 
-              url("/images/originals/cmm11.webp"), url("/images/originals/cmm12.webp"), 
-              url("/images/originals/cmm13.webp");
-}
-
+/* -- Carousel Background -- MAIN PAGE */
 .cmm-background {
   background-size: cover;
   background-position: center;
@@ -153,7 +153,7 @@ div.gradient-text {
   img { width: 100%; height: 100%; object-fit: cover; object-position: center; image-rendering: -webkit-optimize-contrast; }
 }
 
-/* -- people --*/
+/* -- people - PAGE PEOPLE --*/
 
 .listing-box:hover {
   border-color: $primary;
@@ -281,25 +281,7 @@ div.gradient-text {
   display: block !important;
 }
 
-/* -- Gallery Styling -- */
-.gallery-img {
-  width: 100%;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  &:hover { transform: translateY(-5px); border: 1px solid $primary; }
-}
-
-/* Center all share-post embeds */
-.share-post {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-/* Collaborative Page Styles */
+/* Collaborative Page Styles - FUNDING PAGE */
 
 .collaborator-list {
   margin-top: 30px;
@@ -349,93 +331,136 @@ div.gradient-text {
   }
 }
 
-/* Logo Grid for Funding section */
+/* Logo Grid for Funding section - FOR MAIN PAGE*/
 .logo-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 30px;
+  justify-content: center; // This centers the logos horizontally
+  align-items: center;     // This centers logos of different heights vertically
+  gap: 50px;               // Increased gap for better visual balance
   margin: 40px auto;
-  max-width: 100%; /* Changed from 1000px to ensure it fills its container */
+  max-width: 1100px;       // Give it a defined width to center against
+}
 
-  .logo-item {
-    /* flex-grow: 1, flex-shrink: 1, flex-basis: 200px */
-    flex: 1 1 200px; 
-    max-width: 280px; /* Prevents logos from getting TOO huge on big screens */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.logo-item {
+  /* FIXED: Changed flex: 1 to flex: 0 0 auto */
+  /* This prevents logos from shrinking or growing unevenly */
+  flex: 0 0 auto;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
     
-    img {
-      max-width: 200px;     /* Set a comfortable max width for logos */
-      max-height: 80px;
-      height: auto;
-      width: auto;
-      transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
-      filter: grayscale(100%);
-      opacity: 0.6;
-    }
-
-    .agency-name {
-      width: 100%;
-      word-wrap: break-word;
-      display: block;
-      margin-top: 15px;
-      font-size: 0.9em;
-      font-weight: 600;
-      color: #333;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-      line-height: 1.2;
-    }
-
-    /* Hover State */
-    &:hover {
-      img {
-        transform: translateY(-5px); /* Lift up effect */
-        filter: grayscale(0%);
-        opacity: 1;
-      }
-      .agency-name {
-        opacity: 1;
-      }
-    }
+  img {
+    /* FIXED: Using width instead of max-width for consistency */
+    width: 200px;         
+    height: 80px;          // Fixed height keeps the row looking "straight"
+    object-fit: contain;   // Prevents logo distortion
+    transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
   }
 
-  /* Responsive: Stack vertically on very small screens */
-  @media (max-width: 600px) {
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+  .agency-name {
+    width: 100%;
+    max-width: 220px;      // Prevents long names from pushing the grid apart
+    word-wrap: break-word;
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    line-height: 1.2;
+  }
+
+  /* Hover State */
+  &:hover {
+    img {
+      transform: translateY(-5px); 
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+    .agency-name {
+      opacity: 1;
+    }
   }
 }
 
 /* -- Utilities -- */
 .sand-background { background-color: $sand; }
 .primary-background { background-color: $primary; }
-.sand-background2 { background-color: white; }
 
-/* This runs as soon as the page loads */
-body {
-  animation: pageEnter 0.4s ease-out;
-}
+/* -- Support Section Styling FOR THE FUNDING PAGE -- */
+.support-logos {
+  background-color: white; 
+  padding: 60px 0; 
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center; // This forces the children to stay centered
+  overflow: hidden;
+  z-index: 1; 
 
-@keyframes pageEnter {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px); /* Start 30px to the left */
+  h1, #support-funding {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+    color: black !important;
+    text-align: left;
+    border: none;
   }
-  100% {
-    opacity: 1;
-    transform: translateX(0);    /* End at normal position */
-  }
-}
 
-/* This class will be added via JS when leaving the page */
-.page-exit {
-  opacity: 0 !important;
-  transform: translateX(30px) !important; /* Move further right on exit */
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  .logo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; // Centers logos horizontally
+    align-items: center;     // Aligns logos vertically (prevents wonky heights)
+    gap: 60px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  .logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 auto; // CRITICAL: Prevents logos from stretching/offsetting
+    text-decoration: none;
+
+    img {
+      height: 75px; 
+      width: auto;   
+      object-fit: contain; 
+      max-width: 250px;
+      filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.1));
+      transition: transform 0.3s ease;
+    }
+
+    .agency-name {
+      margin-top: 15px;
+      font-size: 0.9em;
+      font-weight: 600;
+      color: #333;
+      text-align: center;
+      max-width: 220px; // Keeps the text from pushing the logo off-center
+    }
+
+    &:hover img {
+      transform: translateY(-5px);
+    }
+  }
 }

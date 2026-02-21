@@ -5,7 +5,6 @@ header-includes:
 format:
   html:
     toc: false
-    include-after-body: effects.html
 listing:
   - id: latest-news
     contents: news/*/*.qmd
@@ -35,23 +34,51 @@ We are an interdisciplinary research group focused on **chemical ecology**, **na
 
 ***
 
-# Latest news
+# Coming Soon: Canada’s First Tick Research & Innovation Centre
 
-::: {data-aos="fade-up"}
-:::{#latest-news}
-:::
-:::
+Something big is hatching at Acadia University.
 
-<div style="text-align: center; margin-top: 20px;">
-  <a href="/news/index.qmd" class="btn btn-outline-primary btn-lg" role="button">
-    View All News
-  </a>
+In 2026, the **Canadian Tick Research & Innovation Centre (CTRIC)** will open in the Huestis Innovation Pavilion — the first facility of its kind in Canada.
+
+With dedicated tick rearing (“tickery”), pathogen testing, and repellent evaluation, CTRIC will strengthen national efforts to understand, prevent, and manage ticks and tick-borne diseases.
+
+**Stay tuned.**
+
+<div style="text-align: center;"> <img src="images/ctric.png" alt="CTRIC logo" style="max-width: 25%; height: auto; margin-bottom: 20px;"/>
 </div>
 
-<!-- **** -->
 
-<!-- # Social -->
+***
+# Latest news
 
-<!-- ::: {style="text-align: center;"} -->
-<!-- {{< share-post https://www.instagram.com/p/DU8-95hkUgfL0pJF6hj-jvC3Wq9L2ucVJVoxt40/ >}} -->
-<!-- ::: -->
+::: {#latest-news}
+:::
+
+::: {style="text-align: center; margin-top: 20px;"}
+<a href="/news/index.qmd" class="btn btn-outline-primary btn-lg" role="button"> View All News </a>
+:::
+
+***
+::::::: support-section
+# Support & Funding
+
+:::::: logo-grid
+::: logo-item
+<img src="collaborators-funding/nserc.webp" alt="NSERC"/>
+:::
+
+::: logo-item
+<img src="collaborators-funding/cfi.webp" alt="CFI"/>
+:::
+
+::: logo-item
+<img src="collaborators-funding/mitacs.webp" alt="Mitacs"/>
+:::
+
+::: logo-item
+<img src="collaborators-funding/acoa.webp" alt="ACOA"/>
+:::
+
+::: logo-item
+<img src="collaborators-funding/pure.webp" alt="PureGard"/>
+:::

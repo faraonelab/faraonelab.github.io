@@ -1,7 +1,11 @@
 ---
 title: "Meet the Group"
 page-layout: full
-
+header-includes:
+  - <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+format:
+  html:
+    toc: true
 listing:
   - id: pi
     include:
@@ -120,7 +124,6 @@ listing:
 <!-- <!-- ::: -->
 
 <!-- ::: -->
-
 :::: sand-background2
 # Former Lab Members
 

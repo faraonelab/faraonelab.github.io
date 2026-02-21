@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-398692a78fe8b898488f70844784b594.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b9bd807b10469400dc6291cd4dba340e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -110,12 +110,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../collaborators-funding/index.html"> 
 <span class="menu-text">Collaborators and Funding</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../gallery/index.html"> 
@@ -181,45 +181,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-<script>
-  // Initialize AOS
-  AOS.init({
-    duration: 1000,   // Animation length in milliseconds (1 second)
-    once: true,       // Whether animation should happen only once - while scrolling down
-    offset: 200,      // Offset (in px) from the original trigger point
-    easing: 'ease-in-out', // Default easing for AOS animations
-  });
-</script>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Target navbar links, the logo/brand, and buttons
-  const navLinks = document.querySelectorAll('.navbar-nav a, .navbar-brand, .btn');
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      // Check if the link is internal (same domain) and not a hash link (#)
-      const isInternal = this.hostname === window.location.hostname;
-      const isHash = this.getAttribute('href').startsWith('#');
-
-      if (isInternal && !isHash) {
-        e.preventDefault(); // Stop the browser from leaving immediately
-        const destination = this.href;
-
-        // Add the exit class to the body
-        document.body.classList.add('page-exit');
-
-        // Wait for the animation (400ms) then go to the new page
-        setTimeout(() => {
-          window.location.href = destination;
-        }, 300);
-      }
-    });
-  });
-});
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

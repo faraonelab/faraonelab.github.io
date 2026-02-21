@@ -35,9 +35,10 @@ website:
         text: people
       - href: research/index.qmd
       - href: publications/index.qmd
-      - href: news/index.qmd
       - href: collaborators-funding/index.qmd
         text: Collaborators and Funding
+      - href: news/index.qmd
+        text: News
       - href: gallery/index.qmd
         text: Gallery
       - href: courses/index.qmd
@@ -53,7 +54,6 @@ format:
     theme: 
       - styles/custom.scss
       - yeti
-    include-after-body: effects.html
     mainfont: Nunito Sans
     toc: true
     link-external-newwindow: true
@@ -66,4 +66,4 @@ format:
     fig-dpi: 300
 
 execute:
-  freeze: auto    # <--- Exactly 2 spaces
+  freeze: auto

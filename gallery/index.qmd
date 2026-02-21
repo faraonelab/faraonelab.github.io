@@ -10,13 +10,12 @@ format:
       loop: false
 ---
 
-------------------------------------------------------------------------
+***
 
 # LAB TEAM
 
 ## 2025
 
-:::: column-page
 ::: {layout-ncol="3"}
 ![](2025/1.jpg){.gallery-img group="2025"}
 
@@ -24,52 +23,41 @@ format:
 
 ![](2025/3.jpg){.gallery-img group="2025"}
 :::
-::::
 
 ## 2024
 
-:::: column-page
 ::: {layout-ncol="2"}
 ![](2024/1.jpg){.gallery-img group="2024"}
 
 ![](2024/2.jpg){.gallery-img group="2024"}
 :::
-::::
 
 ## 2023
 
-:::: column-page
 ::: {layout-ncol="2"}
 ![](2023/1.jpg){.gallery-img group="2023"}
 
 ![](2023/2.jpg){.gallery-img group="2023"}
 :::
-::::
 
 ## 2022
 
-:::: column-page
 ::: {layout-ncol="2"}
 ![](2022/1.jpg){.gallery-img group="2022"}
 
 ![](2022/2.jpg){.gallery-img group="2022"}
 :::
-::::
 
 ## 2021
 
-:::: column-page
 ::: {layout-ncol="1"}
 ![](2021/1.jpg){.gallery-img group="2021"}
 :::
-::::
 
 ## 2020
 
-:::: column-page
 ::: {layout-ncol="2"}
 ![](2020/1.jpg){.gallery-img group="2020"}
 
 ![](2020/2.jpg){.gallery-img group="2020"}
 :::
-::::

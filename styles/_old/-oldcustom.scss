@@ -340,4 +340,36 @@ div.gradient-text {
   height: 100%;
   object-fit: cover;         /* Ensures the image fills the square without stretching */
   object-position: center;   /* Keeps the subject of your photo in the middle */
+  
+  
+  
+  /* This runs as soon as the page loads */
+body {
+  animation: pageEnter 0.4s ease-out;
 }
+
+@keyframes pageEnter {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px); /* Start 30px to the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);    /* End at normal position */
+  }
+}
+
+/* This class will be added via JS when leaving the page */
+.page-exit {
+  opacity: 0 !important;
+  transform: translateX(30px) !important; /* Move further right on exit */
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+}
+
+  h1, #support-funding {
+    color: black !important;
+    text-align: center;
+    margin-bottom: 40px;
+    border: none; /* Removes Quarto's default underline if present */
+  }
