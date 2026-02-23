@@ -100,8 +100,17 @@
     ]
   },
   {
-    "listing": "/people/sabean-emily/index.html",
-    "items": []
+    "listing": "/people/scott-catherine/index.html",
+    "items": [
+      "/publications/2020-chemosensory-and-behavioural-responses-o/index.html"
+    ]
+  },
+  {
+    "listing": "/people/plazas-erika/index.html",
+    "items": [
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
+      "/publications/2023-indole-alkaloids-from-psychoactive-mushr/index.html"
+    ]
   },
   {
     "listing": "/people/pickett-laura/index.html",
@@ -116,7 +125,11 @@
     "items": []
   },
   {
-    "listing": "/people/maillet-chloe/index.html",
+    "listing": "/people/mcmurray-carys/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/loureiro-alexandre/index.html",
     "items": []
   },
   {
@@ -132,8 +145,19 @@
     ]
   },
   {
-    "listing": "/people/fraser-leilia/index.html",
-    "items": []
+    "listing": "/people/gaudet-kayla/index.html",
+    "items": [
+      "/publications/2025_001_sweet_deception_exploring_erythritol/index.html",
+      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
+      "/publications/2023-investigating-chemoreception-and-behavio/index.html",
+      "/publications/2023_003_assessing_effects_of_a/index.html"
+    ]
+  },
+  {
+    "listing": "/people/forsyth-dayna/index.html",
+    "items": [
+      "/publications/2025-neurobiology-of-psilocybin--a-comprehens/index.html"
+    ]
   },
   {
     "listing": "/people/dolan-emily/index.html",
@@ -237,6 +261,10 @@
     ]
   },
   {
+    "listing": "/people/fraser-leilia/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/gunatillake-amanda/index.html",
     "items": []
   },
@@ -246,28 +274,38 @@
       "/people/faraone-nicoletta/index.html",
       "/people/anholeto-luis/index.html",
       "/people/nette-adrien/index.html",
+      "/people/loureiro-alexandre/index.html",
       "/people/gunatillake-amanda/index.html",
       "/people/naugler-bronwyn/index.html",
+      "/people/mcmurray-carys/index.html",
       "/people/veinot-cassidy/index.html",
+      "/people/scott-catherine/index.html",
       "/people/maillet-chloe/index.html",
       "/people/hawboldt-claire/index.html",
       "/people/jarvis-creighton/index.html",
+      "/people/forsyth-dayna/index.html",
       "/people/adeyinka-dotun/index.html",
       "/people/dolan-emily/index.html",
       "/people/sabean-emily/index.html",
       "/people/plazas-erika/index.html",
       "/people/wang-vincent/index.html",
       "/people/pickett-jake/index.html",
+      "/people/gaudet-kayla/index.html",
       "/people/jefferson-kennedy/index.html",
       "/people/pickett-laura/index.html",
       "/people/fraser-leilia/index.html",
       "/people/zamlynny-lydia/index.html",
       "/people/amiro-miranda/index.html",
+      "/people/pistillo-onofrio/index.html",
       "/people/blanchard-sophia/index.html"
     ]
   },
   {
     "listing": "/people/jefferson-kennedy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/maillet-chloe/index.html",
     "items": []
   },
   {
@@ -279,11 +317,12 @@
     "items": []
   },
   {
-    "listing": "/people/plazas-erika/index.html",
-    "items": [
-      "/publications/2026_005_chemical_composition_matters_the/index.html",
-      "/publications/2023-indole-alkaloids-from-psychoactive-mushr/index.html"
-    ]
+    "listing": "/people/pistillo-onofrio/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/sabean-emily/index.html",
+    "items": []
   },
   {
     "listing": "/people/veinot-cassidy/index.html",

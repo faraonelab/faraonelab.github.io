@@ -1,0 +1,49 @@
+---
+title: &TITLE "Carys McMurray"
+last: "McMurray"
+first: "Carys"
+people_group: "alumni"
+email: ""
+education:
+  - "BSc | Acadia University (Canada)"
+subtitle: "Undergraduate student (Honours) - Co-supervised with Dr. Kirk Hillier"
+image: &IMAGE "avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:""
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Publications
+
+:::{#pubs}
+:::
