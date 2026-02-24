@@ -9,5 +9,5 @@ issue: "13"
 page: "22254"
 year: 2023
 pub_number: 2023-12-14
-image: "feaured.png"
+image: "featured.png"
 ---

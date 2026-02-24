@@ -34,6 +34,30 @@ format:
 </div>
 </div>
 
+<div class="collaborator-row">
+<img src="collaborators/douglas.jpg" alt="Dr. Douglas Chaves">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Douglas Chaves</div>
+<div class="collab-inst">Rural Federal University of Rio de Janeiro (Brazil)</div>
+<div class="collab-project">**Project:** Natural products and development of novel formulations based on essential oils for the management of veterinary pests</div>
+<a href="https://departamentos.ufrrj.br/icbs-dcfar/2025/05/29/douglas-siqueira-de-almeida-chaves/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/antonella.jpg" alt="Dr. Antonella Maggio">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Antonella Maggio</div>
+<div class="collab-inst">Università degli Studi di Palermo (Italy)</div>
+<div class="collab-project">**Project:** Essential oils from <i>Artemisia</i> spp. in tick control</div>
+<a href="https://www.unipa.it/persone/docenti/m/antonella.maggio" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
 :::
 
 ***

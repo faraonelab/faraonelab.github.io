@@ -1,0 +1,18 @@
+---
+title: "Courses"
+format: html
+---
+
+I teach 4 courses in Chemistry at Acadia University:
+
+## CHEM/BIOL-4773 Natural Product Chemistry
+Overview of natural products, biosynthesis of secondary metabolites, modern techniques for studying secondary metabolism and biosynthesis, biological reactions, chemical interactions between living organisms, and classes of bioactive compounds grouped according to building blocks and biogenesis. This course will complement the basic knowledge necessary to students in diverse fields (e.g., organic chemistry, agricultural chemistry, biochemistry, nutrition, and pharmacy).
+
+## CHEM-2713 Biochemistry
+An introduction to the major organic substances of living organisms, proteins, carbohydrates, lipids, and nucleic acids: structure, analysis and biochemical function. Activity and analysis of enzymes. (3h lab).
+
+## CHEM-3723 Metabolism
+An introduction to intermediary metabolism and biochemical genetics. The major degradative and biosynthetic pathways of metabolism; energy changes and metabolic regulation; the molecular basis of genetic processes. (3h lab).
+
+## CHEM-3720L CHEM 3723 Laboratory
+

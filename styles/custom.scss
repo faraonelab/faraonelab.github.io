@@ -29,8 +29,22 @@ main.content {
   padding-bottom: 0 !important;
 }
 
+/* Align all footer columns vertically in the center */
 .nav-footer {
-  margin-top: 0 !important;
+  display: flex;
+  align-items: center; /* This handles the vertical centering */
+  justify-content: space-between; /* This keeps them spread across the page */
+}
+
+/* Optional: Ensure the text inside the columns is also vertically centered 
+   if one column is significantly taller than the others */
+.nav-footer-left, 
+.nav-footer-center{
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* -- Fonts -- */

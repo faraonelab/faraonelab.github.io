@@ -63,6 +63,7 @@ With dedicated tick rearing (“tickery”), pathogen testing, and repellent eva
 # Support & Funding
 
 :::::: logo-grid
+
 ::: logo-item
 <img src="collaborators-funding/nserc.webp" alt="NSERC"/>
 :::
@@ -82,3 +83,6 @@ With dedicated tick rearing (“tickery”), pathogen testing, and repellent eva
 ::: logo-item
 <img src="collaborators-funding/pure.webp" alt="PureGard"/>
 :::
+
+::::::
+:::::::
