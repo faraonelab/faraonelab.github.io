@@ -17,5 +17,3 @@ use `just newperson` for creation of new directory and input prompts for new r
 -   use long-running `updates` branch for deploy previews
 
 -   `quarto render` locally and include `_site` in version control
-
--   GitHub action `scp-to-server.yml` deploys to server

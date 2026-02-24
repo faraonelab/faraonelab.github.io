@@ -1,0 +1,49 @@
+---
+title: &TITLE "Katrina Kratziek"
+last: "Kratziek"
+first: "Katrina"
+people_group: "alumni"
+email: "email"
+education:
+  - ""
+subtitle: "Research Topics; co-supervised with Dr. Kirk Hillier"
+image: &IMAGE "/images/avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:email
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Publications
+
+:::{#pubs}
+:::
