@@ -73,6 +73,7 @@ listing:
       external: true
     template: ../_ejs/alumni-box.ejs
     sort: title asc
+    page-size: 1000
     type: grid
     fields: [title, subtitle, image, education, altsubtitle, alteducation]
 ---

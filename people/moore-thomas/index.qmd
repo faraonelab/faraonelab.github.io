@@ -1,0 +1,49 @@
+---
+title: &TITLE "Thomas Moore"
+last: "Moore"
+first: "Thomas"
+people_group: "alumni"
+email: "email"
+education:
+  - ""
+subtitle: "P/T Technician - co-supervised with Dr. Dave Shutler"
+image: &IMAGE "/images/avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:email
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Publications
+
+:::{#pubs}
+:::
