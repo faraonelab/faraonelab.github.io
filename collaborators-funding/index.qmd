@@ -58,6 +58,18 @@ format:
 </div>
 </div>
 
+<div class="collaborator-row">
+<img src="collaborators/jamie.jpg" alt="Dr. Jamie Kramer">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Jamie Kramer</div>
+<div class="collab-inst">Dalhousie University (Canada)</div>
+<div class="collab-project">**Project:** The mechanism of psilocybin activity on neuronal function and post-traumatic stress disorder</div>
+<a href="https://medicine.dal.ca/departments/department-sites/biochemistry-molecular-biology/our-people/faculty/kramer.html" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
 :::
 
 ***
