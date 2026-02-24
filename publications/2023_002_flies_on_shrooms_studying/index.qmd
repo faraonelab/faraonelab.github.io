@@ -8,6 +8,6 @@ journ: "American Entomologist"
 issue: "69 (4)"
 page: "32–35"
 year: 2023
-pub_number: "002"
+pub_number: "2023-12-19"
 image: "featured.png"
 ---

@@ -1,15 +1,18 @@
+name: Quarto Publish
+
 on:
   push:
     branches: [ main, updates ]
-
-name: Quarto Publish
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write # Needed for preview comments
+      pull-requests: write
+    
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -19,11 +22,17 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
+      # 1. If on MAIN: Render and Publish to the live site
+      - name: Render and Publish to GitHub Pages
+        if: github.ref == 'refs/heads/main'
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          # This tells Quarto: if it's NOT the main branch, don't overwrite the live site!
-          render: true 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. If NOT on main (e.g., 'updates' branch): Just check if it renders correctly
+      - name: Render Preview (No Deploy)
+        if: github.ref != 'refs/heads/main'
+        run: |
+          quarto render
