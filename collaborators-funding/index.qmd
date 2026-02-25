@@ -70,6 +70,174 @@ format:
 </div>
 </div>
 
+<div class="collaborator-row">
+<img src="collaborators/guillot.jpg" alt="Dr. Camille Guillot">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Camille Guillot</div>
+<div class="collab-inst">University of Montreal (Canada)</div>
+<div class="collab-project">**Project:** Canadian Lyme Disease Research Network – Active tick surveillance in sentinel surveillance network</div>
+<a href="mailto:camille.guillot@umontreal.ca" class="collab-site" target="_blank">
+<i class="bi bi-envelope"></i> Contact
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/leighton.jpg" alt="Dr. Patrick Leighton">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Patrick Leighton</div>
+<div class="collab-inst">University of Montreal (Canada)</div>
+<div class="collab-project">**Project:** Canadian Lyme Disease Research Network – Active tick surveillance in sentinel surveillance network</div>
+<a href="https://patrickleighton.com/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/clow.jpg" alt="Dr. Katie Clow">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Katie Clow</div>
+<div class="collab-inst">University of Guelph (Canada)</div>
+<div class="collab-project">**Project:** Canadian Lyme Disease Research Network – Active tick surveillance in sentinel surveillance network</div>
+<a href="https://ovc.uoguelph.ca/population-medicine/faculty/katie-clow" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/thalan.jpg" alt="Dr. Kapil Thalan">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Kapil Thalan</div>
+<div class="collab-inst">Memorial University of Newfoundland (Canada)</div>
+<div class="collab-project">**Project:** Microbiomes and metabolomes of lichens with traditional Mi’kmaq use in Nova Scotia</div>
+<a href="https://www.mun.ca/biology/ktahlan/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/wiersma.jpg" alt="Dr. Yolanda Wiersma">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Yolanda Wiersma</div>
+<div class="collab-inst">Memorial University of Newfoundland (Canada)</div>
+<div class="collab-project">**Project:** Microbiomes and metabolomes of lichens with traditional Mi’kmaq use in Nova Scotia</div>
+<a href="https://nllandscapeecology.com" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+
+<div class="collaborator-row">
+<img src="collaborators/ali.jpg" alt="Dr. Shakawt Ali">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Shakawt Ali</div>
+<div class="collab-inst">Science and Technology Branch AAFC (NS)</div>
+<div class="collab-project">**Project:** Essential oil encapsulated ZnO nanoparticles with antifungal activity</div>
+<a href="https://profils-profiles.science.gc.ca/en/profile/dr-shawkat-ali?wbdisable=true" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/walker.jpg" alt="Dr. Allison Walker">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Allison Walker</div>
+<div class="collab-inst">Acadia University (NS)</div>
+<div class="collab-project">**Project:** Antifungal activities of essential oil synergistic mixture</div>
+<a href="https://bayoffungi.wordpress.com/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/corcoran.jpg" alt="Dr. Jacob Corcoran">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Jacob Corcoran</div>
+<div class="collab-inst">USDA (MO, USA)</div>
+<div class="collab-project">**Project:** Chemical Ecology of squash bug, Anasa tristis</div>
+<a href="https://scholar.google.com/citations?user=5_tDQtcAAAAJ&hl=en" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/cutler.jpg" alt="Dr. Chris Cutler">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Chris Cutler</div>
+<div class="collab-inst">Dalhousie University (NS)</div>
+<div class="collab-project">**Project:** Synthetic plant-based insecticidal synergists</div>
+<a href="https://www.dal.ca/faculty/agriculture/faculty/pfes/christopher-cutler.html" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/mcsweeney.jpg" alt="Dr. Matt McSweeney">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Matt McSweeney</div>
+<div class="collab-inst">Acadia University (NS)</div>
+<div class="collab-project">**Project:** Rock dust as soil amendment: effects on crop quality and production; Cannabis-infused beverages for recreational markets</div>
+<a href="https://nutrition.acadiau.ca/Matt_McSweeney.html" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/easy.jpg" alt="Dr. Russell Easy">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Russell Easy</div>
+<div class="collab-inst">Acadia University (NS)</div>
+<div class="collab-project">**Project:** Sustainability and optimization in Cannabis production</div>
+<a href="https://easylab.acadiau.ca/home.html" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/zhu.jpg" alt="Dr. Jerry Zhu">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Jerry Zhu</div>
+<div class="collab-inst">USDA (NE, USA)</div>
+<div class="collab-project">**Project:** Olfactory basis of tick behavior and novel repellent development</div>
+<a href="https://scholar.google.com/citations?user=sHiX3z4AAAAJ&hl=en" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/shutler.jpg" alt="Dr. Dave Shutler">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Dave Shutler</div>
+<div class="collab-inst">Acadia University (NS)</div>
+<div class="collab-project">**Project:** Chemical ecology of bird nest volatiles</div>
+<a href="https://www.acadiau.ca/~dshutler/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/lloyd.jpg" alt="Dr. Vett Lloyd">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Vett Lloyd</div>
+<div class="collab-inst">Mount Allison University (NB)</div>
+<div class="collab-project">**Project:** Olfactory basis of tick behavior and novel repellent development</div>
+<a href="https://mta.ca/directory/vett-lloyd" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
 
 :::
 
