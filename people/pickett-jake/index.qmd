@@ -6,7 +6,7 @@ people_group: "alumni"
 email: "0301214p@ACADIAU.CA"
 education:
   - "Undergraduate Student (Chemistry) | Acadia University (Canada)"
-subtitle: "Undergraduate Student (Chemistry)"
+subtitle: "Undergraduate Student (Chemistry) - Summer student"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 
