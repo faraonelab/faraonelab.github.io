@@ -100,13 +100,21 @@
     ]
   },
   {
+    "listing": "/people/veinot-cassidy/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/scott-catherine/index.html",
     "items": [
       "/publications/2020-chemosensory-and-behavioural-responses-o/index.html"
     ]
   },
   {
-    "listing": "/people/sabean-emily/index.html",
+    "listing": "/people/scholten-sydney/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/robinson-scott/index.html",
     "items": []
   },
   {
@@ -126,6 +134,10 @@
     "items": []
   },
   {
+    "listing": "/people/marchand-adrienna/index.html",
+    "items": []
+  },
+  {
     "listing": "/people/mahaney-jordan/index.html",
     "items": []
   },
@@ -134,35 +146,47 @@
     "items": []
   },
   {
-    "listing": "/people/kratziek-katrina/index.html",
+    "listing": "/people/loureiro-alexandre/index.html",
     "items": []
   },
   {
-    "listing": "/people/jarvis-creighton/index.html",
+    "listing": "/people/jones-alysson/index.html",
     "items": [
-      "/publications/2026_002_in_vitro_assessment_of/index.html"
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html"
     ]
   },
   {
-    "listing": "/people/hawboldt-claire/index.html",
+    "listing": "/people/jefferson-kennedy/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/istanbouli-mouaz/index.html",
     "items": [
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+      "/publications/2021-novel---cyclodextrin-and-catnip-essentia/index.html"
     ]
   },
   {
-    "listing": "/people/gaudet-kayla/index.html",
+    "listing": "/people/hogenbom-jennifer/index.html",
     "items": [
-      "/publications/2025_001_sweet_deception_exploring_erythritol/index.html",
-      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
-      "/publications/2023-investigating-chemoreception-and-behavio/index.html",
-      "/publications/2023_003_assessing_effects_of_a/index.html"
+      "/publications/2021-novel---cyclodextrin-and-catnip-essentia/index.html",
+      "/publications/2021-synthesis--characterization-and-tick-rep/index.html"
     ]
   },
   {
-    "listing": "/people/forsyth-dayna/index.html",
-    "items": [
-      "/publications/2025-neurobiology-of-psilocybin--a-comprehens/index.html"
-    ]
+    "listing": "/people/gunatillake-amanda/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/gallant-victoria/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/fraser-leilia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/firth-madison/index.html",
+    "items": []
   },
   {
     "listing": "/people/dolan-emily/index.html",
@@ -172,33 +196,16 @@
     ]
   },
   {
-    "listing": "/people/bartlett-ryleigh/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/amiro-miranda/index.html",
+    "listing": "/people/delahunt-jaclyn/index.html",
     "items": [
-      "/publications/2026_005_chemical_composition_matters_the/index.html",
-      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+      "/publications/2026_001_Repellent efficacy of a novel/index.html"
     ]
   },
   {
-    "listing": "/news/index.html",
+    "listing": "/people/blanchard-sophia/index.html",
     "items": [
-      "/news/2025-10-24/index.html",
-      "/news/2026-02-13-nicoletta/faraone.html"
+      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/news/2025-10-24/index.html",
-      "/news/2026-02-13-nicoletta/faraone.html"
-    ]
-  },
-  {
-    "listing": "/people/adeyinka-dotun/index.html",
-    "items": []
   },
   {
     "listing": "/people/anholeto-luis/index.html",
@@ -212,10 +219,41 @@
     ]
   },
   {
-    "listing": "/people/blanchard-sophia/index.html",
+    "listing": "/people/adeyinka-dotun/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
     "items": [
-      "/publications/2024-in-vitro-acaricidal-activity-of-essentia/index.html"
+      "/news/2025-10-24/index.html",
+      "/news/2026-02-13-nicoletta/faraone.html"
     ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/2025-10-24/index.html",
+      "/news/2026-02-13-nicoletta/faraone.html"
+    ]
+  },
+  {
+    "listing": "/people/amiro-miranda/index.html",
+    "items": [
+      "/publications/2026_005_chemical_composition_matters_the/index.html",
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
+  },
+  {
+    "listing": "/people/bartlett-ryleigh/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/condran-georgia/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/dempsey-britton/index.html",
+    "items": []
   },
   {
     "listing": "/people/faraone-nicoletta/index.html",
@@ -271,12 +309,29 @@
     ]
   },
   {
-    "listing": "/people/fraser-leilia/index.html",
+    "listing": "/people/forsyth-dayna/index.html",
+    "items": [
+      "/publications/2025-neurobiology-of-psilocybin--a-comprehens/index.html"
+    ]
+  },
+  {
+    "listing": "/people/freeman-emma-jean/index.html",
     "items": []
   },
   {
-    "listing": "/people/gunatillake-amanda/index.html",
-    "items": []
+    "listing": "/people/gaudet-kayla/index.html",
+    "items": [
+      "/publications/2025_001_sweet_deception_exploring_erythritol/index.html",
+      "/publications/2024-lemongrass-essential-oil-and-deet-inhibi/index.html",
+      "/publications/2023-investigating-chemoreception-and-behavio/index.html",
+      "/publications/2023_003_assessing_effects_of_a/index.html"
+    ]
+  },
+  {
+    "listing": "/people/hawboldt-claire/index.html",
+    "items": [
+      "/publications/2026_003_common_yarrow_achillea_millefolium/index.html"
+    ]
   },
   {
     "listing": "/people/index.html",
@@ -284,12 +339,16 @@
       "/people/faraone-nicoletta/index.html",
       "/people/anholeto-luis/index.html",
       "/people/nette-adrien/index.html",
+      "/people/marchand-adrienna/index.html",
       "/people/loureiro-alexandre/index.html",
+      "/people/jones-alysson/index.html",
       "/people/gunatillake-amanda/index.html",
+      "/people/dempsey-britton/index.html",
       "/people/naugler-bronwyn/index.html",
       "/people/mcmurray-carys/index.html",
       "/people/veinot-cassidy/index.html",
       "/people/scott-catherine/index.html",
+      "/people/scothorn-chelsea/index.html",
       "/people/maillet-chloe/index.html",
       "/people/hawboldt-claire/index.html",
       "/people/jarvis-creighton/index.html",
@@ -297,9 +356,14 @@
       "/people/adeyinka-dotun/index.html",
       "/people/dolan-emily/index.html",
       "/people/sabean-emily/index.html",
+      "/people/freeman-emma-jean/index.html",
       "/people/plazas-erika/index.html",
+      "/people/mccarthy-erin/index.html",
+      "/people/condran-georgia/index.html",
       "/people/wang-vincent/index.html",
+      "/people/delahunt-jaclyn/index.html",
       "/people/pickett-jake/index.html",
+      "/people/hogenbom-jennifer/index.html",
       "/people/mahaney-jordan/index.html",
       "/people/kratziek-katrina/index.html",
       "/people/gaudet-kayla/index.html",
@@ -307,22 +371,40 @@
       "/people/pickett-laura/index.html",
       "/people/fraser-leilia/index.html",
       "/people/zamlynny-lydia/index.html",
+      "/people/firth-madison/index.html",
       "/people/macisaac-megan/index.html",
       "/people/amiro-miranda/index.html",
+      "/people/istanbouli-mouaz/index.html",
+      "/people/johnson-noah/index.html",
       "/people/pistillo-onofrio/index.html",
       "/people/bartlett-ryleigh/index.html",
       "/people/macpherson-samantha/index.html",
+      "/people/visser-sarah/index.html",
+      "/people/robinson-scott/index.html",
       "/people/blanchard-sophia/index.html",
       "/people/scholten-sydney/index.html",
-      "/people/moore-thomas/index.html"
+      "/people/moore-thomas/index.html",
+      "/people/gallant-victoria/index.html",
+      "/people/smith-victoria/index.html",
+      "/people/lunn-yvonne/index.html"
     ]
   },
   {
-    "listing": "/people/jefferson-kennedy/index.html",
+    "listing": "/people/jarvis-creighton/index.html",
+    "items": [
+      "/publications/2026_002_in_vitro_assessment_of/index.html"
+    ]
+  },
+  {
+    "listing": "/people/johnson-noah/index.html",
     "items": []
   },
   {
-    "listing": "/people/loureiro-alexandre/index.html",
+    "listing": "/people/kratziek-katrina/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/lunn-yvonne/index.html",
     "items": []
   },
   {
@@ -335,6 +417,10 @@
   },
   {
     "listing": "/people/maillet-chloe/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/mccarthy-erin/index.html",
     "items": []
   },
   {
@@ -361,11 +447,19 @@
     ]
   },
   {
-    "listing": "/people/scholten-sydney/index.html",
+    "listing": "/people/sabean-emily/index.html",
     "items": []
   },
   {
-    "listing": "/people/veinot-cassidy/index.html",
+    "listing": "/people/scothorn-chelsea/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/smith-victoria/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/visser-sarah/index.html",
     "items": []
   },
   {

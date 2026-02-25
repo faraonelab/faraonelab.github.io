@@ -1,13 +1,13 @@
 ---
-title: &TITLE "Amanda Gunatillake Mestiyage Don"
-last: "Gunatillake"
-first: "Amanda"
+title: &TITLE "Adrienna Marchand"
+last: "Marchand"
+first: "Adrienna"
 people_group: "alumni"
-email: "0306330g@ACADIAU.CA"
+email: "email"
 education:
-  - "Undergraduate Student (Biology) | Acadia University (Canada)"
-subtitle: "Undergraduate Student (Biology) - Research Technician Co-op student"
-image: &IMAGE "avatar.jpg"
+  - ""
+subtitle: "Research Topics I; co-supervised with Dr. Kirk Hillier Biology"
+image: &IMAGE "/images/avatar.jpg"
 page-layout: full
 
 listing:
@@ -30,7 +30,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:0306330g@ACADIAU.CA
+      href: mailto:email
 ---
 
 <hr>

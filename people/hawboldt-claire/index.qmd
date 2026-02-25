@@ -6,7 +6,7 @@ people_group: "alumni"
 email: ""
 education:
   - "B.Sc. in Biology (Honours) | Acadia University (Canada) | 2024"
-subtitle: "Undergraduate Student (Honours)"
+subtitle: "Undergraduate Student (Honours) - Co-supervised with Dr. Kirk Hillier"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 

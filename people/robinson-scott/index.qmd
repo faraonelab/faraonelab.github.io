@@ -1,12 +1,12 @@
 ---
-title: &TITLE "Amanda Gunatillake Mestiyage Don"
-last: "Gunatillake"
-first: "Amanda"
+title: &TITLE "Scott Robinson"
+last: "Robinson"
+first: "Scott"
 people_group: "alumni"
-email: "0306330g@ACADIAU.CA"
+email: "email"
 education:
-  - "Undergraduate Student (Biology) | Acadia University (Canada)"
-subtitle: "Undergraduate Student (Biology) - Research Technician Co-op student"
+  - ""
+subtitle: "Undergraduate student - Research Project"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 
@@ -30,7 +30,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:0306330g@ACADIAU.CA
+      href: mailto:email
 ---
 
 <hr>
