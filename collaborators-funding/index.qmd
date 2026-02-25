@@ -239,9 +239,43 @@ format:
 </div>
 </div>
 
+# Industrial collaborators
+
+<div class="collaborator-row">
+<img src="collaborators/oberland.jpg" alt="Oberland Agri-Science Inc., Halifax (NS)">
+<div class="collaborator-info">
+<div class="collab-name">Oberland Agri-Science Inc., Halifax (NS)</div>
+<div class="collab-project">**Project:** Technology for enhancement of egg-laying by soldier flies</div>
+<a href="https://oberlandagriscience.com/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="collaborators/mask.jpg" alt="Maskwiomin Mi’kmaq Birch Bark Extract, Sydney (NS)">
+<div class="collaborator-info">
+<div class="collab-name">Maskwiomin Mi’kmaq Birch Bark Extract, Sydney (NS)</div>
+<div class="collab-project">**Project:** Birch bark extract as tick and mosquito repellents</div>
+<a href="https://maskwiomin.com/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
+<img src="/collaborators-funding/pure.webp" alt="PureGard Botanical Repellent">
+<div class="collaborator-info">
+<div class="collab-name">PureGard Botanical Repellent / Atlantick®, Mahone Bay (NS)</div>
+<div class="collab-project">**Project:** Tick repellent natural-based products</div>
+<a href="https://puregard.ca/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
 :::
 
-***
 # Support & Funding
 
 ::: {.support-logos}
