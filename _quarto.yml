@@ -17,8 +17,8 @@ website:
   page-footer: 
     background: "#F6F5F3"
     left: |
-      Faraone Lab, [Acadia University](https://www.acadiau.ca), Department of Chemistry, 15 University Avenue <br>
-      Wolfville, Nova Scotia B4P 2R6 Canada <br>
+      Faraone Lab, [Acadia University](https://www.acadiau.ca), Department of Chemistry <br>
+      15 University Avenue - Wolfville, Nova Scotia B4P 2R6 Canada <br>
       Acadia University is located in Mi'kma'ki, the ancestral and unceded territory of the Mi’kmaw nation.
     center: |
       © 2026 &middot; Made with {{< fa brands r-project >}} and 
