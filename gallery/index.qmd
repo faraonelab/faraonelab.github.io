@@ -9,9 +9,7 @@ format:
       desc-position: right
       loop: false
 ---
-
 ***
-
 # LAB TEAM
 
 ## 2025
