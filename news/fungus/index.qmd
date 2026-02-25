@@ -1,0 +1,10 @@
+---
+title: "Acadia Researchers Explore Natural Tick-Killing Fungus to Combat Lyme Disease" 
+date: '2024-06-30' 
+image: fungi.webp
+description: "[Read more](https://www.cbc.ca/news/canada/nova-scotia/tick-killing-fungus-research-acadia-university-1.7237555)"
+---
+
+![](fungi.webp){fig-align="center"}
+
+Acadia University researchers are investigating a naturally occurring fungus as a sustainable solution to control tick populations and limit the spread of Lyme disease in Nova Scotia. The study focuses on Clonostachys rosea, a soil-based fungus discovered by researcher Luís Anholeto to be lethal to both blacklegged and American dog ticks. The project is a collaborative effort within Acadia’s tick research hub, led by Dr. Nicoletta Faraone (Chemistry) and Dr. Laura Ferguson (Biology). By leveraging natural biological agents rather than synthetic sprays, the team aims to develop an environmentally friendly method of tick management that protects human health without harming beneficial insects like pollinators.

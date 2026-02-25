@@ -2,7 +2,7 @@
 title: "Acadia to be home to only dedicated tick-breeding facility in Canada"
 date: '2025-11-24'
 image: faraone.jpg
-description: "See [https://www.cbc.ca/news/canada/nova-scotia/acadia-university-canadian-tick-research-innovation-centre-9.6950462]"
+description: "[Read more](https://www.cbc.ca/news/canada/nova-scotia/acadia-university-canadian-tick-research-innovation-centre-9.6950462)"
 ---
 
 ![](faraone.jpg){fig-align="center"}
