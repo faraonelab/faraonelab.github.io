@@ -1,13 +1,13 @@
 ---
-title: "test"
-author: ["Luis Adriano Anholeto", "Antonella Maria Maggio", "Nicoletta Faraone", "Vivienne Spadaro", "Susan L.Morris-Natschke", "Kenneth F. Bastow", "Kuo-Hsiung Lee", "Maurizio Bruno"]
+title: "The cytotoxic properties of natural coumarines isolated from roots of <i>Ferulago campestris</i> (Apiaceae) and of synthetic ester derivatives of aegelinol"
+author: ["Sergio Rosselli", "Antonella Maria Maggio", "Nicoletta Faraone", "Vivienne Spadaro", "Susan L.Morris-Natschke", "Kenneth F. Bastow", "Kuo-Hsiung Lee", "Maurizio Bruno"]
 categories: ["tick-management"]
-url_source: "https://doi.org/10.3390/molecules14030939"
+url_source: "https://doi.org/10.1177/1934578X0900401"
 url_preprint: ""
 journ: "Natural Product Communications"
 issue: "4 (12)"
 page: "1701-1706"
 year: 2009
 image: "featured.png"
-pub_number: 2009-08-17
+pub_number: 2009-12-01
 ---
