@@ -2,9 +2,6 @@
 title: "Courses"
 format: html
 ---
-
-I teach 4 courses in Chemistry at Acadia University:
-
 ## CHEM/BIOL-4773 Natural Product Chemistry
 Overview of natural products, biosynthesis of secondary metabolites, modern techniques for studying secondary metabolism and biosynthesis, biological reactions, chemical interactions between living organisms, and classes of bioactive compounds grouped according to building blocks and biogenesis. This course will complement the basic knowledge necessary to students in diverse fields (e.g., organic chemistry, agricultural chemistry, biochemistry, nutrition, and pharmacy).
 
