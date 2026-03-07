@@ -276,5 +276,10 @@ format:
     <span class="agency-name">CanLyme Foundation</span>
   </a>
   
+  <a href="https://researchns.ca/" class="logo-item" target="_blank">
+    <img src="researchns.webp" alt="Research Nova Scotia logo">
+    <span class="agency-name">Research Nova Scotia</span>
+  </a>
+  
 </div>
 :::
