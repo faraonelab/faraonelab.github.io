@@ -35,6 +35,18 @@ format:
 </div>
 
 <div class="collaborator-row">
+<img src="collaborators/suzie.jpg" alt="Dr. Suzie Currie">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Suzie Currie</div>
+<div class="collab-inst">University of British Columbia (BC) (NS)</div>
+<div class="collab-project">**Project:** Behavioural and neuropharmacological investigation of psilocybin as an innovative therapeutic agent for the treatment of mental health disorders</div>
+<a href="https://biology.ok.ubc.ca/about/contact/suzie-currie/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
 <img src="collaborators/douglas.jpg" alt="Dr. Douglas Chaves">
 <div class="collaborator-info">
 <div class="collab-name">Dr. Douglas Chaves</div>
@@ -71,18 +83,6 @@ format:
 </div>
 
 <div class="collaborator-row">
-<img src="collaborators/guillot.jpg" alt="Dr. Camille Guillot">
-<div class="collaborator-info">
-<div class="collab-name">Dr. Camille Guillot</div>
-<div class="collab-inst">University of Montreal (Canada)</div>
-<div class="collab-project">**Project:** Canadian Lyme Disease Research Network – Active tick surveillance in sentinel surveillance network</div>
-<a href="mailto:camille.guillot@umontreal.ca" class="collab-site" target="_blank">
-<i class="bi bi-envelope"></i> Contact
-</a>
-</div>
-</div>
-
-<div class="collaborator-row">
 <img src="collaborators/leighton.jpg" alt="Dr. Patrick Leighton">
 <div class="collaborator-info">
 <div class="collab-name">Dr. Patrick Leighton</div>
@@ -95,49 +95,12 @@ format:
 </div>
 
 <div class="collaborator-row">
-<img src="collaborators/clow.jpg" alt="Dr. Katie Clow">
-<div class="collaborator-info">
-<div class="collab-name">Dr. Katie Clow</div>
-<div class="collab-inst">University of Guelph (Canada)</div>
-<div class="collab-project">**Project:** Canadian Lyme Disease Research Network – Active tick surveillance in sentinel surveillance network</div>
-<a href="https://ovc.uoguelph.ca/population-medicine/faculty/katie-clow" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Website
-</a>
-</div>
-</div>
-
-<div class="collaborator-row">
 <img src="collaborators/thalan.jpg" alt="Dr. Kapil Thalan">
 <div class="collaborator-info">
 <div class="collab-name">Dr. Kapil Thalan</div>
 <div class="collab-inst">Memorial University of Newfoundland (Canada)</div>
 <div class="collab-project">**Project:** Microbiomes and metabolomes of lichens with traditional Mi’kmaq use in Nova Scotia</div>
 <a href="https://www.mun.ca/biology/ktahlan/" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Website
-</a>
-</div>
-</div>
-
-<div class="collaborator-row">
-<img src="collaborators/wiersma.jpg" alt="Dr. Yolanda Wiersma">
-<div class="collaborator-info">
-<div class="collab-name">Dr. Yolanda Wiersma</div>
-<div class="collab-inst">Memorial University of Newfoundland (Canada)</div>
-<div class="collab-project">**Project:** Microbiomes and metabolomes of lichens with traditional Mi’kmaq use in Nova Scotia</div>
-<a href="https://nllandscapeecology.com" class="collab-site" target="_blank">
-<i class="bi bi-globe"></i> Website
-</a>
-</div>
-</div>
-
-
-<div class="collaborator-row">
-<img src="collaborators/ali.jpg" alt="Dr. Shakawt Ali">
-<div class="collaborator-info">
-<div class="collab-name">Dr. Shakawt Ali</div>
-<div class="collab-inst">Science and Technology Branch AAFC (NS)</div>
-<div class="collab-project">**Project:** Essential oil encapsulated ZnO nanoparticles with antifungal activity</div>
-<a href="https://profils-profiles.science.gc.ca/en/profile/dr-shawkat-ali?wbdisable=true" class="collab-site" target="_blank">
 <i class="bi bi-globe"></i> Website
 </a>
 </div>
