@@ -88,5 +88,9 @@ With dedicated tick rearing (“tickery”), pathogen testing, and repellent eva
 <img src="collaborators-funding/canlyme.webp" alt="CanLyme"/>
 :::
 
+::: logo-item
+<img src="collaborators-funding/researchns.webp" alt="Research Nova Scotia"/>
+:::
+
 ::::::
 :::::::
