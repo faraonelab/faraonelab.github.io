@@ -46,6 +46,8 @@ website:
         text: Gallery
       - href: courses/index.qmd
         text: Courses
+      - href: join-us/index.qmd
+        text: Join Us
       - href: contact.qmd
         text: Contact
 
