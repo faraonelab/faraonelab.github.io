@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://faraonelab.github.io/index.html</loc>
-    <lastmod>2026-03-07T16:11:07.080Z</lastmod>
+    <lastmod>2026-03-18T18:55:21.562Z</lastmod>
   </url>
   <url>
     <loc>https://faraonelab.github.io/news/2026-03-18/index.html</loc>
-    <lastmod>2026-03-18T18:50:23.122Z</lastmod>
+    <lastmod>2026-03-18T19:01:46.237Z</lastmod>
   </url>
   <url>
     <loc>https://faraonelab.github.io/research/Tick-Management/index.html</loc>
@@ -435,5 +435,13 @@
   <url>
     <loc>https://faraonelab.github.io/research/index.html</loc>
     <lastmod>2026-02-24T21:11:50.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faraonelab.github.io/news/2025-10-24/index.html</loc>
+    <lastmod>2026-02-25T05:01:54.765Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faraonelab.github.io/news/index.html</loc>
+    <lastmod>2026-02-25T05:31:17.570Z</lastmod>
   </url>
 </urlset>
