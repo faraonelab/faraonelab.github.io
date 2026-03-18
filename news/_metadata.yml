@@ -1,4 +1,0 @@
-# news/_metadata.yml
-format:
-  html:
-    include-after-body: ../_social.html
