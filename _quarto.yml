@@ -7,13 +7,27 @@ project:
 
 website:
   title: "Faraone Lab"
+  favicon: images/favicon.png
   site-url: "https://faraonelab.github.io"
   repo-url: "https://github.com/faraonelab/faraonelab.github.io.git"
-  twitter-card: false
-  back-to-top-navigation: true
-  page-navigation: false
-  search: true
-  
+  twitter-card:
+    title: "Faraone Lab"
+    description: "Faraone Research Group at Acadia University — Department of Chemistry"
+    image: "images/og-logo.png"
+    card-style: summary_large_image
+    creator: "@faraonelab"
+  open-graph:
+    title: "Faraone Lab"
+    description: "Faraone Research Group at Acadia University — Department of Chemistry, Wolfville, NS, Canada."
+    image: "images/og-logo.png"
+    site-name: "Faraone Lab"
+    locale: "en_US"
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "We are hiring! Check the open positions in the Join Us section"
+    type: success
+    position: below-navbar  
   page-footer: 
     background: "#F6F5F3"
     left: |
