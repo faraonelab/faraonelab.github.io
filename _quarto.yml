@@ -23,7 +23,7 @@ website:
     site-name: "Faraone Lab"
     locale: "en_US"
   announcement: 
-    icon: info-circle
+    icon: megaphone
     dismissable: true
     content: "We are hiring! Check the open positions in the Join Us section"
     type: success
