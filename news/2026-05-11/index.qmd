@@ -1,0 +1,14 @@
+---
+title: "The Acadia research centre aims to 'understand, prevent and manage ticks and tick-borne diseases.' (CBC)"
+date: '2026-05-11'
+image: featured.jpg
+description: "[Read more](https://www.cbc.ca/news/canada/nova-scotia/ticks-meat-allergy-lone-star-9.7193134)"
+author:
+  name: Luis Anholeto
+---
+
+![](featured.jpg){fig-align="center"}
+
+Researchers at the new Canadian Tick Research and Innovation Centre at Acadia University are now working to monitor these pathogens and develop better preventative measures to protect both the public and the agricultural industry.
+
+{{< include /_share-buttons.html >}}

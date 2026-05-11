@@ -1,0 +1,15 @@
+<!-- _share-buttons.html -->
+<div class="share-section">
+  <button class="share-btn share-copy" id="copy-link-btn">
+    🔗 Share this story
+  </button>
+</div>
+
+<script>
+document.getElementById("copy-link-btn").onclick = function() {
+  navigator.clipboard.writeText(window.location.href).then(() => {
+    this.textContent = "✓ Link copied!";
+    setTimeout(() => this.textContent = "🔗 Share this story", 2000);
+  });
+};
+</script>
