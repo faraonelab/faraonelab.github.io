@@ -400,6 +400,32 @@ div.gradient-text {
   }
 }
 
+  /* share section */
+
+.share-section {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  color: #374151;
+  transition: background 0.15s, transform 0.1s;
+
+  &:hover  { background: #e5e7eb; transform: translateY(-1px); }
+  &:active { transform: translateY(0); }
+}
+
 /* -- Utilities -- */
 .sand-background { background-color: $sand; }
 .primary-background { background-color: $primary; }

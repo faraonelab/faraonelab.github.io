@@ -1,0 +1,426 @@
+/*
+ * ctric.css — page-scoped styles for the CTRIC page only
+ * Inherits from custom.scss: $primary #2B7A8B, $secondary #A6DDB4,
+ * $ink #111315, $sand #eeeeee, $gold #e8e3d3
+ * Fonts available: Economica (headings), Nunito Sans (body)
+ */
+
+/* ─────────────────────────────────────────
+   LAYOUT HELPERS
+───────────────────────────────────────── */
+
+/* Push content full-width, bypassing Quarto's default column */
+.ctric-hero,
+.ctric-section,
+.ctric-section-alt,
+.ctric-cta {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 3.5rem 0;
+}
+
+.ctric-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ─────────────────────────────────────────
+   HERO
+───────────────────────────────────────── */
+
+.ctric-hero {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ctric-eyebrow {
+  font-family: 'Economica', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #2B7A8B;
+  margin-bottom: 0.75rem;
+}
+
+/* Override Quarto's h1 (Economica uppercase from custom.scss) */
+.ctric-hero-title h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  color: #111315;
+}
+
+.ctric-hero-sub {
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.75;
+  max-width: 640px;
+  margin-bottom: 1.5rem;
+}
+
+/* Badges */
+.ctric-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.ctric-badge {
+  font-family: 'Economica', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 9999px;
+}
+
+.badge-teal   { background: #d4eef1; color: #1a5f6b; }
+.badge-blue   { background: #dbeafe; color: #1e40af; }
+.badge-amber  { background: #fef3c7; color: #92400e; }
+.badge-purple { background: #ede9fe; color: #5b21b6; }
+
+/* Stat cards */
+.ctric-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.ctric-stat {
+  background: #eeeeee;
+  border-radius: 10px;
+  padding: 1.1rem 1.25rem;
+}
+
+.stat-num {
+  font-family: 'Economica', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #2B7A8B;
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.stat-label {
+  font-size: 0.78rem;
+  color: #555;
+  line-height: 1.45;
+}
+
+/* ─────────────────────────────────────────
+   SECTION CHROME
+───────────────────────────────────────── */
+
+.ctric-section {
+  background: #ffffff;
+  border-bottom: 1px solid #e8e3d3;
+}
+
+.ctric-section-alt {
+  background: #eeeeee;
+  border-bottom: 1px solid #e8e3d3;
+}
+
+.ctric-section-tag {
+  font-family: 'Economica', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #2B7A8B;
+  margin-bottom: 0.3rem;
+}
+
+/* Section headings reuse Quarto's h2 (Economica uppercase) */
+.ctric-section-title h2 {
+  font-size: 1.7rem;
+  color: #111315;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.ctric-section-sub {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.75;
+  max-width: 720px;
+  margin-bottom: 2rem;
+}
+
+/* ─────────────────────────────────────────
+   WHO WE ARE — CARD GRID
+───────────────────────────────────────── */
+
+.ctric-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.ctric-card {
+  background: #ffffff;
+  border: 1px solid #e8e3d3;
+  border-left: 3px solid #2B7A8B;
+  border-radius: 8px;
+  padding: 1.25rem 1.4rem;
+  font-size: 0.88rem;
+  color: #333;
+  line-height: 1.65;
+}
+
+.ctric-card p:first-child {
+  font-weight: 700;
+  color: #111315;
+  margin-bottom: 0.4rem;
+}
+
+.ctric-card p {
+  margin: 0;
+}
+
+/* ─────────────────────────────────────────
+   WHAT WE DO — PILLARS
+───────────────────────────────────────── */
+
+.ctric-pillar {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #ffffff;
+  border: 1px solid #e8e3d3;
+  border-radius: 8px;
+  padding: 1.1rem 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.ctric-pillar-num {
+  flex-shrink: 0;
+  font-family: 'Economica', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2B7A8B;
+  background: #d4eef1;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  margin-top: 3px;
+}
+
+.ctric-pillar-body {
+  font-size: 0.88rem;
+  color: #444;
+  line-height: 1.65;
+}
+
+.ctric-pillar-body p:first-child {
+  font-weight: 700;
+  color: #111315;
+  margin-bottom: 0.25rem;
+}
+
+.ctric-pillar-body p {
+  margin: 0;
+}
+
+/* ─────────────────────────────────────────
+   WELCOME TO THE LAB — AMENITIES
+───────────────────────────────────────── */
+
+.ctric-amenity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.ctric-amenity-card {
+  background: #ffffff;
+  border: 1px solid #e8e3d3;
+  border-top: 3px solid #2B7A8B;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ctric-amenity-header {
+  font-family: 'Economica', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111315;
+  padding: 1rem 1.25rem 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: block;
+}
+
+.ctric-amenity-card p {
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.7;
+  padding: 0 1.25rem 1.25rem;
+  margin: 0;
+}
+
+/* ─────────────────────────────────────────
+   TEAM
+───────────────────────────────────────── */
+
+.ctric-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.ctric-team-card {
+  background: #ffffff;
+  border: 1px solid #e8e3d3;
+  border-radius: 10px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+/* Avatar circle (used until photo is added) */
+.ctric-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Economica', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.avatar-teal { background: #d4eef1; color: #1a5f6b; }
+.avatar-mint { background: #d7f3e2; color: #1a5f3a; }
+
+/* Team photo — add when ready:
+   img.ctric-team-photo {
+     width: 100%;
+     aspect-ratio: 1 / 1;
+     object-fit: cover;
+     border-radius: 50%;
+     max-width: 80px;
+   }
+*/
+
+.ctric-team-info {
+  flex: 1;
+}
+
+.ctric-team-info p:first-child {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #111315;
+  margin-bottom: 0.2rem;
+}
+
+.ctric-team-info p {
+  margin: 0;
+}
+
+.ctric-team-role {
+  font-size: 0.78rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.ctric-team-affil {
+  font-size: 0.72rem;
+  color: #2B7A8B;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+/* ─────────────────────────────────────────
+   CTA BANNER
+───────────────────────────────────────── */
+
+.ctric-cta {
+  background: #2B7A8B;
+  border-bottom: none;
+  padding: 3.5rem 0;
+}
+
+.ctric-cta-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.ctric-cta-title {
+  font-family: 'Economica', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.ctric-cta-sub {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.ctric-cta-sub p {
+  margin: 0;
+}
+
+.ctric-btn {
+  display: inline-block;
+  padding: 0.65rem 2rem;
+  background: #ffffff;
+  color: #2B7A8B !important;
+  font-family: 'Economica', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.ctric-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+/* ─────────────────────────────────────────
+   RESPONSIVE
+───────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .ctric-hero-title h1   { font-size: 1.9rem; }
+  .ctric-stat-grid       { grid-template-columns: 1fr; }
+  .ctric-card-grid       { grid-template-columns: 1fr; }
+  .ctric-amenity-grid    { grid-template-columns: 1fr; }
+  .ctric-amenity-grid.three-col { grid-template-columns: 1fr; }
+  .ctric-team-grid       { grid-template-columns: repeat(2, 1fr); }
+
+  .ctric-pillar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ctric-team-grid { grid-template-columns: 1fr; }
+}
