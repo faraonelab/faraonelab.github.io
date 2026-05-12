@@ -5,7 +5,8 @@ first: "Noah"
 people_group: rassistant
 email: "0310318c@ACADIAU.CA"
 education:
-  - Civil Engineering student | Acadia University
+  - Certificate of Applied Science | Acadia University 2026 <br> BEng in Civil Engineering | Dalhousie 2029
+
 subtitle: "Research Assistant - CTRIC"
 image: &IMAGE "avatar.jpeg"
 page-layout: full

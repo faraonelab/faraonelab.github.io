@@ -2,11 +2,11 @@
 title: &TITLE "Cassidy Veinot"
 last: "Veinot"
 first: "Cassidy"
-people_group: "alumni"
+people_group: "honoursstudent"
 email: "0303825v@ACADIAU.CA"
 education:
-  - "Undergraduate Student (Chemistry) | Acadia University (Canada)"
-subtitle: "Undergraduate Student (Chemistry)"
+  - "Undergraduate Student - Honours (Chemistry) | Acadia University (Canada)"
+subtitle: "Undergraduate Student - Honours (Chemistry)"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 
@@ -36,6 +36,7 @@ about:
 <hr>
 
 :::{#about}
+Cassidy Veinot is a third-year student at Acadia University, currently working towards her Honours degree in Chemistry. She is excited to return for her second summer working with the Faraone Lab and is passionate about learning about natural tick repellents and acaricides. Outside of the lab, Cassidy enjoys drawing, painting, and avoiding ticks.
 
 ## Education
 {{< meta education >}}

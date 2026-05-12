@@ -224,6 +224,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/2026-05-12/index.html",
       "/news/2026-05-11/index.html",
       "/news/2026-04-30-2/index.html",
       "/news/2026-03-18/index.html",
@@ -340,8 +341,9 @@
     "items": [
       "/people/faraone-nicoletta/index.html",
       "/people/anholeto-luis/index.html",
-      "/people/rawsom-gemma/index.html",
+      "/people/rawson-gemma/index.html",
       "/people/cull-noah/index.html",
+      "/people/veinot-cassidy/index.html",
       "/people/nette-adrien/index.html",
       "/people/marchand-adrienna/index.html",
       "/people/loureiro-alexandre/index.html",
@@ -350,7 +352,6 @@
       "/people/dempsey-britton/index.html",
       "/people/naugler-bronwyn/index.html",
       "/people/mcmurray-carys/index.html",
-      "/people/veinot-cassidy/index.html",
       "/people/scott-catherine/index.html",
       "/people/scothorn-chelsea/index.html",
       "/people/maillet-chloe/index.html",
@@ -511,6 +512,10 @@
   },
   {
     "listing": "/people/cull-noah/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/rawson-gemma/index.html",
     "items": []
   }
 ]

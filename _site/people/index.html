@@ -281,9 +281,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-engines","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -481,7 +481,9 @@ window.Quarto = {
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
   <li><a href="#current-lab-members" id="toc-current-lab-members" class="nav-link" data-scroll-target="#current-lab-members">Current Lab Members</a>
   <ul class="collapse">
+  <li><a href="#lab-manager---ctric" id="toc-lab-manager---ctric" class="nav-link" data-scroll-target="#lab-manager---ctric">Lab Manager - CTRIC</a></li>
   <li><a href="#research-technician---ctric" id="toc-research-technician---ctric" class="nav-link" data-scroll-target="#research-technician---ctric">Research Technician - CTRIC</a></li>
+  <li><a href="#honours-student" id="toc-honours-student" class="nav-link" data-scroll-target="#honours-student">Honours Student</a></li>
   <li><a href="#research-assistant---ctric" id="toc-research-assistant---ctric" class="nav-link" data-scroll-target="#research-assistant---ctric">Research Assistant - CTRIC</a></li>
   </ul></li>
   <li><a href="#former-lab-members" id="toc-former-lab-members" class="nav-link" data-scroll-target="#former-lab-members">Former Lab Members</a></li>
@@ -561,11 +563,7 @@ window.Quarto = {
 </section>
 <section id="current-lab-members" class="level1">
 <h1>Current Lab Members</h1>
-<div class="sand-background">
-<!-- ## Postdoctoral Fellows -->
-<!-- ::: {#postdoc} -->
-<!-- ::: -->
-<section id="lab-manager---ctric" class="level2">
+<section id="lab-manager---ctric" class="level2 sand-background">
 <h2 class="anchored" data-anchor-id="lab-manager---ctric">Lab Manager - CTRIC</h2>
 <div id="listing-labmanager" class="quarto-listing quarto-listing-container-custom">
 
@@ -614,7 +612,6 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-</div>
 <section id="research-technician---ctric" class="level2">
 <h2 class="anchored" data-anchor-id="research-technician---ctric">Research Technician - CTRIC</h2>
 <div id="listing-technician" class="quarto-listing quarto-listing-container-custom">
@@ -628,11 +625,11 @@ window.Quarto = {
     
 
       <div class="g-col-1 listing-box">
-        <a href="../people/rawsom-gemma/index.html" role="button" class="quarto-grid-link">
+        <a href="../people/rawson-gemma/index.html" role="button" class="quarto-grid-link">
           <div class="quarto-grid-item card h-100 card-left">
 
             <p class="card-img-top">
-              <img alt="Gemma Rawson" src="../people/rawsom-gemma/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+              <img alt="Gemma Rawson" src="../people/rawson-gemma/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
             </p>
 
             <div class="card-body post-contents">
@@ -664,7 +661,56 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="research-assistant---ctric" class="level2 sand-background">
+<section id="honours-student" class="level2 sand-background">
+<h2 class="anchored" data-anchor-id="honours-student">Honours Student</h2>
+<div id="listing-honoursstudent" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    
+
+      <div class="g-col-1 listing-box">
+        <a href="../people/veinot-cassidy/index.html" role="button" class="quarto-grid-link">
+          <div class="quarto-grid-item card h-100 card-left">
+
+            <p class="card-img-top">
+              <img alt="Cassidy Veinot" src="../people/veinot-cassidy/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+            </p>
+
+            <div class="card-body post-contents">
+
+              <div class="listing-box-title">
+                Cassidy Veinot<br>
+              </div>
+
+              <div class="listing-box-subtitle">
+                Undergraduate Student - Honours (Chemistry)<br>
+              </div>
+
+              <div class="listing-box-education">
+                
+                  Undergraduate Student - Honours (Chemistry) | Acadia University (Canada)<br>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+    
+
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="research-assistant---ctric" class="level2">
 <h2 class="anchored" data-anchor-id="research-assistant---ctric">Research Assistant - CTRIC</h2>
 <div id="listing-rassistant" class="quarto-listing quarto-listing-container-custom">
 
@@ -696,7 +742,7 @@ window.Quarto = {
 
               <div class="listing-box-education">
                 
-                  Civil Engineering student | Acadia University<br>
+                  Certificate of Applied Science | Acadia University 2026 <br> BEng in Civil Engineering | Dalhousie 2029<br>
                 
               </div>
 
@@ -714,7 +760,7 @@ window.Quarto = {
 </div>
 </section>
 </section>
-<section id="former-lab-members" class="level1 sand-background2">
+<section id="former-lab-members" class="level1 sand-background">
 <h1>Former Lab Members</h1>
 <div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
 
@@ -1085,53 +1131,6 @@ window.Quarto = {
                 
                 
                     BSc | Acadia University (Canada)<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/veinot-cassidy/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Cassidy Veinot" src="../people/veinot-cassidy/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Cassidy Veinot<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Undergraduate Student (Chemistry)<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Undergraduate Student (Chemistry) | Acadia University (Canada)<br>
                     
                     
               </div>  
@@ -3066,20 +3065,6 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div><div class="quarto-listing quarto-listing-container-custom" id="listing-gradstudent">
-
-<div class="quarto-listing quarto-listing-container-grid">
-
-  <div class="list grid quarto-listing-cols-3">
-
-    
-
-    
-
-  </div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div><div class="quarto-listing quarto-listing-container-custom" id="listing-honoursstudent">
 
 <div class="quarto-listing quarto-listing-container-grid">
 

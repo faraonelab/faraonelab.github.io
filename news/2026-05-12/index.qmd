@@ -1,0 +1,13 @@
+---
+title: "Kudos to Cassidy Veinot for winning 'Best Undergraduate Poster at ChemCon 2026'"
+date: '2026-05-12'
+image: featured.jpeg
+description: "[Read more](https://event.fourwaves.com/chemcon26/abstracts/ec7875e1-3dd2-4331-b2db-1b6beb9c4b5b)"
+author:
+  name: Luis Anholeto
+---
+
+![](featured.jpeg){fig-align="center"}
+A huge congratulations to Cassidy Veinot, who took home the CIC Best Undergraduate Presentation in Environmental Chemistry – Poster award at ChemCon 2026 last week! Cassidy's work explores the use of essential oil-based repellents and acaricides as eco-friendly alternatives to synthetic pesticides, targeting the black-legged and American dog ticks. Well done, Cassidy!
+
+{{< include /_share-buttons.html >}}

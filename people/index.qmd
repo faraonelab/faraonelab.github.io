@@ -118,10 +118,6 @@ listing:
 
 :::: {.sand-background}
 
-<!-- ## Postdoctoral Fellows -->
-
-<!-- ::: {#postdoc} -->
-<!-- ::: -->
 ## Lab Manager - CTRIC
 
 ::: {#labmanager}
@@ -133,13 +129,18 @@ listing:
 :::
 
 :::: {.sand-background}
+## Honours Student
+
+:::{#honoursstudent}
+:::
+::::
+
 ## Research Assistant - CTRIC
 
 ::: {#rassistant}
 :::
-::::
 
-:::: {.sand-background2}
+:::: {.sand-background}
 
 # Former Lab Members
 
