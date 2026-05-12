@@ -129,16 +129,16 @@ listing:
 :::
 
 :::: {.sand-background}
-## Honours Student
-
-:::{#honoursstudent}
-:::
-::::
-
 ## Research Assistant - CTRIC
 
 ::: {#rassistant}
 :::
+::::
+## Undergraduate Students
+
+:::{#honoursstudent}
+:::
+
 
 :::: {.sand-background}
 

@@ -1,0 +1,50 @@
+---
+title: &TITLE "Bella Naugler"
+last: "Naugler"
+first: "Bella"
+people_group: "honoursstudent"
+email: "0305943n@ACADIAU.CA"
+education:
+  - "Undergraduate Student - Co-op (Chemistry) | Acadia University (Canada)"
+subtitle: "Undergraduate Student - Co-op (Chemistry)"
+image: &IMAGE "avatar.jpeg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:0305943n@ACADIAU.CA
+---
+
+<hr>
+
+:::{#about}
+Bella Naugler is a third-year chemistry student at Acadia university in her first work-term as a Co-op student. She is eager to contribute to the research towards natural tick repellents as she is passionate about environmentally friendly alternatives. In her free time, she enjoys being outside and reading.
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+## {{< meta first >}}'s Publications
+
+:::{#pubs}
+:::

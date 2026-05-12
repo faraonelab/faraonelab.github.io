@@ -343,6 +343,7 @@
       "/people/anholeto-luis/index.html",
       "/people/rawson-gemma/index.html",
       "/people/cull-noah/index.html",
+      "/people/naugler-bella/index.html",
       "/people/veinot-cassidy/index.html",
       "/people/nette-adrien/index.html",
       "/people/marchand-adrienna/index.html",
@@ -516,6 +517,10 @@
   },
   {
     "listing": "/people/rawson-gemma/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/naugler-bella/index.html",
     "items": []
   }
 ]
