@@ -1,0 +1,51 @@
+---
+title: &TITLE "Gemma Rawson"
+last: "Rawson"
+first: "Gemma"
+people_group: technician
+email: "gemmarawson@acadiau.ca"
+education:
+  - Master’s degree in Biology | Acadia University | 2025
+subtitle: "Research Technician - CTRIC"
+image: &IMAGE "avatar.jpeg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:gemmarawson@acadiau.ca
+---
+
+<hr>
+
+::: {#about}
+Gemma is a biologist who recently completed her master’s degree at Acadia University, where she researched the mosquitoes of the Maritimes. Her research focused on mosquito surveillance throughout the region, specializing in mosquito vector biology, testing mosquitoes for viruses such as West Nile virus, and further developing habitat suitability models to analyze and understand virus risk. She has a strong background in entomology and is experienced in taxonomy, integrated pest management, vector biology, and parasitology. She has a special interest in medical and veterinary entomology and is passionate about arthropods that cause disease in humans and animals. She is currently a laboratory technician at the Canadian Tick Research and Innovation Centre, where her work primarily focuses on tick rearing and pathogen testing.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::

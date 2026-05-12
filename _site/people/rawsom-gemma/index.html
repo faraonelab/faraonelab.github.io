@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Faraone Lab</title>
+<title>Gemma Rawson – Faraone Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +26,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ac139a6d719b15de9c790a6128fc1caa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-ac139a6d719b15de9c790a6128fc1caa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,32 +74,89 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="ctric.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <meta property="og:title" content="Faraone Lab">
 <meta property="og:description" content="Faraone Research Group at Acadia University — Department of Chemistry, Wolfville, NS, Canada.">
-<meta property="og:image" content="https://faraonelab.github.io/ctric/images/og-logo.png">
+<meta property="og:image" content="https://faraonelab.github.io/people/rawsom-gemma/avatar.jpeg">
 <meta property="og:site_name" content="Faraone Lab">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:title" content="Faraone Lab">
 <meta name="twitter:description" content="Faraone Research Group at Acadia University — Department of Chemistry">
-<meta name="twitter:image" content="https://faraonelab.github.io/ctric/images/og-logo.png">
+<meta name="twitter:image" content="https://faraonelab.github.io/people/rawsom-gemma/avatar.jpeg">
 <meta name="twitter:creator" content="@faraonelab">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/faraone-logo.jpg" alt="Faraone Research Group" class="navbar-logo light-content">
-    <img src="../images/faraone-logo.jpg" alt="Faraone Research Group" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/faraone-logo.jpg" alt="Faraone Research Group" class="navbar-logo light-content">
+    <img src="../../images/faraone-logo.jpg" alt="Faraone Research Group" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -108,43 +166,39 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../people/index.html"> 
+    <a class="nav-link" href="../../people/index.html"> 
 <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research Areas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../ctric/index.html" aria-current="page"> 
-<span class="menu-text">CTRIC</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="../../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../collaborators-funding/index.html"> 
+    <a class="nav-link" href="../../collaborators-funding/index.html"> 
 <span class="menu-text">Collaborators and Funding</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../news/index.html"> 
+    <a class="nav-link" href="../../news/index.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../gallery/index.html"> 
+    <a class="nav-link" href="../../gallery/index.html"> 
 <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../courses/index.html"> 
+    <a class="nav-link" href="../../courses/index.html"> 
 <span class="menu-text">Courses</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../join-us/index.html"> 
+    <a class="nav-link" href="../../join-us/index.html"> 
 <span class="menu-text">Join Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -158,180 +212,78 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-publications" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-publications" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-publications">Gemma’s Publications</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
 
-<!-- ═══════════════════════════════════════
-     HERO
-════════════════════════════════════════ -->
-<div class="ctric-hero">
-<div class="ctric-container">
-<p><span class="ctric-eyebrow">Acadia University · Wolfville, NS, Canada</span></p>
-<section id="canadian-tick-research-innovation-centre" class="level2">
-<h2 class="anchored" data-anchor-id="canadian-tick-research-innovation-centre"><span class="ctric-hero-title"><strong>Canadian Tick Research &amp; Innovation Centre</strong></span></h2>
-<p><span class="ctric-hero-sub">Advancing Canada’s capacity in tick rearing, pathogen diagnostics, and repellency research — protecting human, animal, and ecosystem health.</span></p>
+<hr>
+<div class="quarto-about-trestles column-page-left">
+  <div class="about-entity">
+    <img src="avatar.jpeg" class="about-image
+  round " style="height: 20em; width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gemma Rawson</h1>
+<p class="subtitle lead">Research Technician - CTRIC</p>
+</div>
+<div class="quarto-title-meta column-page-left">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="mailto:gemmarawson@acadiau.ca" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><div id="about">
+<p>Gemma is a biologist who recently completed her master’s degree at Acadia University, where she researched the mosquitoes of the Maritimes. Her research focused on mosquito surveillance throughout the region, specializing in mosquito vector biology, testing mosquitoes for viruses such as West Nile virus, and further developing habitat suitability models to analyze and understand virus risk. She has a strong background in entomology and is experienced in taxonomy, integrated pest management, vector biology, and parasitology. She has a special interest in medical and veterinary entomology and is passionate about arthropods that cause disease in humans and animals. She is currently a laboratory technician at the Canadian Tick Research and Innovation Centre, where her work primarily focuses on tick rearing and pathogen testing.</p>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>Master’s degree in Biology | Acadia University | 2025</p>
 </section>
+</div></div>
 </div>
+
+<p><br></p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-publications" class="level2">
+<h2 data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-publications">Gemma’s Publications</h2>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<!-- ═══════════════════════════════════════
-     WHO WE ARE
-════════════════════════════════════════ -->
-<div class="ctric-section">
-<div class="ctric-container">
-<p><span class="ctric-section-tag">Who we are</span></p>
-<section id="a-national-hub-for-tick-science" class="level2">
-<h2 class="anchored" data-anchor-id="a-national-hub-for-tick-science">A national hub for tick science</h2>
-<p><span class="ctric-section-sub">CTRIC is a dedicated research and commercial laboratory housed within Acadia University’s Huestis Innovation Pavilion. We bring together leading researchers, government partners, and industry to tackle one of Canada’s fastest-growing public health challenges. Ticks and tick-borne diseases now affect thousands of Canadians each year, with case counts nearly doubling between 2022 and 2024. Climate change is accelerating tick range expansion — and Canada needs a domestic centre of excellence to respond.</span></p>
-<div style="text-align: center;">
-<p><img src="ctric.jpg" alt="CTRIC logo" style="max-width: 100%; height: auto; margin-bottom: 20px;"></p>
-</div>
-<div class="ctric-card-grid">
-<div class="ctric-card">
-<p><strong>🔬 Built on proven expertise</strong></p>
-<p>Our team brings together diverse expertise across tick biology, chemical ecology, molecular diagnostics, and thermal physiology.</p>
-</div>
-<div class="ctric-card">
-<p><strong>🏘️ Rooted in Atlantic Canada</strong></p>
-<p>Located in Wolfville, NS, CTRIC creates skilled employment in rural Atlantic Canada while delivering national and international impact through research, innovation, and strategic partnerships.</p>
-</div>
-<div class="ctric-card">
-<p><strong>🛡️ Biosafety first</strong></p>
-<p>CTRIC operates under biosafety standards, ensuring that all ticks produced are rigorously screened and pathogen-free. Our purpose-built containment facility protects staff, partners, and the environment while meeting the biosafety requirements for working with live ticks and tick-borne pathogens.</p>
-</div>
-<div class="ctric-card">
-<p><strong>🔄 Reducing foreign dependency</strong></p>
-<p>CTRIC will provide locally reared ticks that are genetically relevant to Canadian environments, produced under rigorous biosafety standards — alongside fast, reliable pathogen testing for tick-borne diseases.</p>
-</div>
-</div>
-</section>
-</div>
-</div>
-<!-- ═══════════════════════════════════════
-     WHAT WE DO
-════════════════════════════════════════ -->
-<div class="ctric-section ctric-section-alt">
-<div class="ctric-container">
-<p><span class="ctric-section-tag">What we do</span></p>
-<section id="three-core-service-streams" class="level2">
-<h2 class="anchored" data-anchor-id="three-core-service-streams">Three core service streams</h2>
-<p><span class="ctric-section-sub">CTRIC will offer specialized, fee-for-service capabilities to universities, government agencies, and industry partners across Canada and internationally.</span></p>
-<div class="ctric-pillar">
-<div class="ctric-pillar-body">
-<p><strong>Tick rearing &amp; supply</strong></p>
-<p>Large-scale rearing of <em>Ixodes scapularis</em> (blacklegged tick) and <em>Dermacentor variabilis</em> (American dog tick) using artificial feeding systems — no live animals required. Canadian-reared ticks for academic, government, and commercial clients, with distribution beginning soon.</p>
-</div>
-</div>
-<div class="ctric-pillar">
-<div class="ctric-pillar-body">
-<p><strong>Pathogen testing &amp; diagnostics</strong></p>
-<p>Molecular testing for Lyme disease (<em>Borrelia</em> spp.), <em>Anaplasma</em>, <em>Babesia</em>, <em>Rickettsia</em>, and other emerging tick-borne pathogens. Fee-for-service testing for researchers, health agencies, and commercial partners.</p>
-</div>
-</div>
-<div class="ctric-pillar">
-<div class="ctric-pillar-body">
-<p><strong>Repellency &amp; acaricidal testing</strong></p>
-<p>Controlled laboratory evaluation of acaricides and repellents under standardized conditions. Supports Health Canada PMRA product registration and new product development for industry partners, including start-ups and established repellent and veterinary health companies.</p>
-</div>
-</div>
-</section>
-</div>
-</div>
-<!-- ═══════════════════════════════════════
-     WELCOME TO THE LAB
-════════════════════════════════════════ -->
-<div class="ctric-section">
-<div class="ctric-container">
-<p><span class="ctric-section-tag">Welcome to the lab</span></p>
-<section id="ctric-and-its-amenities" class="level2">
-<h2 class="anchored" data-anchor-id="ctric-and-its-amenities">CTRIC and its amenities</h2>
-<p><span class="ctric-section-sub">Once operational, CTRIC will be housed within Acadia’s Huestis Innovation Pavilion — purpose-built for tick research, from colony maintenance and live tick supply to pathogen diagnostics and product testing.</span></p>
-<div class="ctric-amenity-grid">
-<div class="ctric-amenity-card">
-<p><span class="ctric-amenity-header">Tick rearing</span></p>
-<p>CTRIC will maintain year-round colonies of <em>Ixodes scapularis</em> and <em>Dermacentor variabilis</em> under controlled conditions, producing healthy, pathogen-screened ticks at every life stage. Ticks will be available for supply to research institutions, government agencies, and commercial partners, with the scale and consistency needed to support long-term programs.</p>
-</div>
-<div class="ctric-amenity-card">
-<p><span class="ctric-amenity-header">Tick pathogen testing</span></p>
-<p>CTRIC will offer fast, reliable detection of tick-borne pathogens — including <em>Borrelia</em> spp., <em>Anaplasma</em>, <em>Babesia</em>, and <em>Rickettsia</em> — in ticks submitted by researchers, public health agencies, and surveillance programs. Results will support disease monitoring, risk mapping, and research across Canada.</p>
-</div>
-<div class="ctric-amenity-card">
-<p><span class="ctric-amenity-header">Repellency &amp; acaricidal testing</span></p>
-<p>CTRIC will test repellents, treated fabrics, and acaricidal formulations against live ticks under standardized laboratory conditions. Testing will generate the efficacy data needed for Health Canada PMRA registration, supporting the development of new products from early-stage research through to regulatory submission.</p>
-</div>
-</div>
-</section>
-</div>
-</div>
-<!-- ═══════════════════════════════════════
-     MEET THE TEAM
-════════════════════════════════════════ -->
-<div class="ctric-section ctric-section-alt">
-<div class="ctric-container">
-<p><span class="ctric-section-tag">Meet our team</span></p>
-<section id="the-people-behind-ctric" class="level2">
-<h2 class="anchored" data-anchor-id="the-people-behind-ctric">The people behind CTRIC</h2>
-<p><span class="ctric-section-sub">Our multidisciplinary team spans tick biology, chemical ecology, molecular diagnostics, and business development.</span></p>
-<div class="ctric-team-grid">
-<div class="ctric-team-card">
-<p><img src="nicoletta.jpeg" class="ctric-team-photo img-fluid"></p>
-<p><strong>Dr.&nbsp;Nicoletta Faraone</strong></p>
-<p><span class="ctric-team-role">Director</span></p>
-<p><span class="ctric-team-affil">Department of Chemistry, Acadia University</span></p>
-</div>
-<div class="ctric-team-card">
-<p><img src="luis.jpeg" class="ctric-team-photo img-fluid"></p>
-<p><strong>Dr.&nbsp;Luis Anholeto</strong></p>
-<p><span class="ctric-team-role">Lab Manager</span></p>
-<p><span class="ctric-team-affil">Department of Chemistry, Acadia University</span></p>
-</div>
-<div class="ctric-team-card">
-<p><img src="gemma.jpeg" class="ctric-team-photo img-fluid"></p>
-<p><strong>Gemma Rawson, M.S.</strong></p>
-<p><span class="ctric-team-role">Research Technician</span></p>
-<p><span class="ctric-team-affil">Department of Chemistry, Acadia University</span></p>
-</div>
-<div class="ctric-team-card">
-<p><img src="noah.jpeg" class="ctric-team-photo img-fluid"></p>
-<p><strong>Noah Cull</strong></p>
-<p><span class="ctric-team-role">Research Assistant — Engineering Student</span></p>
-<p><span class="ctric-team-affil">Department of Chemistry, Acadia University</span></p>
-</div>
-<div class="ctric-team-card">
-<p><img src="kirk.jpg" class="ctric-team-photo img-fluid"></p>
-<p><strong>Dr.&nbsp;Kirk Hillier</strong></p>
-<p><span class="ctric-team-role">Collaborator — Chemical ecology &amp; pest management</span></p>
-<p><span class="ctric-team-affil">Department of Biology, Acadia University</span></p>
-</div>
-<div class="ctric-team-card">
-<p><img src="laura.jpg" class="ctric-team-photo img-fluid"></p>
-<p><strong>Dr.&nbsp;Laura Ferguson</strong></p>
-<p><span class="ctric-team-role">Collaborator — Climate, thermal biology &amp; vector behaviour</span></p>
-<p><span class="ctric-team-affil">Department of Biology, Acadia University</span></p>
-</div>
-</div>
-</section>
-</div>
+<div class="list quarto-listing-default">
+    
+    </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
 
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -753,5 +705,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

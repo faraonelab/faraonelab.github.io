@@ -2,11 +2,11 @@
 title: &TITLE "Luis Adriano Anholeto"
 last: "Anholeto"
 first: "Luis"
-people_group: "postdoc"
+people_group: labmanager
 email: "luis.anholeto@acadiau.ca"
 education:
   - PhD in Cellular and Molecular Biology | Sao Paulo State University (Brazil) | 2019 <br> MSc in Cellular and Molecular Biology | Sao Paulo State University (Brazil) | 2015 <br> BSc in Biology | Sao Paulo State University (Brazil) | 2012
-subtitle: "Postdoctoral Fellow"
+subtitle: "Lab Manager - CTRIC"
 image: &IMAGE "avatar.jpeg"
 page-layout: full
 

@@ -236,16 +236,7 @@
   },
   {
     "listing": "/news/index.html",
-    "items": [
-      "/news/2026-05-11/index.html",
-      "/news/2026-04-30-2/index.html",
-      "/news/2026-03-18/index.html",
-      "/news/2026-04-30/index.html",
-      "/news/2026-03-07/index.html",
-      "/news/2025-10-24/index.html",
-      "/news/2026-02-13-nicoletta/faraone.html",
-      "/news/fungus/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/people/amiro-miranda/index.html",
@@ -349,6 +340,8 @@
     "items": [
       "/people/faraone-nicoletta/index.html",
       "/people/anholeto-luis/index.html",
+      "/people/rawsom-gemma/index.html",
+      "/people/cull-noah/index.html",
       "/people/nette-adrien/index.html",
       "/people/marchand-adrienna/index.html",
       "/people/loureiro-alexandre/index.html",
@@ -511,5 +504,13 @@
       "/publications/2009-The-cytotoxic-properties/index.html",
       "/publications/2009-Antimicrobial-antioxidant-activities/index.html"
     ]
+  },
+  {
+    "listing": "/people/rawsom-gemma/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/cull-noah/index.html",
+    "items": []
   }
 ]
