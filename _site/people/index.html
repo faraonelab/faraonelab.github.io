@@ -113,13 +113,97 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-postdoc'] = new List('listing-postdoc', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-labmanager .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-engines","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-postdoc'] = new List('listing-postdoc', options);
+    window['quarto-listings']['listing-labmanager'] = new List('listing-labmanager', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-technician .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-engines","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-technician'] = new List('listing-technician', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-rassistant .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-engines","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rassistant'] = new List('listing-rassistant', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -344,6 +428,10 @@ window.Quarto = {
 <span class="menu-text">Research Areas</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../ctric/index.html"> 
+<span class="menu-text">CTRIC</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
@@ -393,7 +481,8 @@ window.Quarto = {
   <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
   <li><a href="#current-lab-members" id="toc-current-lab-members" class="nav-link" data-scroll-target="#current-lab-members">Current Lab Members</a>
   <ul class="collapse">
-  <li><a href="#postdoctoral-fellows" id="toc-postdoctoral-fellows" class="nav-link" data-scroll-target="#postdoctoral-fellows">Postdoctoral Fellows</a></li>
+  <li><a href="#research-technician---ctric" id="toc-research-technician---ctric" class="nav-link" data-scroll-target="#research-technician---ctric">Research Technician - CTRIC</a></li>
+  <li><a href="#research-assistant---ctric" id="toc-research-assistant---ctric" class="nav-link" data-scroll-target="#research-assistant---ctric">Research Assistant - CTRIC</a></li>
   </ul></li>
   <li><a href="#former-lab-members" id="toc-former-lab-members" class="nav-link" data-scroll-target="#former-lab-members">Former Lab Members</a></li>
   </ul>
@@ -472,9 +561,13 @@ window.Quarto = {
 </section>
 <section id="current-lab-members" class="level1">
 <h1>Current Lab Members</h1>
-<section id="postdoctoral-fellows" class="level2 sand-background">
-<h2 class="anchored" data-anchor-id="postdoctoral-fellows">Postdoctoral Fellows</h2>
-<div id="listing-postdoc" class="quarto-listing quarto-listing-container-custom">
+<div class="sand-background">
+<!-- ## Postdoctoral Fellows -->
+<!-- ::: {#postdoc} -->
+<!-- ::: -->
+<section id="lab-manager---ctric" class="level2">
+<h2 class="anchored" data-anchor-id="lab-manager---ctric">Lab Manager - CTRIC</h2>
+<div id="listing-labmanager" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
@@ -499,7 +592,7 @@ window.Quarto = {
               </div>
 
               <div class="listing-box-subtitle">
-                Postdoctoral Fellow<br>
+                Lab Manager - CTRIC<br>
               </div>
 
               <div class="listing-box-education">
@@ -521,23 +614,105 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<!-- ::: -->
-<!-- ## Research Scientists -->
-<!-- ::: {#researcher} -->
-<!-- ::: -->
-<!-- :::{.sand-background} -->
-<!-- ## Graduate Students -->
-<!-- ::: {#gradstudent} -->
-<!-- ::: -->
-<!-- ::: -->
-<!-- ## Honours Students -->
-<!-- ::: {#honoursstudent} -->
-<!-- ::: -->
-<!-- :::{.sand-background} -->
-<!-- ## Research Assistants -->
-<!-- ::: {#assistant} -->
-<!-- <!-- ::: -->
-<!-- ::: -->
+</div>
+<section id="research-technician---ctric" class="level2">
+<h2 class="anchored" data-anchor-id="research-technician---ctric">Research Technician - CTRIC</h2>
+<div id="listing-technician" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    
+
+      <div class="g-col-1 listing-box">
+        <a href="../people/rawsom-gemma/index.html" role="button" class="quarto-grid-link">
+          <div class="quarto-grid-item card h-100 card-left">
+
+            <p class="card-img-top">
+              <img alt="Gemma Rawson" src="../people/rawsom-gemma/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+            </p>
+
+            <div class="card-body post-contents">
+
+              <div class="listing-box-title">
+                Gemma Rawson<br>
+              </div>
+
+              <div class="listing-box-subtitle">
+                Research Technician - CTRIC<br>
+              </div>
+
+              <div class="listing-box-education">
+                
+                  Master’s degree in Biology | Acadia University | 2025<br>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+    
+
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="research-assistant---ctric" class="level2 sand-background">
+<h2 class="anchored" data-anchor-id="research-assistant---ctric">Research Assistant - CTRIC</h2>
+<div id="listing-rassistant" class="quarto-listing quarto-listing-container-custom">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    
+
+      <div class="g-col-1 listing-box">
+        <a href="../people/cull-noah/index.html" role="button" class="quarto-grid-link">
+          <div class="quarto-grid-item card h-100 card-left">
+
+            <p class="card-img-top">
+              <img alt="Noah Cull" src="../people/cull-noah/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+            </p>
+
+            <div class="card-body post-contents">
+
+              <div class="listing-box-title">
+                Noah Cull<br>
+              </div>
+
+              <div class="listing-box-subtitle">
+                Research Assistant - CTRIC<br>
+              </div>
+
+              <div class="listing-box-education">
+                
+                  Civil Engineering student | Acadia University<br>
+                
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+    
+
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
 </section>
 <section id="former-lab-members" class="level1 sand-background2">
 <h1>Former Lab Members</h1>
@@ -2862,7 +3037,21 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-researcher">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-postdoc">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    
+
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-custom" id="listing-researcher">
 
 <div class="quarto-listing quarto-listing-container-grid">
 

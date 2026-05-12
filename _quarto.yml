@@ -51,6 +51,8 @@ website:
       - href: people/index.qmd
         text: people
       - href: research/index.qmd
+      - href: ctric/index.qmd
+        text: CTRIC
       - href: publications/index.qmd
       - href: collaborators-funding/index.qmd
         text: Collaborators and Funding

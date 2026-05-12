@@ -38,7 +38,7 @@ We are an interdisciplinary research group focused on **chemical ecology**, **na
 
 Something big is hatching at Acadia University.
 
-In 2026, the **Canadian Tick Research & Innovation Centre (CTRIC)** will open in the Huestis Innovation Pavilion — the first facility of its kind in Canada.
+In 2026, the [**Canadian Tick Research & Innovation Centre (CTRIC)**](ctric/index.qmd) will open in the Huestis Innovation Pavilion — the first facility of its kind in Canada.
 
 With dedicated tick rearing (“tickery”), pathogen testing, and repellent evaluation, CTRIC will strengthen national efforts to understand, prevent, and manage ticks and tick-borne diseases.
 

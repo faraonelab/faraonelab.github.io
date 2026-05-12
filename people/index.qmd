@@ -8,6 +8,7 @@ format:
     toc: true
 listing:
   - id: pi
+    contents: "*/index.qmd"
     include:
       people_group: "pi"
     exclude:
@@ -15,8 +16,8 @@ listing:
     template: ../_ejs/people-box.ejs
     type: grid
     fields: [title, subtitle, image, education]
-
   - id: postdoc
+    contents: "*/index.qmd"
     include:
       people_group: "postdoc"
     exclude:
@@ -25,8 +26,38 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-
+  - id: labmanager
+    contents: "*/index.qmd"
+    include:
+      people_group: "labmanager"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: technician
+    contents: "*/index.qmd"
+    include:
+      people_group: "technician"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: rassistant
+    contents: "*/index.qmd"
+    include:
+      people_group: "rassistant"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: researcher
+    contents: "*/index.qmd"
     include:
       people_group: "researcher"
     exclude:
@@ -35,8 +66,8 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-
   - id: gradstudent
+    contents: "*/index.qmd"
     include:
       people_group: "gradstudent"
     exclude:
@@ -45,8 +76,8 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-
   - id: honoursstudent
+    contents: "*/index.qmd"
     include:
       people_group: "honoursstudent"
     exclude:
@@ -55,8 +86,8 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-
   - id: assistant
+    contents: "*/index.qmd"
     include:
       people_group: "assistant"
     exclude:
@@ -65,8 +96,8 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-
   - id: alumni
+    contents: "*/index.qmd"
     include:
       people_group: "alumni"
     exclude:
@@ -85,49 +116,34 @@ listing:
 
 # Current Lab Members
 
-:::: sand-background
-## Postdoctoral Fellows
+:::: {.sand-background}
 
-::: {#postdoc}
+<!-- ## Postdoctoral Fellows -->
+
+<!-- ::: {#postdoc} -->
+<!-- ::: -->
+## Lab Manager - CTRIC
+
+::: {#labmanager}
+:::
+::::
+## Research Technician - CTRIC
+
+::: {#technician}
+:::
+
+:::: {.sand-background}
+## Research Assistant - CTRIC
+
+::: {#rassistant}
 :::
 ::::
 
-<!-- ::: -->
+:::: {.sand-background2}
 
-<!-- ## Research Scientists -->
-
-<!-- ::: {#researcher} -->
-
-<!-- ::: -->
-
-<!-- :::{.sand-background} -->
-
-<!-- ## Graduate Students -->
-
-<!-- ::: {#gradstudent} -->
-
-<!-- ::: -->
-
-<!-- ::: -->
-
-<!-- ## Honours Students -->
-
-<!-- ::: {#honoursstudent} -->
-
-<!-- ::: -->
-
-<!-- :::{.sand-background} -->
-
-<!-- ## Research Assistants -->
-
-<!-- ::: {#assistant} -->
-
-<!-- <!-- ::: -->
-
-<!-- ::: -->
-:::: sand-background2
 # Former Lab Members
 
 ::: {#alumni}
 :::
+
 ::::

@@ -349,6 +349,8 @@
     "items": [
       "/people/faraone-nicoletta/index.html",
       "/people/anholeto-luis/index.html",
+      "/people/rawsom-gemma/index.html",
+      "/people/cull-noah/index.html",
       "/people/nette-adrien/index.html",
       "/people/marchand-adrienna/index.html",
       "/people/loureiro-alexandre/index.html",
@@ -511,5 +513,13 @@
       "/publications/2009-The-cytotoxic-properties/index.html",
       "/publications/2009-Antimicrobial-antioxidant-activities/index.html"
     ]
+  },
+  {
+    "listing": "/people/rawsom-gemma/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/cull-noah/index.html",
+    "items": []
   }
 ]

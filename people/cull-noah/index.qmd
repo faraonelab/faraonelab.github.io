@@ -1,0 +1,51 @@
+---
+title: &TITLE "Noah Cull"
+last: "Cull"
+first: "Noah"
+people_group: rassistant
+email: "0310318c@ACADIAU.CA"
+education:
+  - Civil Engineering student | Acadia University
+subtitle: "Research Assistant - CTRIC"
+image: &IMAGE "avatar.jpeg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:0310318c@ACADIAU.CA
+---
+
+<hr>
+
+::: {#about}
+Noah Cull is a Civil Engineering student completing his CAS at Acadia University and finishing his Bachelor of Civil Engineering at Dalhousie University in 2029. Noah is working with Faraone Labs to develop an artificial tick feeding system to both increase tick survivability and reduce workload on lab members. Noah is passionate in the geotechnical and environmental sustainability field, as well as rural community development, on top of spending time outdoors and in the field. 
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::
