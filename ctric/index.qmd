@@ -50,25 +50,25 @@ format:
 
 ::::::: ctric-card-grid
 ::: ctric-card
-**🔬 Built on proven expertise**
+**{{< fa microscope >}} Built on proven expertise**
 
 Our team brings together diverse expertise across tick biology, chemical ecology, molecular diagnostics, and thermal physiology.
 :::
 
 ::: ctric-card
-**🏘️ Rooted in Atlantic Canada**
+**<i class="bi bi-house-heart-fill"></i> Rooted in Atlantic Canada**
 
 Located in Wolfville, NS, CTRIC creates skilled employment in rural Atlantic Canada while delivering national and international impact through research, innovation, and strategic partnerships.
 :::
 
 ::: ctric-card
-**🛡️ Biosafety first**
+**<i class="bi bi-shield-shaded"></i>️ Biosafety first**
 
 CTRIC operates under biosafety standards, ensuring that all ticks produced are rigorously screened and pathogen-free. Our purpose-built containment facility protects staff, partners, and the environment while meeting the biosafety requirements for working with live ticks and tick-borne pathogens.
 :::
 
 ::: ctric-card
-**🔄 Reducing foreign dependency**
+**<i class="bi bi-globe2"></i> Reducing foreign dependency**
 
 CTRIC will provide locally reared ticks that are genetically relevant to Canadian environments, produced under rigorous biosafety standards — alongside fast, reliable pathogen testing for tick-borne diseases.
 :::
@@ -92,7 +92,7 @@ CTRIC will provide locally reared ticks that are genetically relevant to Canadia
 
 :::: ctric-pillar
 ::: ctric-pillar-body
-**Tick rearing & supply**
+<i class="bi bi-check-circle-fill"></i> **Tick rearing & supply**
 
 Large-scale rearing of *Ixodes scapularis* (blacklegged tick) and *Dermacentor variabilis* (American dog tick) using artificial feeding systems — no live animals required. Canadian-reared ticks for academic, government, and commercial clients, with distribution beginning soon.
 :::
@@ -100,7 +100,7 @@ Large-scale rearing of *Ixodes scapularis* (blacklegged tick) and *Dermacentor v
 
 :::: ctric-pillar
 ::: ctric-pillar-body
-**Pathogen testing & diagnostics**
+<i class="bi bi-check-circle-fill"></i> **Pathogen testing & diagnostics**
 
 Molecular testing for Lyme disease (*Borrelia* spp.), *Anaplasma*, *Babesia*, *Rickettsia*, and other emerging tick-borne pathogens. Fee-for-service testing for researchers, health agencies, and commercial partners.
 :::
@@ -108,7 +108,7 @@ Molecular testing for Lyme disease (*Borrelia* spp.), *Anaplasma*, *Babesia*, *R
 
 :::: ctric-pillar
 ::: ctric-pillar-body
-**Repellency & acaricidal testing**
+<i class="bi bi-check-circle-fill"></i> **Repellency & acaricidal testing**
 
 Controlled laboratory evaluation of acaricides and repellents under standardized conditions. Supports Health Canada PMRA product registration and new product development for industry partners, including start-ups and established repellent and veterinary health companies.
 :::
@@ -170,7 +170,7 @@ CTRIC will test repellents, treated fabrics, and acaricidal formulations against
 ::: ctric-team-card
 ![](nicoletta.jpeg){.ctric-team-photo}
 
-[**Dr. Nicoletta Faraone**](people/faraone-nicoletta/index.qmd)
+[**Dr. Nicoletta Faraone**](../people/faraone-nicoletta/index.qmd)
 
 [Director]{.ctric-team-role}
 
@@ -180,7 +180,7 @@ CTRIC will test repellents, treated fabrics, and acaricidal formulations against
 ::: ctric-team-card
 ![](luis.jpeg){.ctric-team-photo}
 
-[**Dr. Luis Anholeto**](people/anholeto-luis/index.qmd)
+[**Dr. Luis Anholeto**](../people/anholeto-luis/index.qmd)
 
 [Lab Manager]{.ctric-team-role}
 
@@ -190,7 +190,7 @@ CTRIC will test repellents, treated fabrics, and acaricidal formulations against
 ::: ctric-team-card
 ![](gemma.jpeg){.ctric-team-photo}
 
-[**Gemma Rawson, M.S.**](people/rawson-gemma/index.qmd)
+[**Gemma Rawson, M.S.**](../people/rawson-gemma/index.qmd)
 
 [Research Technician]{.ctric-team-role}
 
@@ -200,7 +200,7 @@ CTRIC will test repellents, treated fabrics, and acaricidal formulations against
 ::: ctric-team-card
 ![](noah.jpeg){.ctric-team-photo}
 
-[**Noah Cull**](people/cull-noah/index.qmd)
+[**Noah Cull**](../people/cull-noah/index.qmd)
 
 [Research Assistant — Engineering Student]{.ctric-team-role}
 
