@@ -43,7 +43,7 @@ We aim to design repellents and control strategies that are:
 
 -   Effective under real-world conditions
 
-By bridging **basic sensory biology with applied innovation**, we contribute to next-generation vector management solutions.
+By bridging **basic sensory biology with applied innovation**, we contribute to next-generation vector management solutions.
 
 ## Related Publications
 

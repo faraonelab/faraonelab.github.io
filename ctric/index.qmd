@@ -13,7 +13,6 @@ format:
     fig-format: retina
     fig-dpi: 300
 ---
-
 ```{=html}
 <!-- ═══════════════════════════════════════
      HERO

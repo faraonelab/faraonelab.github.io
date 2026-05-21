@@ -1,25 +1,49 @@
 /*-- scss:defaults --*/
 
+// ============================================================
 // Colors
-$primary: #2B7A8B;         // teal
-$secondary: #A6DDB4;       // mint accent
-$ink: #111315;             // text color
-$light: #E6E9ED;           // light border gray
-$sand: #eeeeee;
-$gold: #e8e3d3;
+// ============================================================
+$primary:   #2B7A8B;   // teal
+$secondary: #A6DDB4;   // mint accent
+$ink:       #111315;   // text color
+$light:     #E6E9ED;   // light border gray
+$sand:      #eeeeee;
+$gold:      #e8e3d3;
 
+// ============================================================
 // Quarto / Bootstrap overrides
-$body-bg: white;
-$body-color: $ink;
-$link-color: $primary;
+// ============================================================
+$body-bg:          white;
+$body-color:       $ink;
+$link-color:       $primary;
 $link-hover-color: darken($primary, 10%);
 
+// ============================================================
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Bebas+Neue&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300&family=Montserrat:wght@300;400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,700;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,700&family=Nunito:wght@300&family=Source+Sans+3:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+// Only Source Sans 3 (body/UI) and Economica (accent headings)
+// Added weight 600 for semibold option
+// ============================================================
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&display=swap');
+
+$font-main:   'Source Sans 3', sans-serif;
+$font-accent: 'Economica', sans-serif;
+
+$font-family-sans-serif: $font-main !default;
+
 
 /*-- scss:rules --*/
 
-/* -- Quarto Layout Fixes (Glue to Footer) -- */
+// ============================================================
+// Base
+// ============================================================
+body {
+  font-family: $font-main;
+  font-weight: 400;
+}
+
+// ============================================================
+// Quarto Layout Fixes (Glue to Footer)
+// ============================================================
 #quarto-content.quarto-container {
   padding-bottom: 0 !important;
 }
@@ -29,17 +53,17 @@ main.content {
   padding-bottom: 0 !important;
 }
 
-/* Align all footer columns vertically in the center */
+// ============================================================
+// Footer
+// ============================================================
 .nav-footer {
   display: flex;
-  align-items: center; /* This handles the vertical centering */
-  justify-content: space-between; /* This keeps them spread across the page */
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Optional: Ensure the text inside the columns is also vertically centered 
-   if one column is significantly taller than the others */
-.nav-footer-left, 
-.nav-footer-center{
+.nav-footer-left,
+.nav-footer-center {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
@@ -47,14 +71,18 @@ main.content {
   justify-content: center;
 }
 
-/* -- Fonts -- */
+// ============================================================
+// Headings
+// ============================================================
 h1, .h1 {
-   font-family: 'Economica', sans-serif;
-   font-weight: normal;
-   text-transform: uppercase;
+  font-family: $font-main;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-/* -- Animated Gradient Headline MAIN PAGE-- */
+// ============================================================
+// Animated Gradient Headline — MAIN PAGE
+// ============================================================
 div.gradient-text {
   text-align: center;
   display: flex;
@@ -72,7 +100,7 @@ div.gradient-text {
 
 @keyframes animated_text {
   0%, 100% { background-position: 0px 50%; }
-  50% { background-position: 100% 50%; }
+  50%       { background-position: 100% 50%; }
 }
 
 .welcome-headline {
@@ -85,18 +113,67 @@ div.gradient-text {
 
 .welcome-subheadline {
   font-size: 2.1rem;
-  font-family: 'Economica', sans-serif;
+  font-family: $font-accent;
   text-transform: uppercase;
   @media (max-width: 768px) { font-size: 1.3rem; }
 }
 
-/* -- Navbar & Logo - MAIN PAGE  -- */
+// ============================================================
+// Navbar & Logo — MAIN PAGE
+// ============================================================
+.navbar-collapse {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .navbar {
+  position: relative;  // needed for absolute positioning to work
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 1.2em;
-  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+  font-family: $font-main;
+  font-weight: 400;
   text-transform: uppercase;
+}
+
+.navbar > .container-fluid,
+.navbar > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand.navbar-brand-logo {
+  flex-shrink: 0;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  padding: 0.25rem 0;
+}
+
+.navbar-logo {
+  max-height: 55px;
+  width: auto;
+  display: block;
+  @media (max-width: 991px) { max-height: 40px; }
+}
+
+.navbar-collapse {
+  flex: 1;
+  justify-content: flex-end;   // links align to the right
+}
+
+.navbar .nav-link,
+.navbar-nav .nav-link {
+  font-weight: 400;
+  color: $ink;
+  transition: color 0.15s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar-nav .nav-link:hover {
+  font-weight: 600 !important;
+  color: $primary;
 }
 
 .navbar-brand.navbar-brand-logo {
@@ -108,7 +185,7 @@ div.gradient-text {
 }
 
 .navbar-logo {
-  max-height: 150px;
+  max-height: 60px;
   width: auto;
   align-items: baseline;
   @media (max-width: 991px) { max-height: 100px; }
@@ -118,7 +195,9 @@ div.gradient-text {
   .navbar-nav-scroll { background: #EAE7E7; width: 70%; }
 }
 
-/* -- Carousel Background -- MAIN PAGE */
+// ============================================================
+// Carousel Background — MAIN PAGE
+// ============================================================
 .cmm-background {
   background-size: cover;
   background-position: center;
@@ -130,8 +209,8 @@ div.gradient-text {
 }
 
 @keyframes cmmCarousel {
-  0%, 7.69%    { background-image: url("/images/originals/cmm1.webp"); }
-  7.7%, 15.38%  { background-image: url("/images/originals/cmm2.webp"); }
+  0%,    7.69%  { background-image: url("/images/originals/cmm1.webp"); }
+  7.7%,  15.38% { background-image: url("/images/originals/cmm2.webp"); }
   15.39%, 23.07% { background-image: url("/images/originals/cmm3.webp"); }
   23.08%, 30.76% { background-image: url("/images/originals/cmm4.webp"); }
   30.77%, 38.45% { background-image: url("/images/originals/cmm5.webp"); }
@@ -145,7 +224,9 @@ div.gradient-text {
   92.31%, 100%   { background-image: url("/images/originals/cmm13.webp"); }
 }
 
-/* -- Layout: Overlap & Squares -- */
+// ============================================================
+// Layout: Overlap & Squares
+// ============================================================
 .overlap-block {
   background-color: rgba(238, 238, 238, 0.85) !important;
   backdrop-filter: blur(10px);
@@ -155,7 +236,12 @@ div.gradient-text {
   z-index: 2;
   position: relative;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  h3 { margin-top: 0; font-family: 'Economica', sans-serif; font-weight: 700; }
+
+  h3 {
+    margin-top: 0;
+    font-family: $font-accent;
+    font-weight: 700;
+  }
 }
 
 .square-img-container {
@@ -164,18 +250,66 @@ div.gradient-text {
   overflow: hidden;
   border-radius: 4px;
   z-index: 1;
-  img { width: 100%; height: 100%; object-fit: cover; object-position: center; image-rendering: -webkit-optimize-contrast; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    image-rendering: -webkit-optimize-contrast;
+  }
 }
 
-/* -- people - PAGE PEOPLE --*/
+// ============================================================
+// News listing images — MAIN PAGE (#latest-news)
+// Card-style layout with rounded top corners
+// ============================================================
+#latest-news .card-img-top {
+  width: 100% !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 10px 10px 0 0 !important;
+}
 
+// ============================================================
+// News listing images — NEWS INDEX PAGE (type: default row layout)
+// Forces all images to the same box regardless of original
+// aspect ratio (portrait, landscape, square)
+// ============================================================
+.quarto-listing-default .list-group-item {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 1.25rem;
+}
+
+.quarto-listing-default .listing-image {
+  flex: 0 0 220px !important;
+  width: 220px !important;
+  height: 160px !important;
+  overflow: hidden !important;
+  border-radius: 6px !important;
+}
+
+.quarto-listing-default .listing-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  display: block !important;
+}
+
+// ============================================================
+// People — PAGE PEOPLE
+// ============================================================
 .listing-box:hover {
   border-color: $primary;
   background-color: transparent;
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
-            0px 2px 4px rgba(0,0,0,0.1), 
-            0px 4px 8px rgba(0,0,0,0.1), 
-            0px 8px 16px rgba(0,0,0,0.1);
+  box-shadow:
+    0px 1px 2px rgba(0,0,0,0.1),
+    0px 2px 4px rgba(0,0,0,0.1),
+    0px 4px 8px rgba(0,0,0,0.1),
+    0px 8px 16px rgba(0,0,0,0.1);
 }
 
 .listing-box-title {
@@ -189,10 +323,8 @@ div.gradient-text {
 }
 
 .listing-box-subtitle {
-  /*    margin-top: auto;*/
-  //font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 12px;
   margin-bottom: 0;
   color: #757883;
@@ -224,23 +356,16 @@ div.gradient-text {
   box-sizing: border-box;
 }
 
-
 .listing-box-image {
   object-fit: cover;
   width: 100%;
   height: 190px;
 }
 
-.quarto-listing-cols-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-
+.quarto-listing-cols-3,
 .quarto-listing-cols-4 {
-    padding-left: 10px;
-    padding-right: 10px;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .anchored {
@@ -248,30 +373,23 @@ div.gradient-text {
   padding-left: 10px;
 }
 
-/* -- publications --*/
-
+// ============================================================
+// Publications
+// ============================================================
 .listing-pub-title {
-  /*font-family: 'Bebas Neue', sans-serif;
-  max-width: 80%;
-  margin-top: 10px;
-  margin-bottom: 12px;
-  color: #222;
-  line-height: 1.2;*/
   font-size: 18px;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .listing-pub-author {
   color: #757883;
   font-size: 13px;
   margin-bottom: 6px;
-  /*line-height: 1.5;*/
 }
 
 .listing-pub-number {
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 15px;
-
 }
 
 .listing-pub-journal {
@@ -282,7 +400,6 @@ div.gradient-text {
 
 .listing-pub-url {
   font-size: 13px;
-
 }
 
 .thumbnail img.thumbnail-image {
@@ -295,8 +412,9 @@ div.gradient-text {
   display: block !important;
 }
 
-/* Collaborative Page Styles - FUNDING PAGE */
-
+// ============================================================
+// Collaborators — FUNDING PAGE
+// ============================================================
 .collaborator-list {
   margin-top: 30px;
 
@@ -317,65 +435,58 @@ div.gradient-text {
       border: 1px solid #eee;
     }
 
-    /* Responsive: Stack on mobile */
     @media (max-width: 600px) {
       grid-template-columns: 1fr;
       text-align: center;
-      img {
-        margin: 0 auto;
-      }
+      img { margin: 0 auto; }
     }
   }
 
-  .collab-name { font-size: 1.4em; font-weight: bold; margin-bottom: 2px; }
-  .collab-inst { font-style: italic; color: #666; margin-bottom: 5px; }
+  .collab-name    { font-size: 1.4em; font-weight: 700; margin-bottom: 2px; }
+  .collab-inst    { font-style: italic; color: #666; margin-bottom: 5px; }
   .collab-project { margin-bottom: 10px; line-height: 1.4; }
-  
+
   .collab-site {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    color: #007bff; 
+    color: $primary;
     font-weight: 500;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    &:hover { text-decoration: underline; }
   }
 }
 
-/* Logo Grid for Funding section - FOR MAIN PAGE*/
+// ============================================================
+// Logo Grid — MAIN PAGE / FUNDING PAGE
+// ============================================================
 .logo-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; // This centers the logos horizontally
-  align-items: center;     // This centers logos of different heights vertically
-  gap: 50px;               // Increased gap for better visual balance
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
   margin: 40px auto;
-  max-width: 1100px;       // Give it a defined width to center against
+  max-width: 1100px;
 }
 
 .logo-item {
-  /* FIXED: Changed flex: 1 to flex: 0 0 auto */
-  /* This prevents logos from shrinking or growing unevenly */
-  flex: 0 0 auto;  
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-    
+
   img {
-    /* FIXED: Using width instead of max-width for consistency */
-    width: 200px;         
-    height: 80px;          // Fixed height keeps the row looking "straight"
-    object-fit: contain;   // Prevents logo distortion
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
     transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
   }
 
   .agency-name {
     width: 100%;
-    max-width: 220px;      // Prevents long names from pushing the grid apart
+    max-width: 220px;
     word-wrap: break-word;
     display: block;
     margin-top: 15px;
@@ -387,21 +498,19 @@ div.gradient-text {
     line-height: 1.2;
   }
 
-  /* Hover State */
   &:hover {
     img {
-      transform: translateY(-5px); 
+      transform: translateY(-5px);
       filter: grayscale(0%);
       opacity: 1;
     }
-    .agency-name {
-      opacity: 1;
-    }
+    .agency-name { opacity: 1; }
   }
 }
 
-  /* share section */
-
+// ============================================================
+// Share Section
+// ============================================================
 .share-section {
   margin-top: 2rem;
   padding-top: 1.5rem;
@@ -426,14 +535,18 @@ div.gradient-text {
   &:active { transform: translateY(0); }
 }
 
-/* -- Utilities -- */
-.sand-background { background-color: $sand; }
+// ============================================================
+// Utilities
+// ============================================================
+.sand-background    { background-color: $sand; }
 .primary-background { background-color: $primary; }
 
-/* -- Support Section Styling FOR THE FUNDING PAGE -- */
+// ============================================================
+// Support / Funding Logos Section
+// ============================================================
 .support-logos {
-  background-color: white; 
-  padding: 60px 0; 
+  background-color: white;
+  padding: 60px 0;
   width: 100vw;
   position: relative;
   left: 50%;
@@ -442,9 +555,9 @@ div.gradient-text {
   margin-right: -50vw;
   display: flex;
   flex-direction: column;
-  align-items: center; // This forces the children to stay centered
+  align-items: center;
   overflow: hidden;
-  z-index: 1; 
+  z-index: 1;
 
   h1, #support-funding {
     width: 100%;
@@ -459,8 +572,8 @@ div.gradient-text {
   .logo-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; // Centers logos horizontally
-    align-items: center;     // Aligns logos vertically (prevents wonky heights)
+    justify-content: center;
+    align-items: center;
     gap: 60px;
     width: 100%;
     max-width: 1100px;
@@ -478,13 +591,13 @@ div.gradient-text {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 0 1 auto; // CRITICAL: Prevents logos from stretching/offsetting
+    flex: 0 1 auto;
     text-decoration: none;
 
     img {
-      height: 75px; 
-      width: auto;   
-      object-fit: contain; 
+      height: 75px;
+      width: auto;
+      object-fit: contain;
       max-width: 250px;
       filter: drop-shadow(0px 4px 10px rgba(0,0,0,0.1));
       transition: transform 0.3s ease;
@@ -496,11 +609,9 @@ div.gradient-text {
       font-weight: 600;
       color: #333;
       text-align: center;
-      max-width: 220px; // Keeps the text from pushing the logo off-center
+      max-width: 220px;
     }
 
-    &:hover img {
-      transform: translateY(-5px);
-    }
+    &:hover img { transform: translateY(-5px); }
   }
 }
