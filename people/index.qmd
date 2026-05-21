@@ -134,17 +134,20 @@ listing:
 ::: {#rassistant}
 :::
 ::::
+
+## Graduate Students
+
+:::{#gradstudent}
+:::
+
+:::: {.sand-background}
 ## Undergraduate Students
 
 :::{#honoursstudent}
 :::
-
-
-:::: {.sand-background}
+::::
 
 # Former Lab Members
 
 ::: {#alumni}
 :::
-
-::::

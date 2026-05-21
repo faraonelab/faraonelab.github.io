@@ -4,7 +4,6 @@ project:
     - "*.qmd"
     - "!publications/_template/"
     - "!people/_template/"
-
 website:
   title: "Faraone Lab"
   favicon: images/favicon.png
@@ -22,25 +21,25 @@ website:
     image: "images/og-logo.png"
     site-name: "Faraone Lab"
     locale: "en_US"
-  announcement: 
+  announcement:
     icon: megaphone
     dismissable: true
     content: "We are hiring! Check the open positions in the Join Us section"
     type: success
-    position: below-navbar  
-  page-footer: 
+    position: below-navbar
+  page-footer:
     background: "#F6F5F3"
     left: |
       Faraone Lab, [Acadia University](https://www.acadiau.ca), Department of Chemistry (117 Elliott Hall)<br>
       6 University Avenue - Wolfville, Nova Scotia B4P 2R6 Canada <br>
-      Acadia University is located in Mi'kma'ki, the ancestral and unceded territory of the Mi’kmaw nation.
+      Acadia University is located in Mi'kma'ki, the ancestral and unceded territory of the Mi'kmaw nation.
     center: |
       © 2026 &middot; Made with {{< fa brands r-project >}} and 
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) by Luis Anholeto
     right:
       - icon: github
         href: https://github.com/faraonelab/faraonelab.github.io.git
-  
+
   navbar:
     search: true
     title: false
@@ -66,19 +65,17 @@ website:
         text: Join Us
       - href: contact.qmd
         text: Contact
-
   sidebar:
     - id: empty-to-suppress-sidebars-on-other-pages
 
 format:
   html:
-    theme: 
+    theme:
       - styles/custom.scss
       - yeti
-    mainfont: Nunito Sans
     toc: true
     link-external-newwindow: true
-    date-format: "YYYY-MM-DD" 
+    date-format: "YYYY-MM-DD"
     smooth-scroll: true
     resources:
       - images
