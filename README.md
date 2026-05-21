@@ -14,6 +14,6 @@ use `just newperson` for creation of new directory and input prompts for new r
 
 ### Deployment
 
--   use long-running `updates` branch for deploy previews
+- use long-running `updates` branch for deploy previews
 
--   `quarto render` locally and include `_site` in version control
+- `quarto render` locally and include `_site` in version control

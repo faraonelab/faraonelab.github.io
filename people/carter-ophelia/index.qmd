@@ -1,0 +1,51 @@
+---
+title: &TITLE "Ophelia Carter"
+last: "Carter"
+first: "Ophelia"
+people_group: "gradstudent"
+email: "opheliacarter@acadiau.ca"
+education:
+  - "B.Sc. in Biology (Honours) | Acadia University (2026)"
+subtitle: "Graduate Student, Biology"
+image: &IMAGE "avatar.jpg"
+page-layout: full
+
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:opheliacarter@acadiau.ca
+---
+
+<hr>
+
+::: {#about}
+Ophelia is an MSc student under the supervision of Drs. Nicoletta Faraone and Kirk Hillier. She recently completed her Honours in Biology, wherein she researched the neurophysiological response of *Cx. territans* mosquitoes to the volatiles of frogs infected with Hepatozoon parasites, primarily through gas chromatography-electroantennography (GC-EAD). Her Master's project aims to characterize the neurophysiological mechanisms of repellency in ticks using integrated electrophysiological (electrotarsography and single-sensillum recording) and behavioral approaches. Ophelia has a passion for vector biology and disease research, as well as herpetology, entomology, and pathogenic microbiology.
+
+## Education
+
+{{< meta education >}}
+:::
+
+<br>
+
+## {{< meta first >}}'s Publications
+
+::: {#pubs}
+:::
