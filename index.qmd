@@ -10,7 +10,7 @@ listing:
     contents: news/*/*.qmd
     sort: "date desc"
     type: default
-    fields: [date, title, description]
+    fields: [date, title]
     max-items: 3
 ---
 
