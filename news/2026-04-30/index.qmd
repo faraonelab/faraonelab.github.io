@@ -9,7 +9,7 @@ author:
 
 Research from the **Faraone Lab at Acadia University** has been highlighted in *Entomology Today*. The article reports that a **fabric spray formulated with lemon eucalyptus oil (Citriodiol)** effectively repels two medically important tick species—*Ixodes scapularis* and *Dermacentor variabilis*—when applied to common clothing fabrics. The study showed strong repellency comparable to DEET and sustained protection for several days across different fabric types.
 
-![](featured.jpeg){fig-align="center" width="500"}
+![](featured.png){fig-align="center" width="506"}
 
 This work combines laboratory bioassays and human trials to evaluate how natural-product–based repellents can help reduce tick bites and the risk of tick-borne diseases. The findings contribute to the development of safer, plant-derived alternatives for personal protection.
 

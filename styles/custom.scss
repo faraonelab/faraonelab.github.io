@@ -121,20 +121,18 @@ div.gradient-text {
 // ============================================================
 // Navbar & Logo — MAIN PAGE
 // ============================================================
-.navbar-collapse {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .navbar {
-  position: relative;  // needed for absolute positioning to work
+  position: relative;
   padding-top: 0;
   padding-bottom: 0;
   font-size: 1em;
   font-family: $font-main;
   font-weight: 400;
   text-transform: uppercase;
+
+  @media (max-width: 1400px) {
+    font-size: 0.85em;
+  }
 }
 
 .navbar > .container-fluid,
@@ -142,25 +140,43 @@ div.gradient-text {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 
 .navbar-brand.navbar-brand-logo {
+  display: flex;
   flex-shrink: 0;
-  margin-left: 1rem;
-  margin-right: 2rem;
-  padding: 0.25rem 0;
+  padding: 0;
+  margin-left: 1.5em;
+  margin-right: 1rem;
+
+  @media (max-width: 1400px) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  @media (max-width: 767px) {
+    margin-left: 0;
+  }
 }
 
 .navbar-logo {
-  max-height: 55px;
+  max-height: 60px;
   width: auto;
   display: block;
-  @media (max-width: 991px) { max-height: 40px; }
+
+  @media (max-width: 1400px) { max-height: 50px; }
+  @media (max-width: 991px)  { max-height: 40px; }
 }
 
 .navbar-collapse {
   flex: 1;
-  justify-content: flex-end;   // links align to the right
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  white-space: nowrap;
+}
+
+.navbar-nav {
+  flex-wrap: nowrap;
 }
 
 .navbar .nav-link,
@@ -168,27 +184,19 @@ div.gradient-text {
   font-weight: 400;
   color: $ink;
   transition: color 0.15s ease;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+
+  @media (max-width: 1400px) {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
 }
 
 .navbar .nav-link:hover,
 .navbar-nav .nav-link:hover {
   font-weight: 600 !important;
   color: $primary;
-}
-
-.navbar-brand.navbar-brand-logo {
-  display: flex;
-  padding: 0;
-  margin-right: 0;
-  margin-left: 1.5em;
-  @media (max-width: 767px) { margin-left: 0; }
-}
-
-.navbar-logo {
-  max-height: 60px;
-  width: auto;
-  align-items: baseline;
-  @media (max-width: 991px) { max-height: 100px; }
 }
 
 @media (max-width: 991px) {

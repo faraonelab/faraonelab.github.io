@@ -4,6 +4,7 @@ project:
     - "*.qmd"
     - "!publications/_template/"
     - "!people/_template/"
+
 website:
   title: "Faraone Lab"
   favicon: images/favicon.png
@@ -39,32 +40,35 @@ website:
     right:
       - icon: github
         href: https://github.com/faraonelab/faraonelab.github.io.git
-
   navbar:
     search: true
     title: false
     logo: images/faraone-logo.jpg
     background: "#FFF"
     logo-alt: "Faraone Research Group"
-    left:
+    right:
       - href: people/index.qmd
-        text: people
+        text: People
       - href: research/index.qmd
+        text: Research
       - href: ctric/index.qmd
         text: CTRIC
-      - href: publications/index.qmd
-      - href: collaborators-funding/index.qmd
-        text: Collaborators and Funding
       - href: news/index.qmd
         text: News
-      - href: gallery/index.qmd
-        text: Gallery
-      - href: courses/index.qmd
-        text: Courses
       - href: join-us/index.qmd
         text: Join Us
-      - href: contact.qmd
-        text: Contact
+      - text: More
+        menu:
+          - href: publications/index.qmd
+            text: Publications
+          - href: collaborators-funding/index.qmd
+            text: Collaborators & Funding
+          - href: gallery/index.qmd
+            text: Gallery
+          - href: courses/index.qmd
+            text: Courses
+          - href: contact.qmd
+            text: Contact
   sidebar:
     - id: empty-to-suppress-sidebars-on-other-pages
 
