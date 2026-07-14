@@ -6,6 +6,6 @@ We are always looking for creative and motivated individuals to join our dynamic
 
 # Open positions:
 
-## Project Manager position:
-
-[- Project Manager](project-manager.pdf)
+::: {.callout-note}
+There are no postings at this time.
+:::
