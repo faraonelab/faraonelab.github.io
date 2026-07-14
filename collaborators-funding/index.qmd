@@ -59,6 +59,18 @@ format:
 </div>
 
 <div class="collaborator-row">
+<img src="collaborators/yara.jpeg" alt="Dr. Yara Peluso Cid">
+<div class="collaborator-info">
+<div class="collab-name">Dr. Yara Peluso Cid</div>
+<div class="collab-inst">Rural Federal University of Rio de Janeiro (Brazil)</div>
+<div class="collab-project">**Project:** Acaricidal activities of Brazilian essential oils on different tick species</div>
+<a href="https://departamentos.ufrrj.br/icbs-dcfar/2025/05/29/yara-peluso-cid/" class="collab-site" target="_blank">
+<i class="bi bi-globe"></i> Website
+</a>
+</div>
+</div>
+
+<div class="collaborator-row">
 <img src="collaborators/antonella.jpg" alt="Dr. Antonella Maggio">
 <div class="collaborator-info">
 <div class="collab-name">Dr. Antonella Maggio</div>

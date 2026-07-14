@@ -22,12 +22,12 @@ website:
     image: "images/og-logo.png"
     site-name: "Faraone Lab"
     locale: "en_US"
-  announcement:
-    icon: megaphone
-    dismissable: true
-    content: "We are hiring! Check the open positions in the Join Us section"
-    type: success
-    position: below-navbar
+  # announcement:
+  #   icon: megaphone
+  #   dismissable: true
+  #   content: "We are hiring! Check the open positions in the Join Us section"
+  #   type: success
+  #   position: below-navbar
   page-footer:
     background: "#F6F5F3"
     left: |
