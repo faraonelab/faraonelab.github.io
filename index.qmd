@@ -13,10 +13,6 @@ listing:
     fields: [date, title]
     max-items: 3
 ---
-
-::: cmm-preload
-:::
-
 :::: gradient-text
 ::: welcome-headline
 Welcome to the Faraone Research Group<br>
@@ -24,6 +20,19 @@ Welcome to the Faraone Research Group<br>
 ::::
 
 ::::: cmm-background
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
 :::: content-container
 ::: welcome
 :::

@@ -207,30 +207,44 @@ div.gradient-text {
 // Carousel Background — MAIN PAGE
 // ============================================================
 .cmm-background {
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  overflow: hidden;
   min-height: 700px;
   width: 100%;
-  image-rendering: -webkit-optimize-contrast;
-  animation: cmmCarousel 52s infinite;
   margin-bottom: 25px;
 }
 
-@keyframes cmmCarousel {
-  0%,    7.69%  { background-image: url("/images/originals/cmm1.webp"); }
-  7.7%,  15.38% { background-image: url("/images/originals/cmm2.webp"); }
-  15.39%, 23.07% { background-image: url("/images/originals/cmm3.webp"); }
-  23.08%, 30.76% { background-image: url("/images/originals/cmm4.webp"); }
-  30.77%, 38.45% { background-image: url("/images/originals/cmm5.webp"); }
-  38.46%, 46.15% { background-image: url("/images/originals/cmm6.webp"); }
-  46.16%, 53.84% { background-image: url("/images/originals/cmm7.webp"); }
-  53.85%, 61.53% { background-image: url("/images/originals/cmm8.webp"); }
-  61.54%, 69.22% { background-image: url("/images/originals/cmm9.webp"); }
-  69.23%, 76.91% { background-image: url("/images/originals/cmm10.webp"); }
-  76.92%, 84.61% { background-image: url("/images/originals/cmm11.webp"); }
-  84.62%, 92.30% { background-image: url("/images/originals/cmm12.webp"); }
-  92.31%, 100%   { background-image: url("/images/originals/cmm13.webp"); }
+.cmm-background .cmm-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateX(100%);
+  animation: cmmSlide 52s infinite;
 }
+
+@keyframes cmmSlide {
+  0%      { transform: translateX(100%); }   /* parked off-screen right */
+  1.923%  { transform: translateX(0%); }     /* finished entering (~1s push) */
+  7.692%  { transform: translateX(0%); }     /* holds until exactly 4s (the slot boundary) */
+  9.615%  { transform: translateX(-100%); }  /* finished exiting (~1s push) */
+  100%    { transform: translateX(-100%); }  /* parked off-screen left */
+}
+
+.cmm-background .cmm-slide:nth-child(1)  { background-image: url("/images/originals/cmm1.jpeg");  animation-delay: 0s; }
+.cmm-background .cmm-slide:nth-child(2)  { background-image: url("/images/originals/cmm2.jpeg");  animation-delay: 4s; }
+.cmm-background .cmm-slide:nth-child(3)  { background-image: url("/images/originals/cmm3.jpeg");  animation-delay: 8s; }
+.cmm-background .cmm-slide:nth-child(4)  { background-image: url("/images/originals/cmm4.jpeg");  animation-delay: 12s; }
+.cmm-background .cmm-slide:nth-child(5)  { background-image: url("/images/originals/cmm5.jpeg");  animation-delay: 16s; }
+.cmm-background .cmm-slide:nth-child(6)  { background-image: url("/images/originals/cmm6.jpeg");  animation-delay: 20s; }
+.cmm-background .cmm-slide:nth-child(7)  { background-image: url("/images/originals/cmm7.jpeg");  animation-delay: 24s; }
+.cmm-background .cmm-slide:nth-child(8)  { background-image: url("/images/originals/cmm8.jpeg");  animation-delay: 28s; }
+.cmm-background .cmm-slide:nth-child(9)  { background-image: url("/images/originals/cmm9.jpeg");  animation-delay: 32s; }
+.cmm-background .cmm-slide:nth-child(10) { background-image: url("/images/originals/cmm10.jpeg"); animation-delay: 36s; }
+.cmm-background .cmm-slide:nth-child(11) { background-image: url("/images/originals/cmm11.jpeg"); animation-delay: 40s; }
+.cmm-background .cmm-slide:nth-child(12) { background-image: url("/images/originals/cmm12.jpeg"); animation-delay: 44s; }
+.cmm-background .cmm-slide:nth-child(13) { background-image: url("/images/originals/cmm13.jpeg"); animation-delay: 48s; }
 
 // ============================================================
 // Layout: Overlap & Squares
@@ -264,7 +278,6 @@ div.gradient-text {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    image-rendering: -webkit-optimize-contrast;
   }
 }
 
