@@ -9,8 +9,10 @@ listing:
   - id: latest-news
     contents: news/*/*.qmd
     sort: "date desc"
-    type: default
-    fields: [date, title]
+    type: grid                       # was: default (table rows) -> now: card grid
+    grid-columns: 3
+    image-height: 220px
+    fields: [image, title]   # was: [date, title]
     max-items: 3
 ---
 :::: gradient-text

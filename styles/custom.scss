@@ -285,6 +285,27 @@ div.gradient-text {
 // News listing images — MAIN PAGE (#latest-news)
 // Card-style layout with rounded top corners
 // ============================================================
+// ============================================================
+// News listing images — MAIN PAGE (#latest-news)
+// REPLACES the existing "#latest-news .card-img-top" block in
+// your styles.scss with the fuller card treatment below.
+// ============================================================
+
+// Card shell: white bg, rounded corners, soft shadow, hover lift
+#latest-news .quarto-grid-item .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#latest-news .quarto-grid-item .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+// Card image (unchanged from before — kept here for reference)
 #latest-news .card-img-top {
   width: 100% !important;
   height: 220px !important;
@@ -293,31 +314,49 @@ div.gradient-text {
   border-radius: 10px 10px 0 0 !important;
 }
 
-// ============================================================
-// News listing images — NEWS INDEX PAGE (type: default row layout)
-// Forces all images to the same box regardless of original
-// aspect ratio (portrait, landscape, square)
-// ============================================================
-.quarto-listing-default .list-group-item {
-  display: flex !important;
-  align-items: flex-start !important;
-  gap: 1.25rem;
+// Card body: center everything, reorder so the description reads
+// like a pull-quote above the "READ MORE" link (IGeneX layout)
+#latest-news .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.75rem;
 }
 
-.quarto-listing-default .listing-image {
-  flex: 0 0 220px !important;
-  width: 220px !important;
-  height: 160px !important;
-  overflow: hidden !important;
-  border-radius: 6px !important;
+#latest-news .listing-description {
+  order: 1;
+  font-style: italic;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
-.quarto-listing-default .listing-image img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: center top !important;
-  display: block !important;
+// The title stays a real, accessible link (screen readers still get
+// the actual headline) but is visually replaced with "READ MORE",
+// underlined, matching the IGeneX cards.
+#latest-news .listing-title {
+  order: 2;
+  margin: 0;
+}
+#latest-news .listing-title a {
+  font-size: 0;
+  text-decoration: none;
+  color: $primary;
+}
+#latest-news .listing-title a::after {
+  content: "READ MORE";
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: underline;
+  color: $primary;
+}
+
+// Hide the raw date under the card — IGeneX's cards don't show one
+#latest-news .listing-date {
+  display: none;
 }
 
 // ============================================================

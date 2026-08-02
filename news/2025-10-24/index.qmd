@@ -11,4 +11,6 @@ author:
 
 Nicoletta Faraone will lead the Canadian Tick Research and Innovation Centre at Acadia University. The centre will focus its studies on species common to Nova Scotia, which will give more accurate results for repellents that could work in the province.
 
+"[Read more](https://www.cbc.ca/news/canada/nova-scotia/acadia-university-canadian-tick-research-innovation-centre-9.6950462)"
+
 {{< include /_share-buttons.html >}}
