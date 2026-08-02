@@ -207,30 +207,44 @@ div.gradient-text {
 // Carousel Background — MAIN PAGE
 // ============================================================
 .cmm-background {
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  overflow: hidden;
   min-height: 700px;
   width: 100%;
-  image-rendering: -webkit-optimize-contrast;
-  animation: cmmCarousel 52s infinite;
   margin-bottom: 25px;
 }
 
-@keyframes cmmCarousel {
-  0%,    7.69%  { background-image: url("/images/originals/cmm1.webp"); }
-  7.7%,  15.38% { background-image: url("/images/originals/cmm2.webp"); }
-  15.39%, 23.07% { background-image: url("/images/originals/cmm3.webp"); }
-  23.08%, 30.76% { background-image: url("/images/originals/cmm4.webp"); }
-  30.77%, 38.45% { background-image: url("/images/originals/cmm5.webp"); }
-  38.46%, 46.15% { background-image: url("/images/originals/cmm6.webp"); }
-  46.16%, 53.84% { background-image: url("/images/originals/cmm7.webp"); }
-  53.85%, 61.53% { background-image: url("/images/originals/cmm8.webp"); }
-  61.54%, 69.22% { background-image: url("/images/originals/cmm9.webp"); }
-  69.23%, 76.91% { background-image: url("/images/originals/cmm10.webp"); }
-  76.92%, 84.61% { background-image: url("/images/originals/cmm11.webp"); }
-  84.62%, 92.30% { background-image: url("/images/originals/cmm12.webp"); }
-  92.31%, 100%   { background-image: url("/images/originals/cmm13.webp"); }
+.cmm-background .cmm-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateX(100%);
+  animation: cmmSlide 52s infinite;
 }
+
+@keyframes cmmSlide {
+  0%      { transform: translateX(100%); }   /* parked off-screen right */
+  1.923%  { transform: translateX(0%); }     /* finished entering (~1s push) */
+  7.692%  { transform: translateX(0%); }     /* holds until exactly 4s (the slot boundary) */
+  9.615%  { transform: translateX(-100%); }  /* finished exiting (~1s push) */
+  100%    { transform: translateX(-100%); }  /* parked off-screen left */
+}
+
+.cmm-background .cmm-slide:nth-child(1)  { background-image: url("/images/originals/cmm1.jpeg");  animation-delay: 0s; }
+.cmm-background .cmm-slide:nth-child(2)  { background-image: url("/images/originals/cmm2.jpeg");  animation-delay: 4s; }
+.cmm-background .cmm-slide:nth-child(3)  { background-image: url("/images/originals/cmm3.jpeg");  animation-delay: 8s; }
+.cmm-background .cmm-slide:nth-child(4)  { background-image: url("/images/originals/cmm4.jpeg");  animation-delay: 12s; }
+.cmm-background .cmm-slide:nth-child(5)  { background-image: url("/images/originals/cmm5.jpeg");  animation-delay: 16s; }
+.cmm-background .cmm-slide:nth-child(6)  { background-image: url("/images/originals/cmm6.jpeg");  animation-delay: 20s; }
+.cmm-background .cmm-slide:nth-child(7)  { background-image: url("/images/originals/cmm7.jpeg");  animation-delay: 24s; }
+.cmm-background .cmm-slide:nth-child(8)  { background-image: url("/images/originals/cmm8.jpeg");  animation-delay: 28s; }
+.cmm-background .cmm-slide:nth-child(9)  { background-image: url("/images/originals/cmm9.jpeg");  animation-delay: 32s; }
+.cmm-background .cmm-slide:nth-child(10) { background-image: url("/images/originals/cmm10.jpeg"); animation-delay: 36s; }
+.cmm-background .cmm-slide:nth-child(11) { background-image: url("/images/originals/cmm11.jpeg"); animation-delay: 40s; }
+.cmm-background .cmm-slide:nth-child(12) { background-image: url("/images/originals/cmm12.jpeg"); animation-delay: 44s; }
+.cmm-background .cmm-slide:nth-child(13) { background-image: url("/images/originals/cmm13.jpeg"); animation-delay: 48s; }
 
 // ============================================================
 // Layout: Overlap & Squares
@@ -264,7 +278,6 @@ div.gradient-text {
     height: 100%;
     object-fit: cover;
     object-position: center;
-    image-rendering: -webkit-optimize-contrast;
   }
 }
 
@@ -272,6 +285,27 @@ div.gradient-text {
 // News listing images — MAIN PAGE (#latest-news)
 // Card-style layout with rounded top corners
 // ============================================================
+// ============================================================
+// News listing images — MAIN PAGE (#latest-news)
+// REPLACES the existing "#latest-news .card-img-top" block in
+// your styles.scss with the fuller card treatment below.
+// ============================================================
+
+// Card shell: white bg, rounded corners, soft shadow, hover lift
+#latest-news .quarto-grid-item .card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#latest-news .quarto-grid-item .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+// Card image (unchanged from before — kept here for reference)
 #latest-news .card-img-top {
   width: 100% !important;
   height: 220px !important;
@@ -280,31 +314,49 @@ div.gradient-text {
   border-radius: 10px 10px 0 0 !important;
 }
 
-// ============================================================
-// News listing images — NEWS INDEX PAGE (type: default row layout)
-// Forces all images to the same box regardless of original
-// aspect ratio (portrait, landscape, square)
-// ============================================================
-.quarto-listing-default .list-group-item {
-  display: flex !important;
-  align-items: flex-start !important;
-  gap: 1.25rem;
+// Card body: center everything, reorder so the description reads
+// like a pull-quote above the "READ MORE" link (IGeneX layout)
+#latest-news .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.75rem;
 }
 
-.quarto-listing-default .listing-image {
-  flex: 0 0 220px !important;
-  width: 220px !important;
-  height: 160px !important;
-  overflow: hidden !important;
-  border-radius: 6px !important;
+#latest-news .listing-description {
+  order: 1;
+  font-style: italic;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
-.quarto-listing-default .listing-image img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: center top !important;
-  display: block !important;
+// The title stays a real, accessible link (screen readers still get
+// the actual headline) but is visually replaced with "READ MORE",
+// underlined, matching the IGeneX cards.
+#latest-news .listing-title {
+  order: 2;
+  margin: 0;
+}
+#latest-news .listing-title a {
+  font-size: 0;
+  text-decoration: none;
+  color: $primary;
+}
+#latest-news .listing-title a::after {
+  content: "READ MORE";
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: underline;
+  color: $primary;
+}
+
+// Hide the raw date under the card — IGeneX's cards don't show one
+#latest-news .listing-date {
+  display: none;
 }
 
 // ============================================================

@@ -9,14 +9,12 @@ listing:
   - id: latest-news
     contents: news/*/*.qmd
     sort: "date desc"
-    type: default
-    fields: [date, title]
+    type: grid                       # was: default (table rows) -> now: card grid
+    grid-columns: 3
+    image-height: 220px
+    fields: [image, title]   # was: [date, title]
     max-items: 3
 ---
-
-::: cmm-preload
-:::
-
 :::: gradient-text
 ::: welcome-headline
 Welcome to the Faraone Research Group<br>
@@ -24,6 +22,19 @@ Welcome to the Faraone Research Group<br>
 ::::
 
 ::::: cmm-background
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
+<div class="cmm-slide"></div>
 :::: content-container
 ::: welcome
 :::

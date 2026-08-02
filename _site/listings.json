@@ -373,6 +373,7 @@
       "/people/rawson-gemma/index.html",
       "/people/cull-noah/index.html",
       "/people/carter-ophelia/index.html",
+      "/people/thotagamuwa-vihanga/index.html",
       "/people/naugler-bella/index.html",
       "/people/veinot-cassidy/index.html",
       "/people/nette-adrien/index.html",
@@ -533,5 +534,9 @@
       "/publications/2009-The-cytotoxic-properties/index.html",
       "/publications/2009-Antimicrobial-antioxidant-activities/index.html"
     ]
+  },
+  {
+    "listing": "/people/thotagamuwa-vihanga/index.html",
+    "items": []
   }
 ]
