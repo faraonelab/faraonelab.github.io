@@ -1,0 +1,130 @@
+---
+title: "Tick Identification"
+page-layout: full
+toc: false
+header-includes:
+  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+---
+
+```{=html}
+<!--
+  ============================================================
+  HOW THIS WORKS (this note is a real HTML comment now — it's
+  invisible on the page, not printed as text like last time)
+  ============================================================
+  Markup + Swiper.js init live here; visual styling lives in your
+  shared styles.scss under "Tick Identification Carousel".
+
+  HOW TO ADD A SPECIES:
+    Each card is one <div class="swiper-slide"> ... </div> block,
+    marked with SLIDE START / SLIDE END comments. Copy a whole
+    block (both markers included), paste it AFTER an existing
+    SLIDE END and BEFORE the next SLIDE START — as a sibling,
+    never inside another slide's tags — then edit the image path,
+    title, and the two placeholder paragraphs.
+
+  ⚠️ CONTENT IS PLACEHOLDER. Species facts should come from your
+  own research/citations, not guessed.
+-->
+<div class="tick-id-wrap">
+  <div class="swiper tick-swiper">
+    <div class="swiper-wrapper">
+
+      <!-- SLIDE START -->
+      <div class="swiper-slide">
+        <img src="images/ticks/PLACEHOLDER-deer-tick.jpg" alt="Blacklegged (deer) tick">
+        <div class="tick-card-body">
+          <h3>Blacklegged Tick</h3>
+          <p>PLACEHOLDER — replace with a verified species description (size, color, distinguishing features).</p>
+        </div>
+        <div class="tick-card-location">
+          <span class="tick-pin">&#128205;</span>
+          <p>PLACEHOLDER — replace with verified range/habitat info.</p>
+          <a href="tick-borne-diseases.qmd" class="tick-read-more">READ MORE</a>
+        </div>
+      </div>
+      <!-- SLIDE END -->
+
+      <!-- SLIDE START -->
+      <div class="swiper-slide">
+        <img src="images/ticks/PLACEHOLDER-dog-tick.jpg" alt="American dog tick">
+        <div class="tick-card-body">
+          <h3>American Dog Tick</h3>
+          <p>PLACEHOLDER — replace with a verified species description.</p>
+        </div>
+        <div class="tick-card-location">
+          <span class="tick-pin">&#128205;</span>
+          <p>PLACEHOLDER — replace with verified range/habitat info.</p>
+          <a href="tick-borne-diseases.qmd" class="tick-read-more">READ MORE</a>
+        </div>
+      </div>
+      <!-- SLIDE END -->
+
+      <!-- SLIDE START -->
+      <div class="swiper-slide">
+        <img src="images/ticks/PLACEHOLDER-lone-star-tick.jpg" alt="Lone star tick">
+        <div class="tick-card-body">
+          <h3>Lone Star Tick</h3>
+          <p>PLACEHOLDER — replace with a verified species description.</p>
+        </div>
+        <div class="tick-card-location">
+          <span class="tick-pin">&#128205;</span>
+          <p>PLACEHOLDER — replace with verified range/habitat info.</p>
+          <a href="tick-borne-diseases.qmd" class="tick-read-more">READ MORE</a>
+        </div>
+      </div>
+      <!-- SLIDE END -->
+
+      <!-- SLIDE START -->
+      <div class="swiper-slide">
+        <img src="images/ticks/PLACEHOLDER-wood-tick.jpg" alt="Rocky Mountain wood tick">
+        <div class="tick-card-body">
+          <h3>Rocky Mountain Wood Tick</h3>
+          <p>PLACEHOLDER — replace with a verified species description.</p>
+        </div>
+        <div class="tick-card-location">
+          <span class="tick-pin">&#128205;</span>
+          <p>PLACEHOLDER — replace with verified range/habitat info.</p>
+          <a href="tick-borne-diseases.qmd" class="tick-read-more">READ MORE</a>
+        </div>
+      </div>
+      <!-- SLIDE END -->
+
+      <!-- SLIDE START -->
+      <div class="swiper-slide">
+        <img src="images/ticks/PLACEHOLDER-brown-dog-tick.jpg" alt="Brown dog tick">
+        <div class="tick-card-body">
+          <h3>Brown Dog Tick</h3>
+          <p>PLACEHOLDER — replace with a verified species description.</p>
+        </div>
+        <div class="tick-card-location">
+          <span class="tick-pin">&#128205;</span>
+          <p>PLACEHOLDER — replace with verified range/habitat info.</p>
+          <a href="tick-borne-diseases.qmd" class="tick-read-more">READ MORE</a>
+        </div>
+      </div>
+      <!-- SLIDE END -->
+
+    </div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  new Swiper('.tick-swiper', {
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    spaceBetween: -30,
+    slideToClickedSlide: true,
+    grabCursor: true,
+    rewind: true,   // jump back to the first slide after the last (and vice versa)
+    navigation: {
+      nextEl: '.tick-swiper .swiper-button-next',
+      prevEl: '.tick-swiper .swiper-button-prev',
+    },
+  });
+</script>
+```
