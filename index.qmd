@@ -15,48 +15,71 @@ listing:
     fields: [image, title]   # was: [date, title]
     max-items: 3
 ---
+
 :::: gradient-text
 ::: welcome-headline
 Welcome to the Faraone Research Group<br>
 :::
 ::::
 
-::::: cmm-background
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
-<div class="cmm-slide"></div>
+:::::::::::::::::: cmm-background
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
+::: cmm-slide
+:::
+
 :::: content-container
 ::: welcome
 :::
 ::::
-:::::
+::::::::::::::::::
 
 We are an interdisciplinary research group focused on **chemical ecology**, **natural product chemistry**, and **vector biology**. Our research investigates how ticks detect hosts and respond to repellents, translating fundamental discoveries into innovative, environmentally responsible solutions for tick management and disease prevention.
 
 ------------------------------------------------------------------------
 
-# Coming Soon: Canada’s First Tick Research & Innovation Centre
+# Announcement: Canada’s First Tick Research & Innovation Centre
 
-Something big is hatching at Acadia University.
-
-In 2026, the [**Canadian Tick Research & Innovation Centre (CTRIC)**](ctric/index.qmd) will open in the Huestis Innovation Pavilion — the first facility of its kind in Canada.
-
-With dedicated tick rearing (“tickery”), pathogen testing, and repellent evaluation, CTRIC will strengthen national efforts to understand, prevent, and manage ticks and tick-borne diseases.
-
-**Stay tuned.**
+Join us on **Tuesday, August 25 at 11:30am** for an exciting announcement of funding for the Canadian Tick Research and Innovation Centre (CTRIC) at Acadia University. The event will also be held in person at McCain Commons, 2nd floor, David Huestis Innovation Pavilion, Acadia University, Wolfville, NS, Canada.
 
 ::: {style="text-align: center;"}
-<img src="images/ctric.png" alt="CTRIC logo" style="max-width: 25%; height: auto; margin-bottom: 20px;"/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9yVwT60iqBk?si=IfN6to_Wm4mZLjod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+</iframe>
 :::
 
 ------------------------------------------------------------------------
