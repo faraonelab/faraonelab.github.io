@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-443f3db086895476d9a098ffdbacfe16.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6e58271719ff94e8b0349a132a5337bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -200,13 +200,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-rassistant'] = new List('listing-rassistant', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projectmanager .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-project","listing-website","listing-format","listing-execute","listing-engines","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-rassistant'] = new List('listing-rassistant', options);
+    window['quarto-listings']['listing-projectmanager'] = new List('listing-projectmanager', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -494,7 +522,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#lab-manager---ctric" id="toc-lab-manager---ctric" class="nav-link" data-scroll-target="#lab-manager---ctric">Lab Manager - CTRIC</a></li>
   <li><a href="#research-technician---ctric" id="toc-research-technician---ctric" class="nav-link" data-scroll-target="#research-technician---ctric">Research Technician - CTRIC</a></li>
-  <li><a href="#research-assistant---ctric" id="toc-research-assistant---ctric" class="nav-link" data-scroll-target="#research-assistant---ctric">Research Assistant - CTRIC</a></li>
+  <li><a href="#project-manager---ctric" id="toc-project-manager---ctric" class="nav-link" data-scroll-target="#project-manager---ctric">Project Manager - CTRIC</a></li>
   <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
   <li><a href="#undergraduate-students" id="toc-undergraduate-students" class="nav-link" data-scroll-target="#undergraduate-students">Undergraduate Students</a></li>
   </ul></li>
@@ -673,9 +701,9 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<section id="research-assistant---ctric" class="level2 sand-background">
-<h2 class="anchored" data-anchor-id="research-assistant---ctric">Research Assistant - CTRIC</h2>
-<div id="listing-rassistant" class="quarto-listing quarto-listing-container-custom">
+<section id="project-manager---ctric" class="level2 sand-background">
+<h2 class="anchored" data-anchor-id="project-manager---ctric">Project Manager - CTRIC</h2>
+<div id="listing-projectmanager" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
@@ -686,26 +714,26 @@ window.Quarto = {
     
 
       <div class="g-col-1 listing-box">
-        <a href="../people/cull-noah/index.html" role="button" class="quarto-grid-link">
+        <a href="../people/gaudet-kayla/index.html" role="button" class="quarto-grid-link">
           <div class="quarto-grid-item card h-100 card-left">
 
             <p class="card-img-top">
-              <img alt="Noah Cull" src="../people/cull-noah/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
+              <img alt="Kayla Gaudet" src="../people/gaudet-kayla/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
             </p>
 
             <div class="card-body post-contents">
 
               <div class="listing-box-title">
-                Noah Cull<br>
+                Kayla Gaudet<br>
               </div>
 
               <div class="listing-box-subtitle">
-                Research Assistant - CTRIC<br>
+                Project Manager<br>
               </div>
 
               <div class="listing-box-education">
                 
-                  Certificate of Applied Science | Acadia University 2026 <br> BEng in Civil Engineering | Dalhousie 2029<br>
+                  MSc | Acadia University<br>
                 
               </div>
 
@@ -811,37 +839,6 @@ window.Quarto = {
   <div class="list grid quarto-listing-cols-3">
 
     
-
-    
-
-      <div class="g-col-1 listing-box">
-        <a href="../people/naugler-bella/index.html" role="button" class="quarto-grid-link">
-          <div class="quarto-grid-item card h-100 card-left">
-
-            <p class="card-img-top">
-              <img alt="Bella Naugler" src="../people/naugler-bella/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height:150px; width:100%; object-fit:cover;">
-            </p>
-
-            <div class="card-body post-contents">
-
-              <div class="listing-box-title">
-                Bella Naugler<br>
-              </div>
-
-              <div class="listing-box-subtitle">
-                Undergraduate Student - Co-op (Chemistry)<br>
-              </div>
-
-              <div class="listing-box-education">
-                
-                  Undergraduate Student - Co-op (Chemistry) | Acadia University (Canada)<br>
-                
-              </div>
-
-            </div>
-          </div>
-        </a>
-      </div>
 
     
 
@@ -1113,6 +1110,53 @@ window.Quarto = {
                 
                 
                     Undergraduate Student (Biology) | Acadia University (Canada)<br>
+                    
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/naugler-bella/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Bella Naugler" src="../people/naugler-bella/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Bella Naugler<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+
+              
+                  Undergraduate Student - Co-op (Chemistry)<br>
+                  
+
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Undergraduate Student - Co-op (Chemistry) | Acadia University (Canada)<br>
                     
                     
               </div>  
@@ -2166,53 +2210,6 @@ window.Quarto = {
       
       
       
-      <a href="../people/gaudet-kayla/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Kayla Gaudet" src="../people/gaudet-kayla/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Kayla Gaudet<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Master student - Co-supervised with Drs. Kirk Hillier and Russell Easy<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    MSc | Acadia University<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
       <a href="../people/jefferson-kennedy/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
@@ -2570,6 +2567,53 @@ window.Quarto = {
                 
                 
                     <br>
+                    
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/cull-noah/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Noah Cull" src="../people/cull-noah/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Noah Cull<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+
+              
+                  Research Assistant - CTRIC<br>
+                  
+
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Certificate of Applied Science | Acadia University 2026 <br> BEng in Civil Engineering | Dalhousie 2029<br>
                     
                     
               </div>  
@@ -3160,6 +3204,20 @@ window.Quarto = {
 </section>
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-postdoc">
+
+<div class="quarto-listing quarto-listing-container-grid">
+
+  <div class="list grid quarto-listing-cols-3">
+
+    
+
+    
+
+  </div>
+</div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-custom" id="listing-rassistant">
 
 <div class="quarto-listing quarto-listing-container-grid">
 
