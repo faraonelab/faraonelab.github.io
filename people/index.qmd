@@ -56,6 +56,16 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
+  - id: projectmanager
+    contents: "*/index.qmd"
+    include:
+      people_group: "projectmanager"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: researcher
     contents: "*/index.qmd"
     include:
@@ -116,34 +126,34 @@ listing:
 
 # Current Lab Members
 
-:::: {.sand-background}
-
+:::: sand-background
 ## Lab Manager - CTRIC
 
 ::: {#labmanager}
 :::
 ::::
+
 ## Research Technician - CTRIC
 
 ::: {#technician}
 :::
 
-:::: {.sand-background}
-## Research Assistant - CTRIC
+:::: sand-background
+## Project Manager - CTRIC
 
-::: {#rassistant}
+::: {#projectmanager}
 :::
 ::::
 
 ## Graduate Students
 
-:::{#gradstudent}
+::: {#gradstudent}
 :::
 
-:::: {.sand-background}
+:::: sand-background
 ## Undergraduate Students
 
-:::{#honoursstudent}
+::: {#honoursstudent}
 :::
 ::::
 
