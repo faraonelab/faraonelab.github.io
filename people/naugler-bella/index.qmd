@@ -2,7 +2,7 @@
 title: &TITLE "Bella Naugler"
 last: "Naugler"
 first: "Bella"
-people_group: "honoursstudent"
+people_group: "alumni"
 email: "0305943n@ACADIAU.CA"
 education:
   - "Undergraduate Student - Co-op (Chemistry) | Acadia University (Canada)"

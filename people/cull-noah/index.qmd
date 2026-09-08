@@ -2,7 +2,7 @@
 title: &TITLE "Noah Cull"
 last: "Cull"
 first: "Noah"
-people_group: rassistant
+people_group: alumni
 email: "0310318c@ACADIAU.CA"
 education:
   - Certificate of Applied Science | Acadia University 2026 <br> BEng in Civil Engineering | Dalhousie 2029

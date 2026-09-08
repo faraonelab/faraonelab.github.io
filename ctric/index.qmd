@@ -197,11 +197,11 @@ CTRIC will test repellents, treated fabrics, and acaricidal formulations against
 :::
 
 ::: ctric-team-card
-![](noah.jpeg){.ctric-team-photo}
+![](kayla.jpeg){.ctric-team-photo}
 
-[**Noah Cull**](../people/cull-noah/index.qmd)
+[**Kayla Gaudet**](../people/gaudet-kayla/index.qmd)
 
-[Research Assistant — Engineering Student]{.ctric-team-role}
+[Project Manager]{.ctric-team-role}
 
 [Department of Chemistry, Acadia University]{.ctric-team-affil}
 :::

@@ -2,11 +2,11 @@
 title: &TITLE "Kayla Gaudet"
 last: "Gaudet"
 first: "Kayla"
-people_group: "alumni"
+people_group: "projectmanager"
 email: ""
 education:
   - "MSc | Acadia University"
-subtitle: "Master student - Co-supervised with Drs. Kirk Hillier and Russell Easy"
+subtitle: "Project Manager"
 image: &IMAGE "avatar.jpg"
 page-layout: full
 
@@ -36,6 +36,7 @@ about:
 <hr>
 
 :::{#about}
+Kayla Gaudet is the Project Manager for the Canadian Tick Research Innovation Centre. She holds a Bachelor of Science in Biology from the University of New Brunswick (2020) and a Master of Science in Biology from Acadia University (2022). Her master’s thesis, supervised by Dr. Kirk Hillier and Dr. Nicoletta Faraone, focused on developing a natural-based pesticide for agricultural and residential purposes. From 2022 to 2023, Kayla continued her research at Acadia University, contributing to the development of semiochemical technologies for spider mite management and conducting research on black-legged ticks in Nova Scotia. Most recently, from 2023 to 2026, she worked as a Honey Bee Specialist at Perennia Food and Agriculture Inc., supporting applied research initiatives aimed at improving pollination, hive health, and productivity for Maritime beekeepers. Kayla is excited to bring her research and project management experience to this new role and looks forward to supporting the continued development of the CTRIC project and being a part of innovative tick research and management solutions.
 
 ## Education
 {{< meta education >}}
