@@ -9,8 +9,19 @@ format:
       desc-position: right
       loop: false
 ---
-***
+
+------------------------------------------------------------------------
+
 # LAB TEAM
+
+## 2026
+
+::: {layout-ncol="2"}
+![](2026/1.jpeg){.gallery-img group="2026"}
+
+![](2026/2.jpg){.gallery-img group="2026"}
+
+:::
 
 ## 2025
 
