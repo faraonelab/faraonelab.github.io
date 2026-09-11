@@ -72,18 +72,6 @@ We are an interdisciplinary research group focused on **chemical ecology**, **na
 
 ------------------------------------------------------------------------
 
-# Announcement: Canada’s First Tick Research & Innovation Centre
-
-Join us on **Tuesday, August 25 at 11:30am** for an exciting announcement of funding for the Canadian Tick Research and Innovation Centre (CTRIC) at Acadia University. The event will also be held in person at McCain Commons, 2nd floor, David Huestis Innovation Pavilion, Acadia University, Wolfville, NS, Canada.
-
-::: {style="text-align: center;"}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9yVwT60iqBk?si=IfN6to_Wm4mZLjod" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-
-</iframe>
-:::
-
-------------------------------------------------------------------------
-
 # Latest news
 
 ::: {#latest-news}
